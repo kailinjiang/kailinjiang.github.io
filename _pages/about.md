@@ -51,7 +51,7 @@ Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong,
 
 
 # 💻 Internships
-- **2024.02 - 2024.08**, the State Key Laboratory of General Artificial Intelligence(Beijing,China), mas lab, algorithm intern.<img src='./images/logo960.png' style='width: 6em;'>
+- **2024.02 - 2024.08**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), mas lab, algorithm intern.
 
 
 
