@@ -13,6 +13,7 @@ redirect_from:
 I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://siyuanqi.github.io/'>Siyuan Qi (BIGAI)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence.
 
 I am currently working on knowledge editing about LLMs.
+My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
