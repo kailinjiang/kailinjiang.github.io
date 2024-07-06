@@ -39,15 +39,15 @@ Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong,
 
 
 # 🎖 Honors and Awards
-- **2022.11** China Telecom Scholarship · Fly Young Award.
+- **2022.11** <img src='./images/dianxin.png' style='width: 6em;'> China Telecom Scholarship · Fly Young Award.
   
-- **2021.11** National First Prize of Undergraduate Group of National Undergraduate Mathematical Modeling Contest of Gaojiaoshe Cup,team leader. 
+- **2021.11** <img src='./images/shumo.png' style='width: 6em;'> National First Prize of Undergraduate Group of National Undergraduate Mathematical Modeling Contest of Gaojiaoshe Cup,team leader. 
 
 
 # 📖 Educations
-- **2024.06 - now**, **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
+- **2024.06 - now**, <img src='./images/ustc.png' style='width: 6em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
 
-- **2020.09 - 2024.06**, **Sichuan Agricultural University (SICAU), graduate student**. I am studying for a degree in Information and Computational Science at the college of science in SICAU.
+- **2020.09 - 2024.06**, <img src='./images/sicau.png' style='width: 6em;'> **Sichuan Agricultural University (SICAU), graduate student**. I am studying for a degree in Information and Computational Science at the college of science in SICAU.
 
 
 # 💻 Internships
