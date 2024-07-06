@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Kailin Jiang"
 description              : ""
-repository               : "jiangkl8bigai/kailinjiang.github.io"
+repository               : "kailinjiang/kailinjiang.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : jiangkl8bigai # e.g., "github username"
+  github           : kailinjiang # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
