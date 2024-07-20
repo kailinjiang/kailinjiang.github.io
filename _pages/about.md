@@ -12,7 +12,7 @@ redirect_from:
 
 I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://siyuanqi.github.io/'>Siyuan Qi (BIGAI, 綦思源)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence.
 
-I am currently working on knowledge editing about LLMs.
+I am currently working on knowledge editing, multimodal learning, continual learning.
 
 My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
