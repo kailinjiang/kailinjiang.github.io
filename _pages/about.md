@@ -42,7 +42,7 @@ Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong,
 
 [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge]()
 
-Yuntao Du, **Kailin Jiang**, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】 <br>
+Yuntao Du, **Kailin Jiang<sup>*</sup>**, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】 <br>
 
 
 </div>
