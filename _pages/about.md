@@ -26,7 +26,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025</div><img src='images/overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025</div><img src='images/in-context-editing.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [In-Context Editing:Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194)
@@ -37,7 +37,16 @@ Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025</div><img src='images/MMKE-Bench.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge]()
+
+Yuntao Du, **Kailin Jiang**, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】 <br>
+
+
+</div>
+</div>
 
 
 
