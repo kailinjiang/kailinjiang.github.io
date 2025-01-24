@@ -21,6 +21,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 # 🔥 News
 <!-- Allowed emojis: 🎉🎉for good news 📣📣for average news-->
+- **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**!
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
