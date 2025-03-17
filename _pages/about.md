@@ -51,7 +51,7 @@ Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/EVOKE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/EVOKE.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When Large Multimodal Models Confront Evolving Knowledge: Challenges and Pathways]()
