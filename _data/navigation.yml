@@ -7,11 +7,11 @@ main:
     url: "/#-news"
 
   - title: "Publications (First Author)"
-    url: "/#-publications-(first-author)"
+    url: "/#-publications-first-author"
 
 
   - title: "Publications (Other Author)"
-    url: "/#-publications-(other-author)"
+    url: "/#-publications-other-author"
 
 
 
