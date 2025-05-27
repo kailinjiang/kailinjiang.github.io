@@ -1,0 +1,44 @@
+# main links links
+main:
+  - title: "About Me"
+    url: "/#about-me"
+
+  - title: "News"
+    url: "/#-news"
+
+  - title: "Publications (First Author)"
+    url: "/#-publications-first-author"
+
+
+  - title: "Publications (Other Author)"
+    url: "/#-publications-other-author"
+
+
+
+  - title: "Peer Review"
+    url: "/#-peer-review"
+
+
+    
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
+
+  # - title: "Projects"
+  #   url: "/#-projects"
+
+
+  - title: "Educations"
+    url: "/#-educations"
+
+  # - title: "Invited Talks"
+  #   url: "/#-invited-talks"
+
+  - title: "Internships"
+    url: "/#-internships"
+  
+  # - title: "Teaching"
+  #   url: "/#-teaching"
+
+  # - title: "Interesting Things"
+  #   url: "/#-interesting-things"
