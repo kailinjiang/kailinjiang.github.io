@@ -102,7 +102,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center;">
-    <img src="images/logo960.png" alt="BIGAI" style="width: 200px; height: 60px;">
+    <img src="./images/internship/bigai.png" alt="BIGAI" style="width: 200px; height: 60px;">
   </div>
 </div>
 
