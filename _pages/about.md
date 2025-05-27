@@ -100,15 +100,11 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 - **2024.08 - now**, <img src='./images/internship/bigai.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
 
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-
+<div style="display: flex; justify-content: center;">
   <div style="text-align: center;">
-    <img src="./images/internship/bigai.png" alt="BIGAI" style="width: 100px; height: 40px;">
-    <!-- <p>Company 1</p> -->
+    <img src="images/logo960.png" alt="BIGAI" style="width: 200px; height: 60px;">
   </div>
-
-  <!-- copy and add -->
-
 </div>
+
 
 
