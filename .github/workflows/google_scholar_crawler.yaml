@@ -1,54 +1,3 @@
-name: Get Citation Data
-
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
-
-jobs:
-  update-citations:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r google_scholar_crawler/requirements.txt
-
-      - name: Fetch and save citation data
-        env:
-          # export GOOGLE_SCHOLAR_ID=NSHQsrAAAAAJ
-          # GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-          GOOGLE_SCHOLAR_ID: NSHQsrAAAAAJ
-        run: |
-          python google_scholar_crawler/main.py
-
-      - name: Commit and push updated JSON
-        run: |
-          cd results
-          git init
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.json
-          # Only commit if there are changes
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore: update citation data"
-            git push "https://${{ secrets.GITHUB_ACTOR }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:google-scholar-stats --force
-          else
-            echo "No updates to commit"
-          fi
-
-
 # name: Get Citation Data
 
 # on: 
@@ -57,24 +6,75 @@ jobs:
 #   - cron:  '0 8 * * *'
 
 # jobs:
-#  build:
-#    runs-on: ubuntu-latest
-#    steps:
-#    - uses: actions/checkout@v2
-#    - name: Install Reqs
-#      run: |
-#        sudo apt-get install python3-setuptools
-#    - name: Run
-#      run: |
-#        cd ./google_scholar_crawler
-#        pip3 install -r requirements.txt
-#        python3 main.py
-#        cd ./results
-#        git init
-#        git config --local user.name "${GITHUB_ACTOR}"
-#        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-#        git add *.json
-#        git commit -m "Updated Citation Data"
-#        git push "${remote_repo}" HEAD:google-scholar-stats --force
-#      env: 
-#        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+#   update-citations:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 0
+
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.10'
+#           cache: 'pip'
+
+#       - name: Install dependencies
+#         run: |
+#           pip install --upgrade pip
+#           pip install -r google_scholar_crawler/requirements.txt
+
+#       - name: Fetch and save citation data
+#         env:
+#           # export GOOGLE_SCHOLAR_ID=NSHQsrAAAAAJ
+#           # GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+#           GOOGLE_SCHOLAR_ID: NSHQsrAAAAAJ
+#         run: |
+#           python google_scholar_crawler/main.py
+
+#       - name: Commit and push updated JSON
+#         run: |
+#           cd results
+#           git init
+#           git config --local user.name "github-actions[bot]"
+#           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+#           git add *.json
+#           # Only commit if there are changes
+#           if [ -n "$(git status --porcelain)" ]; then
+#             git commit -m "chore: update citation data"
+#             git push "https://${{ secrets.GITHUB_ACTOR }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:google-scholar-stats --force
+#           else
+#             echo "No updates to commit"
+#           fi
+
+
+name: Get Citation Data
+
+on: 
+ page_build: 
+ schedule:
+  - cron:  '0 8 * * *'
+
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   steps:
+   - uses: actions/checkout@v2
+   - name: Install Reqs
+     run: |
+       sudo apt-get install python3-setuptools
+   - name: Run
+     run: |
+       cd ./google_scholar_crawler
+       pip3 install -r requirements.txt
+       python3 main.py
+       cd ./results
+       git init
+       git config --local user.name "${GITHUB_ACTOR}"
+       export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+       git add *.json
+       git commit -m "Updated Citation Data"
+       git push "${remote_repo}" HEAD:google-scholar-stats --force
+     env: 
+       GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
