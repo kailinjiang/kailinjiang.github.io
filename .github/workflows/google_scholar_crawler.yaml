@@ -1,16 +1,17 @@
 name: Get Citation Data
 
 on: 
-  page_build: 
-  schedule:
-    - cron:  '0 8 * * *'
+ page_build: 
+ schedule:
+  - cron:  '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+    - name: Install Reqs
+
       run: |
         echo "正在检出代码仓库..."
         
