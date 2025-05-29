@@ -6,12 +6,12 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Publications (First Author)"
-    url: "/#-publications-first-author"
+  - title: "Publications"
+    url: "/#-publications"
 
 
-  - title: "Publications (Other Author)"
-    url: "/#-publications-other-author"
+  - title: "Preprint"
+    url: "/#-preprint"
 
 
 
