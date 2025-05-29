@@ -27,7 +27,9 @@ jobs:
 
       - name: Fetch and save citation data
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          # export GOOGLE_SCHOLAR_ID=NSHQsrAAAAAJ
+          # GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          GOOGLE_SCHOLAR_ID: NSHQsrAAAAAJ
         run: |
           python google_scholar_crawler/main.py
 
