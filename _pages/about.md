@@ -32,10 +32,6 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 *: Equal Contribution
 
 
-
-
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025 & ICLR2025 Workshop SSI-FM</div><img src='images/paper_overview/MMKE-Bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -65,6 +61,8 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 
 # 📝 Preprint
+*: Equal Contribution
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/MMKC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
