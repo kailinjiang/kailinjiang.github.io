@@ -60,7 +60,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 
 
-# 📝 Preprint
+# 📝 Preprints
 *: Equal Contribution
 
 
