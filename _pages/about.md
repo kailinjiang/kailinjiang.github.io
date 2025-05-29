@@ -28,19 +28,11 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
 
-# 📝 Publications (First Author)  
+# 📝 Publications
 *: Equal Contribution
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PrePrint</div><img src='images/paper_overview/MMKC.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509)
-
- Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
-</div>
-</div>
 
 
 
@@ -72,9 +64,17 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 
 
-# 📝 Publications (Other Author) 
+# 📝 Preprint
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/MMKC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509)
+
+ Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
+</div>
+</div>
 
 
 
