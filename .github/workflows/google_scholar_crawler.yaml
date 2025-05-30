@@ -3,59 +3,72 @@ name: Get Citation Data
 on: 
   page_build: 
   schedule:
-    - cron:  '0 8 * * *'
+    - cron: '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      # Step 1: Install Reqs
       - name: Install Reqs
         run: |
           sudo apt-get install python3-setuptools
-      - name: Run
+          
+      # Step 2: Change Directory to google_scholar_crawler
+      - name: Change Directory to google_scholar_crawler
         run: |
-          set -e
-
-          echo "Starting the process..."
-
-          # Navigate to the crawler directory
-          cd ./google_scholar_crawler || { echo "Failed at step: cd ./google_scholar_crawler"; exit 1; }
+          cd ./google_scholar_crawler
           
-          # Install required Python packages
-          pip install -r requirements.txt || { echo "Failed at step: pip install -r requirements.txt"; exit 1; }
-
-          # Run the Python script
-          python main.py || { echo "Failed at step: python main.py"; exit 1; }
-
-          # Navigate to the results directory
-          cd ./results || { echo "Failed at step: cd ./results"; exit 1; }
-
-          # Initialize git repository
-          git init || { echo "Failed at step: git init"; exit 1; }
-
-          # Configure git user
-          git config --local user.name "${GITHUB_ACTOR}" || { echo "Failed at step: git config --local user.name"; exit 1; }
-
-          # Prepare remote repo
-          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" || { echo "Failed at step: export remote_repo"; exit 1; }
-
-          # Add files to git
-          git add *.json || { echo "Failed at step: git add *.json"; exit 1; }
-
-          # Commit changes
-          git commit -m "Updated Citation Data" || { echo "Failed at step: git commit"; exit 1; }
-
-          # Push changes to remote repository
-          git push "${remote_repo}" HEAD:google-scholar-stats --force || { echo "Failed at step: git push"; exit 1; }
+      # Step 3: Install Python Requirements
+      - name: Install Python Requirements
+        run: |
+          pip install -r requirements.txt
           
-          echo "Process completed successfully!"
-        env: 
+      # Step 4: Run the Python Script (main.py)
+      - name: Run Python Script
+        run: |
+          cd ./google_scholar_crawler
+          python main.py
+          
+      # Step 5: Change Directory to Results
+      - name: Change Directory to Results
+        run: |
+          # cd ./google_scholar_crawler
+          cd ./google_scholar_crawler/results
+          
+      # Step 6: Initialize Git Repository
+      - name: Initialize Git Repository
+        run: |
+          git init
+          
+      # Step 7: Configure Git User Name
+      - name: Configure Git User Name
+        run: |
+          git config --local user.name "${GITHUB_ACTOR}"
+          
+      # Step 8: Set Remote Repository URL
+      - name: Set Remote Repository URL
+        run: |
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          
+      # Step 9: Add Files to Git
+      - name: Add Files to Git
+        run: |
+          git add *.json
+          
+      # Step 10: Commit Changes in Git
+      - name: Commit Changes in Git
+        run: |
+          git commit -m "Updated Citation Data"
+          
+      # Step 11: Push Changes to Remote Repository
+      - name: Push Changes to Remote Repository
+        run: |
+          git push "${remote_repo}" HEAD:google-scholar-stats --force
+        env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-
-
-
-
 
 
 
