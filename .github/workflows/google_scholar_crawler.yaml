@@ -1,63 +1,58 @@
 name: Get Citation Data
 
-on:
-  page_build:
+on: 
+  page_build: 
   schedule:
-    - cron: '0 8 * * *'
+    - cron:  '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - name: Install Reqs
+        run: |
+          sudo apt-get install python3-setuptools
+      - name: Run
+        run: |
+          set -e
 
-    - name: Install Reqs
-      run: |
-        echo "Installing required packages..."
-        sudo apt-get install python3-setuptools
-        echo "Installation complete."
+          echo "Starting the process..."
 
-    - name: Run
-      run: |
-        echo "Changing directory to ./google_scholar_crawler"
-        cd ./google_scholar_crawler
-        echo "Installing dependencies..."
-        pip install -r requirements.txt
-        echo "Dependencies installed."
+          # Navigate to the crawler directory
+          cd ./google_scholar_crawler || { echo "Failed at step: cd ./google_scholar_crawler"; exit 1; }
+          
+          # Install required Python packages
+          pip install -r requirements.txt || { echo "Failed at step: pip install -r requirements.txt"; exit 1; }
 
-        echo "Running main.py..."
-        python main.py
-        echo "Python script execution complete."
+          # Run the Python script
+          python main.py || { echo "Failed at step: python main.py"; exit 1; }
 
-        echo "Changing directory to ./results"
-        cd ./results
-        
-        echo "Initializing git repository..."
-        git init
-        echo "Git repository initialized."
+          # Navigate to the results directory
+          cd ./results || { echo "Failed at step: cd ./results"; exit 1; }
 
-        echo "Configuring git user..."
-        git config --local user.name "${GITHUB_ACTOR}"
-        echo "Git user configured."
+          # Initialize git repository
+          git init || { echo "Failed at step: git init"; exit 1; }
 
-        echo "Setting remote repository..."
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        echo "Remote repository set."
+          # Configure git user
+          git config --local user.name "${GITHUB_ACTOR}" || { echo "Failed at step: git config --local user.name"; exit 1; }
 
-        echo "Adding files to git..."
-        git add *.json
-        echo "Files added to git."
+          # Prepare remote repo
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" || { echo "Failed at step: export remote_repo"; exit 1; }
 
-        echo "Committing changes..."
-        git commit -m "Updated Citation Data"
-        echo "Changes committed."
+          # Add files to git
+          git add *.json || { echo "Failed at step: git add *.json"; exit 1; }
 
-        echo "Pushing to remote repository..."
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-        echo "Push complete."
+          # Commit changes
+          git commit -m "Updated Citation Data" || { echo "Failed at step: git commit"; exit 1; }
 
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          # Push changes to remote repository
+          git push "${remote_repo}" HEAD:google-scholar-stats --force || { echo "Failed at step: git push"; exit 1; }
+          
+          echo "Process completed successfully!"
+        env: 
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+
 
 
 
