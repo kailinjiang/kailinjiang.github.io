@@ -34,10 +34,29 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 *: Equal Contribution
 
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img src="./images/conference/ICLR.png" alt="ICLR" style="width: 150px; height: 45px;">
-  <span style="margin-left: 10px; font-size: 30px; font-weight: bold; color: #8B4513;">×2</span>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <div style="display: flex; align-items: center;">
+    <img src="./images/conference/ICLR.png" alt="ICLR" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×2</span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <img src="" alt="ICLR" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <img src="" alt="ICLR" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <img src="" alt="ICLR" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <img src="" alt="ICLR" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
 </div>
+
 
 
 
