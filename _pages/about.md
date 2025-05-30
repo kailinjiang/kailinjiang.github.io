@@ -33,6 +33,18 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 # 📝 Publications
 *: Equal Contribution
 
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <div style="text-align: center;">
+    <img src="./images/conference/ICLR.png" alt="ICLR" style="width: 200px; height: 60px;">
+  </div>
+  <div style="display: flex; justify-content: center; align-items: center; margin-top: 10px;">
+    <span style="margin-right: 10px;">ICLR</span>
+    <span>×2</span>
+  </div>
+</div>
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025 & ICLR2025 Workshop SSI-FM</div><img src='images/paper_overview/MMKE-Bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
