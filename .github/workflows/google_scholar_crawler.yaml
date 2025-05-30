@@ -41,7 +41,7 @@ jobs:
         echo "Git user configured."
 
         echo "Setting remote repository..."
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         echo "Remote repository set."
 
         echo "Adding files to git..."
