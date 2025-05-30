@@ -1,9 +1,9 @@
 name: Get Citation Data
 
 on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+  page_build: 
+  schedule:
+    - cron: '0 8 * * *'
 
 jobs:
   build:
@@ -11,7 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install Reqs
-
       run: |
         echo "正在检出代码仓库..."
         
@@ -34,13 +33,16 @@ jobs:
       run: |
         echo "正在运行爬虫程序..."
         cd ./google_scholar_crawler
+        # 确保 results 目录存在
+        mkdir -p results
         python main.py
         echo "爬虫程序运行完成"
         
     - name: Commit and Push Results
       run: |
         echo "正在准备提交结果..."
-        cd ./results
+        # 确保在正确的目录下
+        cd ./google_scholar_crawler/results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
