@@ -33,6 +33,7 @@ jobs:
     - name: Run Crawler
       run: |
         echo "正在运行爬虫程序..."
+        cd ./google_scholar_crawler
         python main.py
         echo "爬虫程序运行完成"
         
