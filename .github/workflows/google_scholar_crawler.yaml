@@ -1,74 +1,63 @@
 name: Get Citation Data
 
-on: 
-  page_build: 
+on:
+  page_build:
   schedule:
-    - cron: '0 8 * * *'  # 每天 UTC 时间 8:00 运行
+    - cron: '0 8 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
     - uses: actions/checkout@v2
-      with:
-        ref: main  # 指定分支
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
-
-    - name: Install System Dependencies
+    - name: Install Reqs
       run: |
-        sudo apt-get update
-        sudo apt-get install -y python3-setuptools
-        echo "System dependencies installed successfully"
+        echo "Installing required packages..."
+        sudo apt-get install python3-setuptools
+        echo "Installation complete."
 
-    - name: Install Python Dependencies
+    - name: Run
       run: |
+        echo "Changing directory to ./google_scholar_crawler"
         cd ./google_scholar_crawler
-        echo "Installing Python requirements..."
+        echo "Installing dependencies..."
         pip install -r requirements.txt
-        echo "Python dependencies installed successfully"
+        echo "Dependencies installed."
 
-    - name: Run Google Scholar Crawler
-      run: |
-        echo "Starting Google Scholar data collection..."
+        echo "Running main.py..."
         python main.py
-        echo "Data collection completed"
-        ls -la ./results/
-      env:
-        GOOGLE_SCHOLAR_ID: "NSHQsrAAAAAJ"
+        echo "Python script execution complete."
 
-    - name: Configure Git
-      run: |
+        echo "Changing directory to ./results"
         cd ./results
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        echo "Git configured successfully"
-
-    - name: Commit and Push Changes
-      run: |
-        cd ./results
-        git add *.json
-        git status
-        git commit -m "Updated Citation Data - $(date +'%Y-%m-%d %H:%M:%S')"
-        echo "Changes committed successfully"
         
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-        echo "Changes pushed successfully"
-      env:
-        TOKEN: ${{ secrets.TOKEN }}
+        echo "Initializing git repository..."
+        git init
+        echo "Git repository initialized."
 
-    - name: Verify Results
-      run: |
-        echo "Verifying results..."
-        cd ./results
-        ls -la
-        echo "Results verification completed"
+        echo "Configuring git user..."
+        git config --local user.name "${GITHUB_ACTOR}"
+        echo "Git user configured."
+
+        echo "Setting remote repository..."
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        echo "Remote repository set."
+
+        echo "Adding files to git..."
+        git add *.json
+        echo "Files added to git."
+
+        echo "Committing changes..."
+        git commit -m "Updated Citation Data"
+        echo "Changes committed."
+
+        echo "Pushing to remote repository..."
+        git push "${remote_repo}" HEAD:google-scholar-stats --force
+        echo "Push complete."
+
+      env:
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
 
 
 
