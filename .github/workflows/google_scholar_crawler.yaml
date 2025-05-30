@@ -3,58 +3,88 @@ name: Get Citation Data
 on: 
   page_build: 
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 8 * * *'  # 每天 UTC 时间 8:00 运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
     - uses: actions/checkout@v2
-    - name: Install Reqs
+      with:
+        ref: main  # 指定分支
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install System Dependencies
       run: |
-        echo "正在检出代码仓库..."
-        
-    - name: Install Requirements
-      run: |
-        echo "正在安装系统依赖..."
         sudo apt-get update
         sudo apt-get install -y python3-setuptools
-        echo "系统依赖安装完成"
-        
-    - name: Setup Python Environment
+        echo "System dependencies installed successfully"
+
+    - name: Install Python Dependencies
       run: |
-        echo "正在设置 Python 环境..."
         cd ./google_scholar_crawler
-        echo "正在安装 Python 依赖..."
+        echo "Installing Python requirements..."
         pip install -r requirements.txt
-        echo "Python 环境设置完成"
-        
-    - name: Run Crawler
+        echo "Python dependencies installed successfully"
+
+    - name: Run Google Scholar Crawler
       run: |
-        echo "正在运行爬虫程序..."
-        cd ./google_scholar_crawler
-        # 确保 results 目录存在
-        mkdir -p results
+        echo "Starting Google Scholar data collection..."
         python main.py
-        echo "爬虫程序运行完成"
-        
-    - name: Commit and Push Results
+        echo "Data collection completed"
+        ls -la ./results/
+      env:
+        GOOGLE_SCHOLAR_ID: "NSHQsrAAAAAJ"
+
+    - name: Configure Git
       run: |
-        echo "正在准备提交结果..."
-        # 确保在正确的目录下
-        cd ./google_scholar_crawler/results
+        cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        echo "正在添加文件..."
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        echo "Git configured successfully"
+
+    - name: Commit and Push Changes
+      run: |
+        cd ./results
         git add *.json
-        echo "正在提交更改..."
-        git commit -m "Updated Citation Data"
-        echo "正在推送更改..."
+        git status
+        git commit -m "Updated Citation Data - $(date +'%Y-%m-%d %H:%M:%S')"
+        echo "Changes committed successfully"
+        
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-        echo "结果已成功推送"
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        echo "Changes pushed successfully"
+      env:
+        TOKEN: ${{ secrets.TOKEN }}
+
+    - name: Verify Results
+      run: |
+        echo "Verifying results..."
+        cd ./results
+        ls -la
+        echo "Results verification completed"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # name: Get Citation Data
