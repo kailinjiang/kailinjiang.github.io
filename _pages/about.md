@@ -31,7 +31,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 # 📝 Publications
-*: Equal Contribution
+*: Co-First Author, Equal Contribution
 
 
 <div style="display: flex; justify-content: center; gap: 20px;">
@@ -92,7 +92,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 
 # 📝 Preprints
-*: Equal Contribution
+*: Co-First Author, Equal Contribution
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/EVOKE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
