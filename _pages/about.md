@@ -149,3 +149,29 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 
 
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Widget</title>
+    <style>
+        .map-container {
+            width: 300px; 
+            margin: 0 auto; 
+            text-align: center; 
+        }
+        .map-container iframe {
+            width: 100%; 
+            height: 300px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=pBU5rAO3iBww8iWD4RJPnHsAq6uM9LcNALrf0nliRMs&cl=ffffff&w=a"></script>
+    </div>
+</body>
+</html>
