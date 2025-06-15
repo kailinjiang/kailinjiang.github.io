@@ -125,8 +125,9 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 
 # 🎖 Honors and Awards
+- **2022.12** Typical Innovation and Entrepreneurship Models of Sichuan Agricultural University (10 students).
 - **2022.11** China Telecom Scholarship · Fly Young Award.
-  
+- **2022.04** Youth May Fourth Model of Sichuan Agricultural University (10 students).
 - **2021.11** National First Prize of Undergraduate Group of National Undergraduate Mathematical Modeling Contest of Gaojiaoshe Cup,team leader. 
 
 
