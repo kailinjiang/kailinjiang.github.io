@@ -114,6 +114,8 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
  Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
+
+[![airchina](https://img.shields.io/badge/数源AI-MMKC_Bench-red?logo=airchina)](https://mp.weixin.qq.com/s/nlnFtrWrhFhKaS1vBgOp3Q)
 </div>
 </div>
 
