@@ -124,7 +124,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 
 # 📰 Peer Review
 - ICLR 2025 Workshop SSI-FM Reviewer
-
+- ICLR 2026 Reviewer
 
 # 🎖 Honors and Awards
 - **2022.12** Typical Innovation and Entrepreneurship Models of Sichuan Agricultural University (10 students).
