@@ -93,12 +93,14 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 # 📝 Preprints
 *: Co-First Author, Equal Contribution
 
+## Conference papers and Preprints
+
 <style>
-/* Preprints section styles (scoped) */
-.preprints { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
-.preprints .bibliography { list-style: none; margin: 0; padding: 0; }
-.preprints .bibliography li { margin: 10px 0; }
-.preprints .pub-row {
+/* Publications section styles (scoped) */
+.publications { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
+.publications .bibliography { list-style: none; margin: 0; padding: 0; }
+.publications .bibliography li { margin: 10px 0; }
+.publications .pub-row {
   display: flex;
   gap: 12px;
   align-items: flex-start;
@@ -111,20 +113,20 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
   margin-left: auto;
   margin-right: auto;
 }
-.preprints .pub-row .abbr.pub-thumb {
+.publications .pub-row .abbr.pub-thumb {
   position: relative;
   flex: 0 0 320px;
   max-width: 320px;
-  padding: 0 15px;
+  padding: 0 15px; /* keep original padding intent */
 }
-.preprints .pub-row .abbr.pub-thumb img {
+.publications .pub-row .abbr.pub-thumb img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 10px 16px rgba(0,0,0,0.12);
 }
-.preprints .pub-row .abbr.pub-thumb .badge {
+.publications .pub-row .abbr.pub-thumb .badge {
   position: absolute;
   top: -8px;
   left: -8px;
@@ -134,12 +136,13 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
   border-radius: 6px;
   font-weight: 700;
 }
-.preprints .pub-content { flex: 1 1 auto; padding-left: 4px; }
-.preprints .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
-.preprints .author { font-size: 0.98rem; }
-.preprints .periodical { font-size: 0.96rem; }
-.preprints .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
-.preprints .pub-button {
+.publications .pub-content { flex: 1 1 auto; padding-left: 4px; }
+.publications .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
+.publications .author { font-size: 0.98rem; }
+.publications .periodical { font-size: 0.96rem; }
+.publications .links a { font-size: 12px !important; }
+.publications .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.publications .pub-button {
   font-family: "Times New Roman", Times, serif;
   background: #fff;
   color: #333;
@@ -151,30 +154,30 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease;
 }
-.preprints .pub-button:hover {
+.publications .pub-button:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 18px rgba(0,0,0,0.16);
   border-color: #bbb;
   text-decoration: none;
 }
-.preprints .title a { color: #2a72d4; text-decoration: none; }
-.preprints .title a:hover { text-decoration: underline; color: #1e5bb8; }
+.publications .title a { color: #2a72d4; text-decoration: none; }
+.publications .title a:hover { text-decoration: underline; color: #1e5bb8; }
 /* Scroll window to show only a few items initially */
-.preprints .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
-.preprints .scroll-window::-webkit-scrollbar { width: 8px; }
-.preprints .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+.publications .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.publications .scroll-window::-webkit-scrollbar { width: 8px; }
+.publications .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 @media (max-width: 640px) {
-  .preprints .pub-row { flex-direction: column; }
-  .preprints .pub-row .abbr.pub-thumb { max-width: 100%; flex-basis: auto; }
-  .preprints .scroll-window { max-height: 420px; }
+  .publications .pub-row { flex-direction: column; }
+  .publications .pub-row .abbr.pub-thumb { max-width: 100%; flex-basis: auto; }
+  .publications .scroll-window { max-height: 420px; }
 }
 </style>
 
-<div class="preprints" markdown="1">
+<div class="preprint" markdown="1">
 <div class="scroll-window">
 <ul class="bibliography">
 
-{% for link in site.data.preprint.main %}
+{% for link in site.data.publications.main %}
 
 <li>
 <div class="pub-row">
@@ -192,37 +195,57 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
-      {% if link.paper %}
-        <a href="{{ link.paper }}" class="pub-button paper" role="button" target="_blank">Paper</a>
+      <a href="{{ link.paper | default: '/404.html' }}" class="pub-button paper" role="button" target="_blank">Paper</a>
+      <a href="{{ link.code | default: '/404.html' }}" class="pub-button code" role="button" target="_blank">Code</a>
+      <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% if link.github_folks %} 
+      <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub forks" align="right" src="https://img.shields.io/github/forks/{{ link.github_folks }}?style=social"></a>
       {% endif %}
-      {% if link.code %}
-        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
-      {% endif %}
-      {% if link.dataset %}
-        <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
-      {% endif %}
-      {% if link.model %}
-        <a href="{{ link.model }}" class="pub-button model" role="button" target="_blank">Model</a>
-      {% endif %}
-      {% if link.website %}
-        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
-      {% endif %}
-      {% if link.slides %}
-        <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
-      {% endif %}
-      {% if link.github_stars %}
-        <a target="_blank" href="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
+      {% if link.github_stars %} 
+      <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
       {% endif %}
     </div>
   </div>
 </div>
 </li>
 
+
+
 {% endfor %}
 
 </ul>
 </div>
 </div>
+
+<script>
+(function() {
+  function setScrollWindowHeight() {
+    var container = document.querySelector('.publications .scroll-window');
+    if (!container) return;
+    var firstLi = container.querySelector('.bibliography > li');
+    var firstRow = container.querySelector('.pub-row');
+    if (!firstRow || !firstLi) return;
+    var rowRect = firstRow.getBoundingClientRect();
+    var liStyle = window.getComputedStyle(firstLi);
+    var marginTop = parseFloat(liStyle.marginTop) || 0;
+    var marginBottom = parseFloat(liStyle.marginBottom) || 0;
+    var perItem = rowRect.height + (marginTop + marginBottom);
+  var target = perItem * 3.5; // show ~3.5 items
+    container.style.maxHeight = target + 'px';
+  }
+  function onReady(fn) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn, { once: true });
+    } else { fn(); }
+  }
+  onReady(setScrollWindowHeight);
+  var resizeTimeout;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(setScrollWindowHeight, 150);
+  });
+})();
+</script>
 
 
 
