@@ -181,7 +181,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 .exp-sub { color: #555; margin: 0 0 6px; }
 .exp-time { color: #777; font-size: 0.95em; }
 .exp-img { flex: 0 0 200px; max-width: 200px; }
-.exp-img img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
+.exp-img img { width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 @media (max-width: 640px) { .exp-item { flex-direction: column; } .exp-img { max-width: 100%; flex-basis: auto; } }
 </style>
 
