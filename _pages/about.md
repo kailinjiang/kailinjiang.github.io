@@ -96,6 +96,13 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 ## Conference papers and Preprints
 
 <style>
+/* Section title with blue accent bar */
+h2 {
+  border-left: 4px solid #4285F4;
+  padding-left: 12px;
+  margin-left: -16px;
+  color: #333;
+}
 /* Preprints section styles (scoped) */
 .preprint { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
 .preprint .bibliography { list-style: none; margin: 0; padding: 0; }
