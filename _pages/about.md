@@ -175,7 +175,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
       </div>
     <div class="links">
       {% if link.links %}
-        {{ link.links }}
+        {{ link.links | markdownify }}
       {% endif %}
     </div>
   </div>
