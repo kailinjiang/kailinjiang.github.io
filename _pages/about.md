@@ -228,7 +228,7 @@ html[data-theme="dark"] .exp-img img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">Intern Researcher</p>
-      <p class="exp-sub">AState Key Laboratory of General Artificial Intelligence (BIGAI,Beijing,China)</p>
+      <p class="exp-sub">AState Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: ML Lab</li>
         <li>Advisor: Qing Li</li>
@@ -240,7 +240,7 @@ html[data-theme="dark"] .exp-img img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">Algorithm Intern</p>
-      <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI,Beijing,China)</p>
+      <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: MAS Lab</li>
         <li>Advisor: Siyuan Qi</li>
@@ -321,6 +321,44 @@ html[data-theme="dark"] .exp-img img,
 @media (max-width: 640px) { .edu-item { flex-direction: column; } .edu-img { max-width: 100%; flex-basis: auto; } }
 </style>
 
+<style>
+/* Educations section scroll window styles (scoped) */
+.educations .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: transparent; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.educations .scroll-window::-webkit-scrollbar { width: 8px; }
+.educations .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+</style>
+
+<style>
+/* Dark mode overrides for Educations section */
+@media (prefers-color-scheme: dark) {
+  .educations .scroll-window { background: #111; border-color: #333; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 6px 14px rgba(0,0,0,0.6); }
+  .edu-item { background: #111; border-color: #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+}
+</style>
+
+<style>
+/* Dark mode overrides (class/data-attribute toggles) for Educations section */
+html.dark .educations .scroll-window,
+body.dark .educations .scroll-window,
+html[data-theme="dark"] .educations .scroll-window,
+:root[data-theme="dark"] .educations .scroll-window,
+[data-scheme="dark"] .educations .scroll-window { background: #111 !important; border-color: #333 !important; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 6px 14px rgba(0,0,0,0.6) !important; }
+
+html.dark .edu-item,
+body.dark .edu-item,
+html[data-theme="dark"] .edu-item,
+:root[data-theme="dark"] .edu-item,
+[data-scheme="dark"] .edu-item { background: #111 !important; border-color: #333 !important; box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important; }
+
+html.dark .edu-img img,
+body.dark .edu-img img,
+html[data-theme="dark"] .edu-img img,
+:root[data-theme="dark"] .edu-img img,
+[data-scheme="dark"] .edu-img img { background: transparent !important; }
+</style>
+
+<div class="educations">
+<div class="scroll-window">
 <ul class="edu-list">
   <li class="edu-item">
     <div class="edu-text">
@@ -349,6 +387,8 @@ html[data-theme="dark"] .exp-img img,
     <div class="edu-img"><img src="images\sicau.png" alt="CUHK(SZ)"></div>
   </li>
 </ul>
+</div>
+</div>
 
 
 <html lang="en">
