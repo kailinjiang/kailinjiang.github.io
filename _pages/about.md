@@ -438,6 +438,11 @@ h2 {
 </script>
 
 
+## Invention Patents
+As these works are patented in China, all these names are directly translated from Chinese.
+- **<a href="https://www.patentguru.com/cn/search?q=%E4%B8%80%E7%A7%8D%E5%A4%9A%E6%A8%A1%E6%80%81%E8%BF%9B%E5%8C%96%E7%9F%A5%E8%AF%86%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95%E5%92%8C%E7%B3%BB%E7%BB%9F" target="_blank">A multimodal evolving knowledge injection method and system</a>** (Public)
+  
+   Inventor: **<u>Kailin Jiang</u>**, Yukai Ding, Zhi Gao, Zilong Zheng, Qing Li
 
 
 
