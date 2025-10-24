@@ -96,11 +96,11 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 ## Conference papers and Preprints
 
 <style>
-/* Publications section styles (scoped) */
-.publications { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
-.publications .bibliography { list-style: none; margin: 0; padding: 0; }
-.publications .bibliography li { margin: 10px 0; }
-.publications .pub-row {
+/* Preprints section styles (scoped) */
+.preprint { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
+.preprint .bibliography { list-style: none; margin: 0; padding: 0; }
+.preprint .bibliography li { margin: 10px 0; }
+.preprint .pub-row {
   display: flex;
   gap: 12px;
   align-items: flex-start;
@@ -113,20 +113,20 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
   margin-left: auto;
   margin-right: auto;
 }
-.publications .pub-row .abbr.pub-thumb {
+.preprint .pub-row .abbr.pub-thumb {
   position: relative;
   flex: 0 0 320px;
   max-width: 320px;
   padding: 0 15px; /* keep original padding intent */
 }
-.publications .pub-row .abbr.pub-thumb img {
+.preprint .pub-row .abbr.pub-thumb img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 10px 16px rgba(0,0,0,0.12);
 }
-.publications .pub-row .abbr.pub-thumb .badge {
+.preprint .pub-row .abbr.pub-thumb .badge {
   position: absolute;
   top: -8px;
   left: -8px;
@@ -136,13 +136,13 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
   border-radius: 6px;
   font-weight: 700;
 }
-.publications .pub-content { flex: 1 1 auto; padding-left: 4px; }
-.publications .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
-.publications .author { font-size: 0.98rem; }
-.publications .periodical { font-size: 0.96rem; }
-.publications .links a { font-size: 12px !important; }
-.publications .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
-.publications .pub-button {
+.preprint .pub-content { flex: 1 1 auto; padding-left: 4px; }
+.preprint .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
+.preprint .author { font-size: 0.98rem; }
+.preprint .periodical { font-size: 0.96rem; }
+.preprint .links a { font-size: 12px !important; }
+.preprint .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.preprint .pub-button {
   font-family: "Times New Roman", Times, serif;
   background: #fff;
   color: #333;
@@ -154,22 +154,22 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease;
 }
-.publications .pub-button:hover {
+.preprint .pub-button:hover {
   transform: translateY(-1px);
   box-shadow: 0 10px 18px rgba(0,0,0,0.16);
   border-color: #bbb;
   text-decoration: none;
 }
-.publications .title a { color: #2a72d4; text-decoration: none; }
-.publications .title a:hover { text-decoration: underline; color: #1e5bb8; }
+.preprint .title a { color: #2a72d4; text-decoration: none; }
+.preprint .title a:hover { text-decoration: underline; color: #1e5bb8; }
 /* Scroll window to show only a few items initially */
-.publications .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
-.publications .scroll-window::-webkit-scrollbar { width: 8px; }
-.publications .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+.preprint .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.preprint .scroll-window::-webkit-scrollbar { width: 8px; }
+.preprint .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 @media (max-width: 640px) {
-  .publications .pub-row { flex-direction: column; }
-  .publications .pub-row .abbr.pub-thumb { max-width: 100%; flex-basis: auto; }
-  .publications .scroll-window { max-height: 420px; }
+  .preprint .pub-row { flex-direction: column; }
+  .preprint .pub-row .abbr.pub-thumb { max-width: 100%; flex-basis: auto; }
+  .preprint .scroll-window { max-height: 420px; }
 }
 </style>
 
@@ -177,7 +177,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 <div class="scroll-window">
 <ul class="bibliography">
 
-{% for link in site.data.publications.main %}
+{% for link in site.data.preprint.main %}
 
 <li>
 <div class="pub-row">
@@ -220,7 +220,7 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 <script>
 (function() {
   function setScrollWindowHeight() {
-    var container = document.querySelector('.publications .scroll-window');
+    var container = document.querySelector('.preprint .scroll-window');
     if (!container) return;
     var firstLi = container.querySelector('.bibliography > li');
     var firstRow = container.querySelector('.pub-row');
