@@ -34,10 +34,14 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 .news .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 </style>
 
+
+
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
+- **2025.09**: &nbsp;🎉🎉 I will serve as **Reviewer** in ICLR 2026！
 - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>！
 - **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**! <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>！
+- **2024.09**: &nbsp;🎉🎉 I joined the **IIP Lab** at the University of Science and Technology of China to pursue a doctoral degree！
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
@@ -522,8 +526,8 @@ html[data-theme="dark"] .exp-img img,
       <p class="exp-title">Intern Researcher</p>
       <p class="exp-sub">AState Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Affliation: ML Lab</li>
-        <li>Advisor: Qing Li</li>
+        <li><strong>Affliation: ML Lab</strong></li>
+        <li><strong>Advisor: Qing Li</strong></li>
       </ul>
       <p class="exp-time">2024.08 - now</p>
     </div>
@@ -534,8 +538,8 @@ html[data-theme="dark"] .exp-img img,
       <p class="exp-title">Algorithm Intern</p>
       <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Affliation: MAS Lab</li>
-        <li>Advisor: Siyuan Qi</li>
+        <li><strong>Affliation: MAS Lab</strong></li>
+        <li><strong>Advisor: Siyuan Qi</strong></li>
       </ul>
       <p class="exp-time">2024.02 - 2024.08</p>
     </div>
@@ -657,8 +661,8 @@ html[data-theme="dark"] .edu-img img,
       <p class="edu-title">Doctor of Philosophy (Ph.D)</p>
       <p class="edu-sub">University of Science and Technology of China (USTC)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Key universities under the "985 Project"</li>
-        <li>Advisor: Bin Li</li>
+        <li>Key universities under the <strong>"985 Project"</strong></li>
+        <li><strong>Advisor: Bin Li</strong></li>
         <li>Major: Information and Communication Engineering</li>
       </ul>
       <p class="edu-time">2024.09 - now</p>
@@ -670,8 +674,8 @@ html[data-theme="dark"] .edu-img img,
       <p class="edu-title">Undergraduate</p>
       <p class="edu-sub">Sichuan Agricultural University (SICAU)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Key universities under the "211 Project"</li>
-        <li>Major: Information and Computational Science, Rank: 4/152 (2.6%)</li>
+        <li>Key universities under the <strong>"211 Project"</strong></li>
+        <li><strong>Major: Information and Computational Science, Rank: 4/152 (2.6%)</strong></li>
         <li>Finished my undergraduate in, SICAU, while the degree is offered by college of science in SICAU.</li>
       </ul>
       <p class="edu-time">2020.09 - 2024.06</p>
