@@ -224,18 +224,7 @@ html[data-theme="dark"] .exp-img img,
 <div class="experiences">
 <div class="scroll-window">
 <ul class="exp-list">
-  <li class="exp-item">
-    <div class="exp-text">
-      <p class="exp-title">Algorithm Intern</p>
-      <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI,Beijing,China)</p>
-      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Affliation: MAS Lab</li>
-        <li>Advisor: Siyuan Qi</li>
-      </ul>
-      <p class="exp-time">2024.02 - 2024.08</p>
-    </div>
-    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
-  </li>
+
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">Intern Researcher</p>
@@ -245,6 +234,18 @@ html[data-theme="dark"] .exp-img img,
         <li>Advisor: Qing Li</li>
       </ul>
       <p class="exp-time">2024.08 - now</p>
+    </div>
+    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
+  </li>
+  <li class="exp-item">
+    <div class="exp-text">
+      <p class="exp-title">Algorithm Intern</p>
+      <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI,Beijing,China)</p>
+      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+        <li>Affliation: MAS Lab</li>
+        <li>Advisor: Siyuan Qi</li>
+      </ul>
+      <p class="exp-time">2024.02 - 2024.08</p>
     </div>
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li>
