@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
+# 😊 About me
 
 I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://liqing.io/'>Qing Li(BIGAI, 李庆)</a>, <a href='https://yuntaodu.github.io/'>Yuntao Du(SDU, 杜云涛)</a>, <a href='https://siyuanqi.github.io/'>Siyuan Qi (Gyges Labs, 綦思源)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>, <a href='https://faculty.ustc.edu.cn/liulei13/zh_CN/index.htm'>Lei Liu (USTC, 刘磊)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence.
 
