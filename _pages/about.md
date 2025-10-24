@@ -30,9 +30,9 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
 
+
 # 📝 Publications
 *: Co-First Author, Equal Contribution
-
 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <div style="display: flex; align-items: center;">
@@ -58,42 +58,175 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 </div>
 
 
+<span class='anchor' id='conference-papers'></span>
+## Conference papers
 
+<style>
+/* Conference papers section styles (scoped) */
+.conference { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
+.conference .bibliography { list-style: none; margin: 0; padding: 0; }
+.conference .bibliography li { margin: 10px 0; }
+.conference .pub-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conference .pub-row .abbr.pub-thumb {
+  position: relative;
+  flex: 0 0 320px;
+  max-width: 320px;
+  padding: 0 15px;
+}
+.conference .pub-row .abbr.pub-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.12);
+}
+.conference .pub-row .abbr.pub-thumb .badge {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  background: #e74d3c;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.conference .pub-content { flex: 1 1 auto; padding-left: 4px; }
+.conference .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
+.conference .author { font-size: 0.98rem; }
+.conference .periodical { font-size: 0.96rem; }
+.conference .conference-name { color: #8B0000; font-weight: bold; }
+.conference .links a { font-size: 12px !important; }
+.conference .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.conference .pub-button {
+  font-family: "Times New Roman", Times, serif;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  padding: 8px 14px;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.conference .pub-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.16);
+  border-color: #bbb;
+  text-decoration: none;
+}
+.conference .title a { color: #2a72d4; text-decoration: none; }
+.conference .title a:hover { text-decoration: underline; color: #1e5bb8; }
+/* Scroll window to show only a few items initially */
+.conference .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.conference .scroll-window::-webkit-scrollbar { width: 8px; }
+.conference .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+@media (max-width: 640px) {
+  .conference .pub-row { flex-direction: column; }
+  .conference .pub-row .abbr.pub-thumb { max-width: 100%; flex-basis: auto; }
+  .conference .scroll-window { max-height: 420px; }
+}
+</style>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025 & ICLR2025 Workshop SSI-FM</div><img src='images/paper_overview/MMKE-Bench.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="conference" markdown="1">
+<div class="scroll-window">
+<ul class="bibliography">
 
-[MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/pdf/2502.19870)
+{% for link in site.data.conference.main %}
 
- Yuntao Du\*,**Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】 <br>
- <b style="color: #8B0000;">The Thirteenth International Conference on Learning Representations</b>
-[![arXiv](https://img.shields.io/badge/Arxiv-2502.19870-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2502.19870)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKE_Bench-blue)](https://huggingface.co/datasets/kailinjiang/MMKE-Bench-dataset)  [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-MMKE_Bench-blue)](https://huggingface.co/kailinjiang/MMKE-Bench) [![code](https://img.shields.io/badge/Code-MMKE_Bench-blue?logo=github)](https://github.com/MMKE-Bench-ICLR/MMKE-Bench) [![website](https://img.shields.io/badge/Website-MMKE_Bench-orange?logo=homepage)](https://mmke-bench-iclr.github.io/) [![depositphotos](https://img.shields.io/badge/Poster-MMKE_Bench-red?logo=depositphotos)](/images/poster/iclr25_mmke_bench_poster.pdf) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MMKE_Bench-BF55EC)](https://mmke-bench-iclr.github.io/static/Slides/MMKE-Bench.pdf)
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-thumb" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.paper | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.paper %}
+        <a href="{{ link.paper }}" class="pub-button paper" role="button" target="_blank">Paper</a>
+      {% endif %}
+      {% if link.dataset %}
+        <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
+      {% endif %}
+      {% if link.model %}
+        <a href="{{ link.model }}" class="pub-button model" role="button" target="_blank">Model</a>
+      {% endif %}
+      {% if link.code %}
+        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
+      {% endif %}
+      {% if link.website %}
+        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% endif %}
+      {% if link.poster %}
+        <a href="{{ link.poster }}" class="pub-button poster" role="button" target="_blank">Poster</a>
+      {% endif %}
+      {% if link.slides %}
+        <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
+      {% endif %}
+    </div>
+</div>
+</div>
+</li>
 
-[![airchina](https://img.shields.io/badge/数源AI-MMKE_Bench-red?logo=airchina)](https://mp.weixin.qq.com/s/iN826lITi5Xyz-3GnrdVIQ) [![codeproject](https://img.shields.io/badge/量子之心-MMKE_Bench-red?logo=codeproject)](https://www.xiaohongshu.com/explore/67e2d622000000000603cbfc?note_flow_source=wechat&xsec_token=CBldN8wUavDAzFvP4tK_noXO94RAXcelKKqlO3pFiJ6EQ=) [![actix](https://img.shields.io/badge/极市平台-MMKE_Bench-red?logo=actix)](https://mp.weixin.qq.com/s/JfxeytzWU0QoIUfJTGqgQQ) [![zhihu](https://img.shields.io/badge/知乎-MMKE_Bench-red?logo=zhihu)](https://zhuanlan.zhihu.com/p/30599722521) 
+{% endfor %}
+
+</ul>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025</div><img src='images/paper_overview/in-context-editing.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<script>
+(function() {
+  function setConferenceScrollWindowHeight() {
+    var container = document.querySelector('.conference .scroll-window');
+    if (!container) return;
+    var firstLi = container.querySelector('.bibliography > li');
+    var firstRow = container.querySelector('.pub-row');
+    if (!firstRow || !firstLi) return;
+    var rowRect = firstRow.getBoundingClientRect();
+    var liStyle = window.getComputedStyle(firstLi);
+    var marginTop = parseFloat(liStyle.marginTop) || 0;
+    var marginBottom = parseFloat(liStyle.marginBottom) || 0;
+    var perItem = rowRect.height + (marginTop + marginBottom);
+  var target = perItem * 3.5; // show ~3.5 items
+    container.style.maxHeight = target + 'px';
+  }
+  function onReady(fn) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn, { once: true });
+    } else { fn(); }
+  }
+  onReady(setConferenceScrollWindowHeight);
+  var resizeTimeout;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(setConferenceScrollWindowHeight, 150);
+  });
+})();
+</script>
 
-[In-Context Editing:Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194)
 
-Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】 <br>
-<b style="color: #8B0000;">The Thirteenth International Conference on Learning Representations</b>
-[![arXiv](https://img.shields.io/badge/Arxiv-2406.11194-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.11194)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ICE-blue)](https://huggingface.co/datasets/Yofuria/ICE)   [![code](https://img.shields.io/badge/Code-ICE-blue?logo=github)](https://github.com/bigai-ai/ICE) [![depositphotos](https://img.shields.io/badge/Poster-ICE-red?logo=depositphotos)](/images/poster/ICE_poster.png)
-
-
-[![AIModels.fyi](https://img.shields.io/badge/AIModels.fyi-ICE-blue?logo=anthropic)](https://www.aimodels.fyi/papers/arxiv/context-editing-learning-knowledge-from-self-induced) [![actix](https://img.shields.io/badge/极市平台-ICE-red?logo=actix)](https://mp.weixin.qq.com/s/Mr9HPeHJSsVfUIeF6j-zWw)
-
-</div>
-</div>
-
-
-
-# 📝 Preprints
-*: Co-First Author, Equal Contribution
-
-## Conference papers and Preprints
+<span class='anchor' id='preprints'></span>
+## Preprints
 
 <style>
 /* Section title with blue accent bar */
@@ -199,7 +332,7 @@ h2 {
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.paper | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+      <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
     <div class="links">
       <a href="{{ link.paper | default: '/404.html' }}" class="pub-button paper" role="button" target="_blank">Paper</a>
@@ -211,8 +344,8 @@ h2 {
       {% if link.github_stars %} 
       <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
       {% endif %}
-    </div>
-  </div>
+</div>
+</div>
 </div>
 </li>
 
