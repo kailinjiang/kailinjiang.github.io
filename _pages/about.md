@@ -23,11 +23,55 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 # 🔥 News
-<!-- Allowed emojis: 🎉🎉for good news 📣📣for average news-->
+
+
+
+<style>
+/* News section scroll window styles (scoped) */
+.news .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.news .scroll-window::-webkit-scrollbar { width: 8px; }
+.news .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+</style>
+
+<div class="news" markdown="1">
+<div class="scroll-window" markdown="1">
 - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>！
 - **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**! <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>！
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
+
+</div>
+</div>
+
+<script>
+(function() {
+  function setNewsScrollWindowHeight() {
+    var container = document.querySelector('.news .scroll-window');
+    if (!container) return;
+    var firstLi = container.querySelector('li');
+    if (!firstLi) return; // fallback to CSS default max-height
+    var liRect = firstLi.getBoundingClientRect();
+    var liStyle = window.getComputedStyle(firstLi);
+    var marginTop = parseFloat(liStyle.marginTop) || 0;
+    var marginBottom = parseFloat(liStyle.marginBottom) || 0;
+    var perItem = liRect.height + (marginTop + marginBottom);
+    var target = perItem * 9; // show ~9 items
+    container.style.maxHeight = target + 'px';
+  }
+  function onReady(fn) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn, { once: true });
+    } else { fn(); }
+  }
+  onReady(setNewsScrollWindowHeight);
+  var resizeTimeout;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(setNewsScrollWindowHeight, 150);
+  });
+})();
+</script>
+
 
 
 
