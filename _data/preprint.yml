@@ -23,6 +23,7 @@ main:
     conference: Preprint
     image: "images/paper_overview/MINED.png"
     paper: "https://arxiv.org/pdf/2510.19457"
+    code: ""
     website: "https://mined-lmm.github.io/"
 
 
