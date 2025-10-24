@@ -69,7 +69,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
  <b style="color: #8B0000;">The Thirteenth International Conference on Learning Representations</b>
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.19870-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2502.19870)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKE_Bench-blue)](https://huggingface.co/datasets/kailinjiang/MMKE-Bench-dataset)  [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-MMKE_Bench-blue)](https://huggingface.co/kailinjiang/MMKE-Bench) [![code](https://img.shields.io/badge/Code-MMKE_Bench-blue?logo=github)](https://github.com/MMKE-Bench-ICLR/MMKE-Bench) [![website](https://img.shields.io/badge/Website-MMKE_Bench-orange?logo=homepage)](https://mmke-bench-iclr.github.io/) [![depositphotos](https://img.shields.io/badge/Poster-MMKE_Bench-red?logo=depositphotos)](/images/poster/iclr25_mmke_bench_poster.pdf) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MMKE_Bench-BF55EC)](https://mmke-bench-iclr.github.io/static/Slides/MMKE-Bench.pdf)
 
-[![airchina](https://img.shields.io/badge/数源AI-MMKE_Bench-red?logo=airchina)](https://mp.weixin.qq.com/s/iN826lITi5Xyz-3GnrdVIQ) [![codeproject](https://img.shields.io/badge/量子之心-MMKE_Bench-red?logo=codeproject)](https://www.xiaohongshu.com/explore/67e2d622000000000603cbfc?note_flow_source=wechat&xsec_token=CBldN8wUavDAzFvP4tK_noXO94RAXcelKKqlO3pFiJ6EQ=) [![actix](https://img.shields.io/badge/极市平台-MMKE_Bench-red?logo=actix)](https://mp.weixin.qq.com/s/JfxeytzWU0QoIUfJTGqgQQ) [![zhihu](https://img.shields.io/badge/知乎-MMKE_Bench-red?logo=zhihu)](https://zhuanlan.zhihu.com/p/30599722521)  [![tong](https://img.shields.io/badge/通智少年-MMKE_Bench-red?logo=wechat)](https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w)
+[![airchina](https://img.shields.io/badge/数源AI-MMKE_Bench-red?logo=airchina)](https://mp.weixin.qq.com/s/iN826lITi5Xyz-3GnrdVIQ) [![codeproject](https://img.shields.io/badge/量子之心-MMKE_Bench-red?logo=codeproject)](https://www.xiaohongshu.com/explore/67e2d622000000000603cbfc?note_flow_source=wechat&xsec_token=CBldN8wUavDAzFvP4tK_noXO94RAXcelKKqlO3pFiJ6EQ=) [![actix](https://img.shields.io/badge/极市平台-MMKE_Bench-red?logo=actix)](https://mp.weixin.qq.com/s/JfxeytzWU0QoIUfJTGqgQQ) [![zhihu](https://img.shields.io/badge/知乎-MMKE_Bench-red?logo=zhihu)](https://zhuanlan.zhihu.com/p/30599722521) 
 </div>
 </div>
 
@@ -93,50 +93,98 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 # 📝 Preprints
 *: Co-First Author, Equal Contribution
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/MMEVOKE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<style>
+/* Preprints section styles (scoped) */
+.preprints { font-family: "Times New Roman", Times, serif; font-size: 0.96em; }
+.preprints .bibliography { list-style: none; margin: 0; padding: 0; }
+.preprints .bibliography li { margin: 10px 0; }
+.preprints .pub-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.preprints .pub-row .abbr.pub-thumb {
+  position: relative;
+  flex: 0 0 320px;
+  max-width: 320px;
+  padding: 0 15px;
+}
+.preprints .pub-row .abbr.pub-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.12);
+}
+.preprints .pub-row .abbr.pub-thumb .badge {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  background: #e74d3c;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.preprints .pub-content { flex: 1 1 auto; padding-left: 4px; }
+.preprints .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
+.preprints .author { font-size: 0.98rem; }
+.preprints .periodical { font-size: 0.96rem; }
+.preprints .links { margin-top: 10px; }
+.preprints .title a { color: #2a72d4; text-decoration: none; }
+.preprints .title a:hover { text-decoration: underline; color: #1e5bb8; }
+/* Scroll window to show only a few items initially */
+.preprints .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.preprints .scroll-window::-webkit-scrollbar { width: 8px; }
+.preprints .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+@media (max-width: 640px) {
+  .preprints .pub-row { flex-direction: column; }
+  .preprints .pub-row .abbr.pub-thumb { max-width: 100%; flex-basis: auto; }
+  .preprints .scroll-window { max-height: 420px; }
+}
+</style>
 
-[When Large Multimodal Models Confront Evolving Knowledge: Challenges and Pathways](https://arxiv.org/abs/2505.24449)
+<div class="preprints" markdown="1">
+<div class="scroll-window">
+<ul class="bibliography">
 
- **Kailin Jiang\***, Yuntao Du\*, Yukai Ding, Yuchen Ren, Ning Jiang, Zhi Gao, Zilong Zheng, Lei Liu, Bin Li, Qing Li.【2025.3】<br>
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.24449-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.24449) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-EVOKE-blue)](https://huggingface.co/datasets/kailinjiang/EVOKE)   [![code](https://img.shields.io/badge/Code-EVOKE-blue?logo=github)](https://github.com/EVOKE-LMM/EVOKE)  [![website](https://img.shields.io/badge/Website-EVOKE-orange?logo=homepage)](https://evoke-lmm.github.io/) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-EVOKE-BF55EC)](https://evoke-lmm.github.io/EVOKE/slides/When%20Large%20Multimodal%20Models%20Confront%20Evolving%20Knowledge%20Challenges%20and%20Pathways.pdf)
+{% for link in site.data.preprint.main %}
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr pub-thumb" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;">
+    {% endif %}
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.paper | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+    <div class="links">
+      {% if link.links %}
+        {{ link.links }}
+      {% endif %}
+    </div>
+  </div>
 </div>
-</div>
+</li>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/MINED.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+{% endfor %}
 
-[MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models](https://arxiv.org/pdf/2510.19457)
-
- **Kailin Jiang\***, Ning Jiang\*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu, Yuntao Du\*.【2025.5】<br>
- [![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/)
-
-
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/MMKC.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509)
-
- Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
-
-[![airchina](https://img.shields.io/badge/数源AI-MMKC_Bench-red?logo=airchina)](https://mp.weixin.qq.com/s/nlnFtrWrhFhKaS1vBgOp3Q)
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/paper_overview/KORE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints](https://arxiv.org/pdf/2510.19316)
-
-**Kailin Jiang**, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】<br>
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.19316-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19316) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-KORE-blue)](https://huggingface.co/datasets/kailinjiang/KORE-74K)  [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-KORE-blue)](https://huggingface.co/collections/kailinjiang/kore-68c54e73b6a19eece0fff381) [![code](https://img.shields.io/badge/Code-KORE-blue?logo=github)](https://github.com/KORE-LMM/KORE)  [![website](https://img.shields.io/badge/Website-KORE-orange?logo=homepage)](https://kore-lmm.github.io/) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-KORE-BF55EC)](https://kore-lmm.github.io/KORE/slides/KORE.pdf)
+</ul>
 </div>
 </div>
 
