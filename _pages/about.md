@@ -138,7 +138,25 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 .preprints .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .preprints .author { font-size: 0.98rem; }
 .preprints .periodical { font-size: 0.96rem; }
-.preprints .links { margin-top: 10px; }
+.preprints .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.preprints .pub-button {
+  font-family: "Times New Roman", Times, serif;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  padding: 8px 14px;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.preprints .pub-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.16);
+  border-color: #bbb;
+  text-decoration: none;
+}
 .preprints .title a { color: #2a72d4; text-decoration: none; }
 .preprints .title a:hover { text-decoration: underline; color: #1e5bb8; }
 /* Scroll window to show only a few items initially */
@@ -174,8 +192,26 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
-      {% if link.links %}
-        {{ link.links | markdownify }}
+      {% if link.paper %}
+        <a href="{{ link.paper }}" class="pub-button paper" role="button" target="_blank">Paper</a>
+      {% endif %}
+      {% if link.code %}
+        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
+      {% endif %}
+      {% if link.dataset %}
+        <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
+      {% endif %}
+      {% if link.model %}
+        <a href="{{ link.model }}" class="pub-button model" role="button" target="_blank">Model</a>
+      {% endif %}
+      {% if link.website %}
+        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% endif %}
+      {% if link.slides %}
+        <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
+      {% endif %}
+      {% if link.github_stars %}
+        <a target="_blank" href="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
       {% endif %}
     </div>
   </div>
