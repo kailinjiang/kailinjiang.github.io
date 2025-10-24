@@ -686,7 +686,7 @@ html[data-theme="dark"] .edu-img img,
 </div>
 </div>
 
-<br><br><br>
+<br><br>
 
 <html lang="en">
 <head>
@@ -711,3 +711,6 @@ html[data-theme="dark"] .edu-img img,
     </div>
 </body>
 </html>
+
+
+<br><br>
