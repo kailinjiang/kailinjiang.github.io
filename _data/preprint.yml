@@ -1,6 +1,6 @@
 main:
   - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints"
-    authors: "<strong>Kailin Jiang*</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
+    authors: "<strong>Kailin Jiang</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/KORE.png"
