@@ -18,7 +18,7 @@ I am currently working on knowledge editing, knowledge injection, multimodal lea
 
 My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
-<!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+
 
 
 
@@ -155,27 +155,199 @@ Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan 
 - **2021.11** National First Prize of Undergraduate Group of National Undergraduate Mathematical Modeling Contest of Gaojiaoshe Cup,team leader. 
 
 
-# 📖 Educations
-- **2024.06 - now**, <img src='./images/ustc.png' style='width: 2em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
-
-- **2020.09 - 2024.06**, **Sichuan Agricultural University (SICAU), graduate student**. I am studying for a degree in Information and Computational Science at the college of science in SICAU.
 
 
-# 💻 Internships
+
+
+
+
+<!-- # 💻 Internships
 - **2024.08 - now**, <img src='./images/internship/bigai.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
-- **2024.02 - 2024.08**, <img src='./images/internship/bigai.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern.
+- **2024.02 - 2024.08**, <img src='./images/internship/bigai.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern. -->
+
+
+---
+<span class='anchor' id='internships'></span>
+# 💻 Internships and Work Experiences
+<style>
+.exp-list { list-style: none; margin: 0; padding: 0; }
+.exp-item { 
+  background: #fff; border: 1px solid #eee; border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
+  display: flex; gap: 16px; align-items: center; max-width: 900px; margin: 10px auto;
+}
+.exp-text { flex: 1 1 auto; font-family: "Times New Roman", Times, serif; }
+.exp-title { font-weight: 700; margin: 0 0 6px; }
+.exp-sub { color: #555; margin: 0 0 6px; }
+.exp-time { color: #777; font-size: 0.95em; }
+.exp-img { flex: 0 0 200px; max-width: 200px; }
+.exp-img img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
+@media (max-width: 640px) { .exp-item { flex-direction: column; } .exp-img { max-width: 100%; flex-basis: auto; } }
+</style>
+
+<style>
+/* Experiences section scroll window styles (scoped) */
+.experiences .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: transparent; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.experiences .scroll-window::-webkit-scrollbar { width: 8px; }
+.experiences .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+</style>
+
+<style>
+/* Dark mode overrides for Internships section */
+@media (prefers-color-scheme: dark) {
+  .experiences .scroll-window { background: #111; border-color: #333; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 6px 14px rgba(0,0,0,0.6); }
+  .exp-item { background: #111; border-color: #333; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+}
+</style>
+
+<style>
+/* Dark mode overrides (class/data-attribute toggles) for Internships section */
+html.dark .experiences .scroll-window,
+body.dark .experiences .scroll-window,
+html[data-theme="dark"] .experiences .scroll-window,
+:root[data-theme="dark"] .experiences .scroll-window,
+[data-scheme="dark"] .experiences .scroll-window { background: #111 !important; border-color: #333 !important; box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 6px 14px rgba(0,0,0,0.6) !important; }
+
+html.dark .exp-item,
+body.dark .exp-item,
+html[data-theme="dark"] .exp-item,
+:root[data-theme="dark"] .exp-item,
+[data-scheme="dark"] .exp-item { background: #111 !important; border-color: #333 !important; box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important; }
+
+html.dark .exp-img img,
+body.dark .exp-img img,
+html[data-theme="dark"] .exp-img img,
+:root[data-theme="dark"] .exp-img img,
+[data-scheme="dark"] .exp-img img { background: transparent !important; }
+</style>
+
+<div class="experiences">
+<div class="scroll-window">
+<ul class="exp-list">
+  <li class="exp-item">
+    <div class="exp-text">
+      <p class="exp-title">Algorithm Intern</p>
+      <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI,Beijing,China)</p>
+      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+        <li>Affliation: MAS Lab</li>
+        <li>Advisor: Siyuan Qi</li>
+      </ul>
+      <p class="exp-time">2024.02 - 2024.08</p>
+    </div>
+    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
+  </li>
+  <li class="exp-item">
+    <div class="exp-text">
+      <p class="exp-title">Intern Researcher</p>
+      <p class="exp-sub">AState Key Laboratory of General Artificial Intelligence (BIGAI,Beijing,China)</p>
+      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+        <li>Affliation: ML Lab</li>
+        <li>Advisor: Qing Li</li>
+      </ul>
+      <p class="exp-time">2024.08 - now</p>
+    </div>
+    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
+  </li>
 
 
 
-<div style="display: flex; justify-content: center;">
+
+
+ </ul>
+</div>
+</div>
+<span class='anchor' id='person'></span>
+
+<script>
+(function() {
+  function setExpScrollWindowHeight() {
+    var container = document.querySelector('.experiences .scroll-window');
+    if (!container) return;
+    var firstLi = container.querySelector('.exp-list > li');
+    if (!firstLi) return; // fallback to CSS default max-height
+    var rowRect = firstLi.getBoundingClientRect();
+    var liStyle = window.getComputedStyle(firstLi);
+    var marginTop = parseFloat(liStyle.marginTop) || 0;
+    var marginBottom = parseFloat(liStyle.marginBottom) || 0;
+    var perItem = rowRect.height + (marginTop + marginBottom);
+    var target = perItem * 3; // show ~3 items
+    container.style.maxHeight = target + 'px';
+  }
+  function onReady(fn) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn, { once: true });
+    } else { fn(); }
+  }
+  onReady(setExpScrollWindowHeight);
+  var resizeTimeout;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(setExpScrollWindowHeight, 150);
+  });
+})();
+</script>
+
+
+<!-- <div style="display: flex; justify-content: center;">
   <div style="text-align: center;">
     <img src="./images/internship/bigai.png" alt="BIGAI" style="width: 200px; height: 60px;">
   </div>
-</div>
+</div> -->
 
 
+<!-- # 📖 Educations
+- **2024.06 - now**, <img src='./images/ustc.png' style='width: 2em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
+
+- **2020.09 - 2024.06**, **Sichuan Agricultural University (SICAU), graduate student**. I am studying for a degree in Information and Computational Science at the college of science in SICAU. -->
 
 
+<span class='anchor' id='educations'></span>
+# 📖 Educations
+
+<style>
+.edu-list { list-style: none; margin: 0; padding: 0; }
+.edu-item { 
+  background: #fff; border: 1px solid #eee; border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
+  display: flex; gap: 16px; align-items: center; max-width: 900px; margin: 10px auto;
+}
+.edu-text { flex: 1 1 auto; font-family: "Times New Roman", Times, serif; }
+.edu-title { font-weight: 700; margin: 0 0 6px; }
+.edu-sub { color: #555; margin: 0 0 6px; }
+.edu-time { color: #777; font-size: 0.95em; }
+.edu-img { flex: 0 0 200px; max-width: 200px; }
+.edu-img img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); }
+@media (max-width: 640px) { .edu-item { flex-direction: column; } .edu-img { max-width: 100%; flex-basis: auto; } }
+</style>
+
+<ul class="edu-list">
+  <li class="edu-item">
+    <div class="edu-text">
+      <p class="edu-title">Doctor of Philosophy (Ph.D)</p>
+      <p class="edu-sub">University of Science and Technology of China (USTC)</p>
+      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+        <li>Key universities under the "985 Project"</li>
+        <li>Advisor: Bin Li</li>
+        <li>Major: Information and Communication Engineering</li>
+      </ul>
+      <p class="edu-time">2024.09 - now</p>
+    </div>
+    <div class="edu-img"><img src="images\ustc.png" alt="NUS"></div>
+  </li>
+  <li class="edu-item">
+    <div class="edu-text">
+      <p class="edu-title">Undergraduate</p>
+      <p class="edu-sub">Sichuan Agricultural University (SICAU)</p>
+      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+        <li>Key universities under the "211 Project"</li>
+        <li>Major: Information and Computational Science, Rank: 4/152 (2.6%)</li>
+        <li>Finished my undergraduate in, SICAU, while the degree is offered by college of science in SICAU.</li>
+      </ul>
+      <p class="edu-time">2020.09 - 2024.06</p>
+    </div>
+    <div class="edu-img"><img src="images\sicau.png" alt="CUHK(SZ)"></div>
+  </li>
+</ul>
 
 
 <html lang="en">
