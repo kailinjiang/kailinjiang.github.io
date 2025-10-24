@@ -317,7 +317,7 @@ html[data-theme="dark"] .exp-img img,
 .edu-sub { color: #555; margin: 0 0 6px; }
 .edu-time { color: #777; font-size: 0.95em; }
 .edu-img { flex: 0 0 200px; max-width: 200px; }
-.edu-img img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); }
+.edu-img img { width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); }
 @media (max-width: 640px) { .edu-item { flex-direction: column; } .edu-img { max-width: 100%; flex-basis: auto; } }
 </style>
 
@@ -371,7 +371,7 @@ html[data-theme="dark"] .edu-img img,
       </ul>
       <p class="edu-time">2024.09 - now</p>
     </div>
-    <div class="edu-img"><img src="images\ustc.png" alt="NUS"></div>
+    <div class="edu-img"><img src="images\ustc.png" alt="USTC"></div>
   </li>
   <li class="edu-item">
     <div class="edu-text">
@@ -384,7 +384,7 @@ html[data-theme="dark"] .edu-img img,
       </ul>
       <p class="edu-time">2020.09 - 2024.06</p>
     </div>
-    <div class="edu-img"><img src="images\sicau.png" alt="CUHK(SZ)"></div>
+    <div class="edu-img"><img src="images\sicau.png" alt="SICAU"></div>
   </li>
 </ul>
 </div>
