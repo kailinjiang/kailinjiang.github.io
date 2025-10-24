@@ -1,0 +1,19 @@
+main:
+  - title: "MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge"
+    authors: "Yuntao Du*, <strong>Kailin Jiang*</strong>, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li.【2024.10】"
+    conference_short: ICLR 2025
+    conference: The Thirteenth International Conference on Learning Representations
+    image: "images/paper_overview/MMKE-Bench.png"
+    paper: "https://arxiv.org/pdf/2502.19870"
+    code: "https://github.com/MMKE-Bench-ICLR/MMKE-Bench"
+    website: "https://mmke-bench-iclr.github.io/"
+
+
+  - title: "In-Context Editing: Learning Knowledge from Self-Induced Distributions"
+    authors: "Siyuan Qi*, Bangcheng Yang*, <strong>Kailin Jiang*</strong>, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng.【2024.06】"
+    conference_short: ICLR 2025
+    conference: The Thirteenth International Conference on Learning Representations
+    image: "images/paper_overview/in-context-editing.png"
+    paper: "https://arxiv.org/pdf/2406.11194"
+    code: "https://github.com/bigai-ai/ICE"
+
