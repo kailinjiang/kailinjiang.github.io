@@ -692,6 +692,27 @@ html[data-theme="dark"] .edu-img img,
 </div>
 </div>
 
+---
+<span class='anchor' id='activities'></span>
+# 🎈 Participating Activities
+
+
+
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" width="100%" style="display: block; margin-bottom: 10px;">
+    <p style="font-size: 0.9em; color: #666; margin: 0;">机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src='images\activities\Tencent_xuanwu_lab.jpg' alt="sym" width="100%" style="display: block; margin-bottom: 10px;">
+    <p style="font-size: 0.9em; color: #666; margin: 0;">腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src='images\activities\pku_IAI.jpg' alt="sym" width="100%" style="display: block; margin-bottom: 10px;">
+    <p style="font-size: 0.9em; color: #666; margin: 0;">北京大学-人工智能学院 AI Tech Day·2025 (北京,2025.10.25)</p>
+  </div>
+</div>
+
 <br><br>
 
 <html lang="en">
