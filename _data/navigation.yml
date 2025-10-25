@@ -15,7 +15,8 @@ main:
   - title: "Preprints"
     url: "/#preprints"
 
-
+  - title: "Participating Activities"
+    url: "/#activities"
 
   - title: "Peer Review"
     url: "/#-peer-review"
