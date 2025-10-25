@@ -697,6 +697,7 @@ html[data-theme="dark"] .edu-img img,
 # 🎈 Participating Activities
 
 
+I'm currently on this wild weight loss rollercoaster! It's definitely a challenge, full of stops and starts and all the crazy ups and downs. I'm hoping to use this journey as a way to capture **a snapshot of every 'me'** that shows up in all these different stages.
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 1; text-align: center;">
@@ -712,6 +713,12 @@ html[data-theme="dark"] .edu-img img,
     <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
   </div>
 </div>
+
+<br>
+
+If you want to learn more about my past, you can refer to the following **WeChat posts**:
+
+[![tong](https://img.shields.io/badge/四川农业大学-BDAS实验室-purple?logo=wechat)](https://mp.weixin.qq.com/s/k-sSMWwTlVIx8O_DDMsDYg) [![tong](https://img.shields.io/badge/四川农业大学-学生年度人物-purple?logo=wechat)](https://mp.weixin.qq.com/s/ioNpnR2P3y4-3a1n_9uFtg) [![tong](https://img.shields.io/badge/微观川农-青年五四标兵-brightgreen?logo=wechat)](https://mp.weixin.qq.com/s/trqIt2cA1H8VQ7uYV6zDmA) [![tong](https://img.shields.io/badge/微观川农-创新创业典型-brightgreen?logo=wechat)](https://mp.weixin.qq.com/s/C7FXlAawwuPaA81mYozM0Q) [![tong](https://img.shields.io/badge/四川农业大学信息工程学院-数学建模国赛国一-red?logo=wechat)](https://mp.weixin.qq.com/s/Cq56JLR8370a7yp1YExsqQ) [![tong](https://img.shields.io/badge/四川农业大学理学院-推免推文-blue?logo=wechat)](https://mp.weixin.qq.com/s/_sFVEG6V5D_y_xoN0cUHQw)  [![tong](https://img.shields.io/badge/北京通用人工智能研究院-通智少年-green?logo=wechat)](https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w) [![tong](https://img.shields.io/badge/通智天下-通智少年-yellow?logo=wechat)](https://mp.weixin.qq.com/s/vOuX9rQzjxzjv7ASeMlGnw) [![tong](https://img.shields.io/badge/中国大学生网-推免推文-orange?logo=wechat)](https://mp.weixin.qq.com/s/5bR7ilD4C7lCF2HiIcBMnA) [![tong](https://img.shields.io/badge/生之韵律-推免推文-inactive?logo=wechat)](https://mp.weixin.qq.com/s/O0TdhbqKT6HJraDKFXNmjA)
 
 <br><br>
 
