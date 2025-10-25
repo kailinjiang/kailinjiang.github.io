@@ -709,7 +709,7 @@ html[data-theme="dark"] .edu-img img,
   </div>
   <div style="flex: 1; text-align: center;">
     <img src='images\activities\pku_IAI.jpg' alt="sym" width="100%" style="display: block; margin-bottom: 10px;">
-    <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">北京大学-人工智能学院 AI Tech Day·2025 (北京,2025.10.25)</p>
+    <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
   </div>
 </div>
 
