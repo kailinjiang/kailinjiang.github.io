@@ -15,8 +15,7 @@ main:
   # - title: "Preprints"
   #   url: "/#preprints"
 
-  - title: "Participating Activities"
-    url: "/#activities"
+
 
   - title: "Peer Review"
     url: "/#-peer-review"
@@ -31,14 +30,19 @@ main:
   #   url: "/#-projects"
 
 
+  - title: "Internships"
+    url: "/#-internships"
+
   - title: "Educations"
     url: "/#-educations"
+
+
+  - title: "Participating Activities"
+    url: "/#activities"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
 
-  - title: "Internships"
-    url: "/#-internships"
   
   # - title: "Teaching"
   #   url: "/#-teaching"
