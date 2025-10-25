@@ -9,11 +9,11 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Conference papers"
-    url: "/#conference-papers"
+  # - title: "Conference papers"
+  #   url: "/#conference-papers"
 
-  - title: "Preprints"
-    url: "/#preprints"
+  # - title: "Preprints"
+  #   url: "/#preprints"
 
   - title: "Participating Activities"
     url: "/#activities"
