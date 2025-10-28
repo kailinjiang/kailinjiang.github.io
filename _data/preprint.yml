@@ -18,7 +18,7 @@ main:
     website: "https://mllmkcbench.github.io/"
 
   - title: "MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models"
-    authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu, Yuntao Du*.【2025.5】"
+    authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuntao Du*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu.【2025.5】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/MINED.png"
