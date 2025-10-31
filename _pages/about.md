@@ -19,7 +19,7 @@ I am currently working on knowledge editing, knowledge injection, multimodal lea
 
 My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
-
+![](https://raw.githubusercontent.com/kailinjiang/kailinjiang/output/github-contribution-grid-snake.svg)
 
 
 
