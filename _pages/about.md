@@ -19,7 +19,7 @@ I am currently working on knowledge editing, knowledge injection, multimodal lea
 
 My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
-![](https://raw.githubusercontent.com/kailinjiang/kailinjiang/output/github-contribution-grid-snake.svg)
+
 
 
 
@@ -109,6 +109,11 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='conference-papers'></span>
+<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
+  <span>Conference papers</span>
+  <span style="color: #8B4513; font-weight: bold; margin-left: 12px;">{{ site.data.conference.main.size }}</span>
+</h2>
+
 ## Conference papers
 
 <style>
@@ -276,6 +281,11 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='preprints'></span>
+<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
+  <span>Preprints</span>
+  <span style="color: #8B4513; font-weight: bold; margin-left: 12px;">{{ site.data.preprint.main.size }}</span>
+</h2>
+
 ## Preprints
 
 <style>
