@@ -1,12 +1,21 @@
 main:
   - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints"
-    authors: "<strong>Kailin Jiang</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
+    authors: "<strong>Kailin Jiang*</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/KORE.png"
     paper: "https://arxiv.org/pdf/2510.19316"
     code: "https://github.com/KORE-LMM/KORE"
     website: "https://kore-lmm.github.io/"
+
+  - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
+    authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, <strong>Kailin Jiang*</strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
+    conference_short: Preprint
+    conference: Preprint
+    image: "images/paper_overview/UniPruneBench.png"
+    paper: "https://arxiv.org/abs/2511.02650"
+    code: "https://github.com/TianfanPeng/VLMUniPruneBench"
+    website: "https://uniprunebench-lmm.github.io/"
 
   - title: "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models"
     authors: "Yifan Jia*, <strong>Kailin Jiang*</strong>, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】"
@@ -18,12 +27,11 @@ main:
     website: "https://mllmkcbench.github.io/"
 
   - title: "MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models"
-    authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuntao Du*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu.【2025.5】"
+    authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu, Yuntao Du*.【2025.5】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/MINED.png"
     paper: "https://arxiv.org/pdf/2510.19457"
-    code: "https://github.com/MINED-LMM/MINED"
     website: "https://mined-lmm.github.io/"
 
 
