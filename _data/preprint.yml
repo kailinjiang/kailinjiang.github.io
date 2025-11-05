@@ -12,7 +12,7 @@ main:
     authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, <strong>Kailin Jiang</strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
     conference_short: Preprint
     conference: Preprint
-    image: "images/paper_overview/UniPruneBench2.png"
+    image: "images/paper_overview/UniPruneBench3.png"
     paper: "https://arxiv.org/abs/2511.02650"
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
     website: "https://uniprunebench-lmm.github.io/"
