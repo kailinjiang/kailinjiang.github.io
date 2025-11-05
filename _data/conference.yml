@@ -1,7 +1,7 @@
 main:
   - title: "MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge"
     authors: "Yuntao Du*, <strong>Kailin Jiang*</strong>, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li.【2024.10】"
-    conference_short: ICLR 2025
+    conference_short: ICLR 2025 & ICLR 2025 Workshop SSI-FM
     conference: The Thirteenth International Conference on Learning Representations
     image: "images/paper_overview/MMKE-Bench.png"
     paper: "https://arxiv.org/pdf/2502.19870"
