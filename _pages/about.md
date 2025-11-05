@@ -109,12 +109,12 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='conference-papers'></span>
-<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
+<h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
   <span>Conference papers</span>
-  <span style="color: #8B4513; font-weight: bold; margin-left: 12px;">{{ site.data.conference.main.size }}</span>
+  <span style="color: #8B4513; font-weight: bold; margin-left: 0.6em;">{{ site.data.conference.main.size }}</span>
 </h2>
 
-## Conference papers
+<!-- ## Conference papers -->
 
 <style>
 /* Conference papers section styles (scoped) */
@@ -281,12 +281,12 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='preprints'></span>
-<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
+<h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
   <span>Preprints</span>
-  <span style="color: #8B4513; font-weight: bold; margin-left: 12px;">{{ site.data.preprint.main.size }}</span>
+  <span style="color: #8B4513; font-weight: bold; margin-left: 0.6em;">{{ site.data.preprint.main.size }}</span>
 </h2>
-
-## Preprints
+<!-- 
+## Preprints -->
 
 <style>
 /* Section title with blue accent bar */
