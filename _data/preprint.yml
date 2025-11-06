@@ -1,6 +1,6 @@
 main:
   - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints"
-    authors: "<strong>Kailin Jiang*</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
+    authors: "<strong>Kailin Jiang</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/KORE.png"
@@ -10,7 +10,7 @@ main:
     website: "https://kore-lmm.github.io/"
 
   - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
-    authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, <strong>Kailin Jiang*</strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
+    authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, <strong>Kailin Jiang</strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/UniPruneBench.png"
