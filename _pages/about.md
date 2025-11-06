@@ -109,9 +109,25 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='conference-papers'></span>
-<h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333;">
-  <span>Conference papers</span>
-  <span style="color: #8B4513; font-weight: bold; margin-left: 0.6em;">{{ site.data.conference.main.size }}</span>
+<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
+  <span style="display: flex; align-items: center;">
+    <span>Conference papers</span>
+    <span style="color: #8B4513; font-weight: bold; margin-left: 0.6em;">{{ site.data.conference.main.size }}</span>
+  </span>
+  <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal;">
+    <span style="white-space: nowrap;">If you find our work interesting, please help us by</span>
+    <span style="display: inline-flex; align-items: center; color: #FFD21E;">
+      <span style="font-size: 16px;">🤗</span>
+      <span style="margin-left: 2px;">Upvoting</span>
+    </span>
+    <span>and</span>
+    <span style="display: inline-flex; align-items: center; color: #24292e;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 4px;">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 6.27c1.02 0 2.04.138 3 .404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+      </svg>
+      <span>Starring!</span>
+    </span>
+  </span>
 </h2>
 
 <!-- ## Conference papers -->
@@ -217,20 +233,23 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
     <div class="links">
-      {% if link.paper %}
-        <a href="{{ link.paper }}" class="pub-button paper" role="button" target="_blank">Paper</a>
+      {% if link.arxiv %}
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
       {% endif %}
-      {% if link.dataset %}
-        <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
-      {% endif %}
-      {% if link.model %}
-        <a href="{{ link.model }}" class="pub-button model" role="button" target="_blank">Model</a>
+      {% if link.huggingface_paper %}
+        <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
       {% endif %}
       {% if link.code %}
         <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
       {% endif %}
       {% if link.website %}
         <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% endif %}
+      {% if link.dataset %}
+        <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
+      {% endif %}
+      {% if link.model %}
+        <a href="{{ link.model }}" class="pub-button model" role="button" target="_blank">Model</a>
       {% endif %}
       {% if link.poster %}
         <a href="{{ link.poster }}" class="pub-button poster" role="button" target="_blank">Poster</a>
@@ -390,14 +409,23 @@ h2 {
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.paper | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
     <div class="links">
-      <a href="{{ link.paper | default: '/404.html' }}" class="pub-button paper" role="button" target="_blank">Paper</a>
-      <a href="{{ link.code | default: '/404.html' }}" class="pub-button code" role="button" target="_blank">Code</a>
-      <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% if link.arxiv %}
+        <a href="{{ link.arxiv | default: '/404.html' }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
+      {% endif %}
+      {% if link.huggingface_paper %}
+        <a href="{{ link.huggingface_paper | default: '/404.html' }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
+      {% endif %}
+      {% if link.code %}
+        <a href="{{ link.code | default: '/404.html' }}" class="pub-button code" role="button" target="_blank">Code</a>
+      {% endif %}
+      {% if link.website %}
+        <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% endif %}
       {% if link.github_folks %} 
       <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub forks" align="right" src="https://img.shields.io/github/forks/{{ link.github_folks }}?style=social"></a>
       {% endif %}
