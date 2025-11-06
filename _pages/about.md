@@ -116,7 +116,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
   </span>
   <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal; margin-left: 1.25em;">
     <span style="white-space: nowrap;">If you find our work interesting, please help us by</span>
-    <span style="display: inline-flex; align-items: center; color: #FFD21E;">
+    <span style="display: inline-flex; align-items: center; color: #FFA500;">
       <span style="font-size: 16px;">🤗</span>
       <span style="margin-left: 2px;">Upvoting</span>
     </span>
@@ -307,7 +307,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
   </span>
   <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal; margin-left: 1.25em;">
     <span style="white-space: nowrap;">If you find our work interesting, please help us by</span>
-    <span style="display: inline-flex; align-items: center; color: #FFD21E;">
+    <span style="display: inline-flex; align-items: center; color: #FFA500;">
       <span style="font-size: 16px;">🤗</span>
       <span style="margin-left: 2px;">Upvoting</span>
     </span>
