@@ -109,12 +109,12 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='conference-papers'></span>
-<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
+<h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
   <span style="display: flex; align-items: center;">
     <span>Conference papers</span>
     <span style="color: #8B4513; font-weight: bold; margin-left: 0.6em;">{{ site.data.conference.main.size }}</span>
   </span>
-  <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal;">
+  <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal; margin-left: 1.25em;">
     <span style="white-space: nowrap;">If you find our work interesting, please help us by</span>
     <span style="display: inline-flex; align-items: center; color: #FFD21E;">
       <span style="font-size: 16px;">🤗</span>
@@ -300,12 +300,12 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <span class='anchor' id='preprints'></span>
-<h2 style="display: flex; align-items: center; justify-content: space-between; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
+<h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
   <span style="display: flex; align-items: center;">
     <span>Preprints</span>
     <span style="color: #8B4513; font-weight: bold; margin-left: 0.6em;">{{ site.data.preprint.main.size }}</span>
   </span>
-  <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal;">
+  <span style="display: flex; align-items: center; gap: 6px; font-size: 0.85em; color: #666; font-weight: normal; margin-left: 1.25em;">
     <span style="white-space: nowrap;">If you find our work interesting, please help us by</span>
     <span style="display: inline-flex; align-items: center; color: #FFD21E;">
       <span style="font-size: 16px;">🤗</span>
