@@ -36,6 +36,7 @@ main:
     image: "images/paper_overview/MINED.png"
     arxiv: "https://arxiv.org/pdf/2510.19457"
     huggingface_paper: "https://huggingface.co/papers/2510.19457"
+    code: "https://github.com/MINED-LMM/MINED"
     website: "https://mined-lmm.github.io/"
 
 
