@@ -15,7 +15,7 @@ redirect_from:
 
 </div>
 
-<div align="center">
+
 
 <span class='anchor' id='about-me'></span>
 # 😊 About me
