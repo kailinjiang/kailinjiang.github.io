@@ -33,7 +33,12 @@ I am currently working on knowledge editing, knowledge injection, multimodal lea
 <!-- My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang). -->
 
 
-![](https://raw.githubusercontent.com/kailinjiang/kailinjiang/output/github-contribution-grid-snake.svg)
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/kailinjiang/kailinjiang/output/github-contribution-grid-snake.svg" 
+    alt="github-contribution-grid-snake"
+  >
+</div>
 
 
 # 🔥 News
