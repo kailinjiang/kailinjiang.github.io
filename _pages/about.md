@@ -170,9 +170,10 @@ I am currently working on knowledge editing, knowledge injection, multimodal lea
   left: -8px;
   background: #e74d3c;
   color: #fff;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 6px;
   font-weight: 700;
+  font-size: 0.95rem;
 }
 .conference .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .conference .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
@@ -370,9 +371,10 @@ h2 {
   left: -8px;
   background: #e74d3c;
   color: #fff;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 6px;
   font-weight: 700;
+  font-size: 0.95rem;
 }
 .preprint .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .preprint .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
