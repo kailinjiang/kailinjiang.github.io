@@ -1,4 +1,14 @@
 main:
+  - title: "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models"
+    authors: "Yifan Jia*, <strong>Kailin Jiang*</strong>, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】"
+    conference_short: AAAI 2026 Oral
+    conference: The Fortieth AAAI Conference on Artificial Intelligence
+    image: "images/paper_overview/MMKC.png"
+    arxiv: "https://arxiv.org/pdf/2505.19509"
+    huggingface_paper: "https://huggingface.co/papers/2505.19509"
+    code: "https://github.com/MLLMKCBENCH/MLLMKC"
+    website: "https://mllmkcbench.github.io/"
+
   - title: "MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge"
     authors: "Yuntao Du*, <strong>Kailin Jiang*</strong>, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li.【2024.10】"
     conference_short: ICLR 2025 & ICLR 2025 Workshop SSI-FM
