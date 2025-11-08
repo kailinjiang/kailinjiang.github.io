@@ -506,8 +506,9 @@ As these works are patented in China, all these names are directly translated fr
 
 
 # 📰 Peer Review
-- ICLR 2025 Workshop SSI-FM Reviewer
 - ICLR 2026 Reviewer
+- ICLR 2025 Workshop SSI-FM Reviewer
+
 
 # 🎖 Honors and Awards
 - **2022.12** Typical Innovation and Entrepreneurship Models of Sichuan Agricultural University (10 students).
