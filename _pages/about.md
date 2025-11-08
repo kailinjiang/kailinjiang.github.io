@@ -30,7 +30,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 <!-- I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">  -->
 
 
-I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
+I am currently working on knowledge editing/injection, multimodal continual learning, VLM evaluation, <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
 
