@@ -19,16 +19,6 @@ main:
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
     website: "https://uniprunebench-lmm.github.io/"
 
-  - title: "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models"
-    authors: "Yifan Jia*, <strong>Kailin Jiang*</strong>, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】"
-    conference_short: Preprint
-    conference: Preprint
-    image: "images/paper_overview/MMKC.png"
-    arxiv: "https://arxiv.org/pdf/2505.19509"
-    huggingface_paper: "https://huggingface.co/papers/2505.19509"
-    code: "https://github.com/MLLMKCBENCH/MLLMKC"
-    website: "https://mllmkcbench.github.io/"
-
   - title: "MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models"
     authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu, Yuntao Du*.【2025.5】"
     conference_short: Preprint
