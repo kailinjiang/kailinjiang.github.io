@@ -37,8 +37,8 @@ main:
     url: "/#-educations"
 
 
-  - title: "Participating Activities"
-    url: "/#activities"
+  # - title: "Participating Activities"
+  #   url: "/#activities"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
