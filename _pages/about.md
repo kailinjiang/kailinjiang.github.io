@@ -91,7 +91,7 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
     </div>
     <div class="activities-item">
       <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>BDAS实验室 (四川雅安,2022.06)</p>
+      <p>BDAS Lab (四川雅安,2022.06)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\shumo.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
