@@ -15,37 +15,26 @@ main:
   # - title: "Preprints"
   #   url: "/#preprints"
 
+  # - title: "Invention Patents"
+  #   url: "/#invention-patents"
 
+  - title: "Honors"
+    url: "/#honors"
+
+  - title: "Competitions"
+    url: "/#competitions"
+
+  - title: "Funding"
+    url: "/#funding"
 
   - title: "Peer Review"
-    url: "/#-peer-review"
-
-
-    
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  # - title: "Projects"
-  #   url: "/#-projects"
-
+    url: "/#peer-review"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"
 
   - title: "Educations"
-    url: "/#-educations"
-
+    url: "/#educations"
 
   # - title: "Participating Activities"
   #   url: "/#activities"
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  
-  # - title: "Teaching"
-  #   url: "/#-teaching"
-
-  # - title: "Interesting Things"
-  #   url: "/#-interesting-things"
