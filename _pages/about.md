@@ -67,19 +67,19 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
     </div>
     <div class="activities-item">
       <img src='images\activities\Tencent_xuanwu_lab.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
-    </div>
-      <div class="activities-item">
-      <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
+      <p>腾讯安全技术开放日 玄武实验室 (北京,2025.09.10)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\ml.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
       <p>BIGAI ML Lab团建 (北京,2025.06.13)</p>
     </div>
     <div class="activities-item">
+      <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p>机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
+    </div>
+    <div class="activities-item">
       <img src='images\activities\lainhuashan.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>莲花山研究院-二十周年研讨会 (湖北鄂州,2024.07.23)</p>
+      <p>莲花山研究院 二十周年研讨会 (湖北鄂州,2024.07.23)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\mas1.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
@@ -91,7 +91,7 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
     </div>
     <div class="activities-item">
       <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>BDAS实验室合照 (四川雅安,2022.06)</p>
+      <p>BDAS实验室 (四川雅安,2022.06)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\shumo.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
