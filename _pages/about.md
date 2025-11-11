@@ -509,6 +509,8 @@ h2 {
 </div>
 </div>
 
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
 <script>
 (function() {
   function setScrollWindowHeight() {
@@ -540,27 +542,102 @@ h2 {
 </script>
 
 
+<span class='anchor' id='invention-patents'></span>
 ## Invention Patents
 As these works are patented in China, all these names are directly translated from Chinese.
-- **<a href="https://www.patentguru.com/cn/search?q=%E4%B8%80%E7%A7%8D%E5%A4%9A%E6%A8%A1%E6%80%81%E8%BF%9B%E5%8C%96%E7%9F%A5%E8%AF%86%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95%E5%92%8C%E7%B3%BB%E7%BB%9F" target="_blank">A multimodal evolving knowledge injection method and system</a>** (Public)
-  
-   Inventor: **<u>Kailin Jiang</u>**, Yukai Ding, Zhi Gao, Zilong Zheng, Qing Li
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><strong><a href="https://www.patentguru.com/cn/search?q=%E4%B8%80%E7%A7%8D%E5%A4%9A%E6%A8%A1%E6%80%81%E8%BF%9B%E5%8C%96%E7%9F%A5%E8%AF%86%E6%B3%A8%E5%85%A5%E6%96%B9%E6%B3%95%E5%92%8C%E7%B3%BB%E7%BB%9F" target="_blank">A multimodal evolving knowledge injection method and system</a></strong> (Public, 2025-07-01)<br>
+		   Inventor: <strong><u>Kailin Jiang</u></strong>, Yukai Ding, Zhi Gao, Zilong Zheng, Qing Li</li>
+		<li><strong><a href="https://www.patentguru.com/cn/search?q=%E4%B8%80%E7%A7%8D%E6%9C%89%E6%95%88%E7%9A%84%E6%B5%B7%E6%B4%8B%E5%93%BA%E4%B9%B3%E5%8A%A8%E7%89%A9%E5%A3%B0%E9%9F%B3%E8%87%AA%E5%8A%A8%E6%A3%80%E6%B5%8B%E5%92%8C%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95" target="_blank">An effective method for automatic detection and classification of sounds in marine mammals</a></strong> (Granted, 2023-04-07)<br>
+		   Inventor: Danyang Li, Jun Li, <strong><u>Kailin Jiang</u></strong>, Xingze Zheng, Jiao Li, Yang Ming, Lincheng Li, Tianyu Xie</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div> 
+
+
+<span class='anchor' id='honors'></span>
+# 🏅 Honors
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><strong>2022.12</strong> Typical Innovation and Entrepreneurship Models of SICAU (<strong>10 school-wide slots available, CNY 1,000.00</strong>).</li>
+		<li><i>2022.11</i>: <a href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%94%B5%E4%BF%A1%E5%A5%96%E5%AD%A6%E9%87%91/17274030">China Telecom Scholarship · Fly Young Award.</a> (<strong>CNY 5,000.00</strong>)</li>
+		<li><strong>2022.04</strong> Youth May Fourth Model of SICAU (<strong>10 school-wide slots available</strong>).</li>
+    <li><strong>2022.04</strong> The Star of Science and Technology Innovation at SICAU (<strong>10 school-wide slots available, CNY 1,000.00</strong>).</li>
+    <li><i>2021.12</i>: <a href="https://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E7%9C%81%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BB%BC%E5%90%88%E7%B4%A0%E8%B4%A8%E2%80%9CA%E7%BA%A7%E8%AF%81%E4%B9%A6%E2%80%9D/6140909">A-level Certificate of Comprehensive Quality for College Students in Sichuan Province.</a></li>
+
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div> 
+
+
+<span class='anchor' id='competitions'></span>
+# 🏇🏻 Competitions
+
+## International & National Prizes
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+    <li><i>2023.12</i>: <a href="https://www.tiaozhanbei.net/">Challenge Cup National College Students' Extracurricular Academic and Technological Works Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)[育鸭有道]</li>
+    <li><i>2023.04</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)[慧眼识鱼]</li>
+    <li><i>2023.04</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)[育鸭有道]</li>
+   <li><i>2023.03</i>: <a href="https://www.tiaozhanbei.net/">Challenge Cup Chinese College Student Entrepreneurship Plan Competition</a> (<strong>National Third Prize</strong>, <strong>Project Founder</strong>)[掌上明'猪']</li>
+    <li><i>2021.11</i>: <a href="https://cy.ncss.cn/">China International College Students' Innovation Competition</a> (<strong>National Third Prize</strong>, <strong>Key Member</strong>)[慧眼识鱼]</li>
+    <li><i>2021.11</i>: <a href="https://www.mcm.edu.cn/">National College Student Mathematical Modeling Competition</a> (<strong>National First Prize</strong>, <strong>Team Leader</strong>, <strong>Top 0.59%</strong>,<strong>Top 0.59%</strong>)[<a href="https://news.sicau.edu.cn/info/1078/65449.htm" target="_blank">Breaking a 30 Year School Record: Sophomore Captain, National 1st Prize, First Attempt.</a>]</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
+
+## Regional & Provincial Prizes
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+    <li><i>2024.08</i>: <a href="https://www.ahyouth.org.cn/base/web/webNew/info_view.jsp?strId=1719192239598658">Anhui Province College Student Entrepreneurship Plan Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Key Member</strong>>)[掌上明'猪']</li>
+    <li><i>2024.08</i>: <a href="https://jyt.ah.gov.cn/tsdw/gdjyc/tzgg/40616612.html">Anhui College Students Internet+Innovation and Entrepreneurship Competition</a> (<strong>Provincial Third Prize</strong>, <strong>Key Member</strong>>)[灵犀]</li>
+    <li><i>2023.12</i>: <a href="https://edu.sc.gov.cn/scedu/cjhfwjk/2023/12/27/85907c561d6a451e86e38dfcdb323f4f.shtml">Sichuan International College Student Innovation Competition</a> (<strong>Provincial First Prize</strong>, <strong>Key Member</strong>>)[慧猪帮]</li>
+		<li><i>2023.05</i>: <a href="https://baike.baidu.com/item/%E2%80%9C%E6%8C%91%E6%88%98%E6%9D%AF%E2%80%9D%E5%9B%9B%E5%B7%9D%E7%9C%81%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AF%BE%E5%A4%96%E5%AD%A6%E6%9C%AF%E7%A7%91%E6%8A%80%E4%BD%9C%E5%93%81%E7%AB%9E%E8%B5%9B/657246740">Challenge Cup Sichuan Province College Students' Extracurricular Academic and Technological Works Competition</a> (<strong>Provincial Special Prize</strong>, <strong>Key Member</strong>, <strong>First place in the province's science and technology works competition</strong>)[育鸭有道]</li>
+    <li><i>2023.05</i>: <a href="https://baike.baidu.com/item/%E2%80%9C%E6%8C%91%E6%88%98%E6%9D%AF%E2%80%9D%E5%9B%9B%E5%B7%9D%E7%9C%81%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AF%BE%E5%A4%96%E5%AD%A6%E6%9C%AF%E7%A7%91%E6%8A%80%E4%BD%9C%E5%93%81%E7%AB%9E%E8%B5%9B/657246740">Challenge Cup Sichuan Province College Students' Extracurricular Academic and Technological Works Competition</a> (<strong>Provincial Third Prize</strong>, <strong>Key Member</strong>)[世说新渔]</li>
+    <li><i>2022.11</i>: <a href="https://edu.sc.gov.cn/scedu/cjhfwjk/2023/12/27/85907c561d6a451e86e38dfcdb323f4f.shtml">Sichuan International College Student Innovation Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Project Leader</strong>>)[掌上明'猪']</li>
+    <li><i>2022.11</i>: <a href="https://edu.sc.gov.cn/scedu/cjhfwjk/2023/12/27/85907c561d6a451e86e38dfcdb323f4f.shtml">Sichuan International College Student Innovation Competition</a> (<strong>Provincial First Prize</strong>, <strong>Key Member</strong>>)[育鸭有道]</li>
+    <li><i>2022.06</i>: <a href="https://www.tiaozhanbei.net/">Challenge Cup Sichuan Province College Student Entrepreneurship Plan Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Key Member</strong>>)[慧眼识鱼]</li>
+    <li><i>2021.12</i>: <a href="https://edu.sc.gov.cn/scedu/cjhfwjk/2023/12/27/85907c561d6a451e86e38dfcdb323f4f.shtml">Sichuan International College Student Innovation Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Project Leader</strong>>)[慧眼识鱼]</li>
+    <li><i>2022.11</i>: <a href="https://www.mcm.edu.cn/">National College Student Mathematical Modeling Competition</a> (<strong>Provincial First Prize</strong>, <strong>Team Leader</strong>)</li>
+    <li><i>2021.07</i>: <a href="https://baike.baidu.com/item/%E2%80%9C%E6%8C%91%E6%88%98%E6%9D%AF%E2%80%9D%E5%9B%9B%E5%B7%9D%E7%9C%81%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%AF%BE%E5%A4%96%E5%AD%A6%E6%9C%AF%E7%A7%91%E6%8A%80%E4%BD%9C%E5%93%81%E7%AB%9E%E8%B5%9B/657246740">Challenge Cup Sichuan Province College Students' Extracurricular Academic and Technological Works Competition</a> (<strong>Provincial Second Prize</strong>, <strong>Key Member</strong>)[慧眼识鱼]</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
 
+
+<span class='anchor' id='funding'></span>
+# 💰 Funding
+
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+    <li><strong>2024.10</strong> Open Project of State Key Laboratory of General Artificial Intelligence (<strong>Key Member, CNY 200,000.00</strong>).</li>
+		<li><strong>2022.09</strong> National Undergraduate Innovation and Entrepreneurship Training Program of China (<strong>Project Leader, CNY 10,000.00</strong>).</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div> 
+
+
+
+
+
+
+<span class='anchor' id='peer-review'></span>
 # 📰 Peer Review
-- ICLR 2026 Reviewer
-- ICLR 2025 Workshop SSI-FM Reviewer
 
-
-# 🎖 Honors and Awards
-- **2022.12** Typical Innovation and Entrepreneurship Models of Sichuan Agricultural University (10 students).
-- **2022.11** China Telecom Scholarship · Fly Young Award.
-- **2022.04** Youth May Fourth Model of Sichuan Agricultural University (10 students).
-- **2021.11** National First Prize of Undergraduate Group of National Undergraduate Mathematical Modeling Contest of Gaojiaoshe Cup,team leader. 
-
-
-
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+		<li><strong>2025.09</strong>, ICLR 2026 Reviewer</li>
+		<li><strong>2025.02</strong>, ICLR 2025 Workshop SSI-FM Reviewer</li>
+	</ul>
+</div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 
 
