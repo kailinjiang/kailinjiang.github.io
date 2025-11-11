@@ -74,6 +74,10 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
       <p>北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
     </div>
     <div class="activities-item">
+      <img src='images\activities\ml.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p>BIGAI ML Lab团建 (北京,2025.06.13)</p>
+    </div>
+    <div class="activities-item">
       <img src='images\activities\lainhuashan.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
       <p>莲花山研究院-二十周年研讨会 (湖北鄂州,2024.07.23)</p>
     </div>
@@ -84,10 +88,6 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
     <div class="activities-item">
       <img src='images\activities\tongban.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
       <p>通班大会 (北京,2024.07.06)</p>
-    </div>
-    <div class="activities-item">
-      <img src='images\activities\ml.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>BIGAI ML Lab团建 (北京,2025.06.13)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
