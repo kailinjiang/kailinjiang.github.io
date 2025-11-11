@@ -780,7 +780,7 @@ html[data-theme="dark"] .exp-img img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">Intern Researcher</p>
-      <p class="exp-sub">AState Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li><strong>Affliation: ML Lab</strong></li>
         <li><strong>Advisor: Qing Li</strong></li>
