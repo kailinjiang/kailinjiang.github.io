@@ -22,20 +22,63 @@ redirect_from:
 
 I'm currently on this wild weight loss rollercoaster! It's definitely a challenge, full of stops and starts and all the crazy ups and downs. I'm hoping to use this journey as a way to capture **a snapshot of every 'me'** that shows up in all these different stages.
 
-<div style="display: flex; justify-content: space-between; gap: 20px;">
-  <div style="flex: 1; text-align: center;">
-    <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-    <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src='images\activities\Tencent_xuanwu_lab.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-    <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src='images\activities\pku_IAI.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-    <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
+<style>
+.activities-scroll { 
+  max-height: 450px; 
+  overflow-y: auto; 
+  padding: 8px 6px; 
+  border: 1px solid #eaeaea; 
+  border-radius: 12px; 
+  background: #fff; 
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); 
+}
+.activities-scroll::-webkit-scrollbar { width: 8px; }
+.activities-scroll::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+.activities-container { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  gap: 20px; 
+}
+.activities-item { 
+  flex: 0 0 calc(33.333% - 14px); 
+  text-align: center; 
+  min-width: 0;
+}
+@media (max-width: 768px) {
+  .activities-item { flex: 0 0 100%; }
+}
+</style>
+
+<div class="activities-scroll">
+  <div class="activities-container">
+    <div class="activities-item">
+      <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
+    </div>
+    <div class="activities-item">
+      <img src='images\activities\Tencent_xuanwu_lab.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
+    </div>
+    <div class="activities-item">
+      <img src='images\activities\pku_IAI.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
+    </div>
+    <div class="activities-item">
+      <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">BDAS实验室合照 (四川雅安,2022.06)</p>
+    </div>
+    <div class="activities-item">
+      <img src='images\activities\huliwang.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">互联网+大赛 (四川成都,2021.10)</p>
+    </div>
+    <div class="activities-item">
+      <img src='images\activities\shumo.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">数模国赛答辩 (四川成都,2021.10)</p>
+    </div>
   </div>
 </div>
+<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 <br>
 
