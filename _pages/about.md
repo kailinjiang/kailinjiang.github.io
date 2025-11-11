@@ -66,12 +66,12 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
       <p>北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
     </div>
     <div class="activities-item">
-      <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
-    </div>
-    <div class="activities-item">
       <img src='images\activities\Tencent_xuanwu_lab.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
       <p>腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
+    </div>
+      <div class="activities-item">
+      <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p>机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\ml.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
