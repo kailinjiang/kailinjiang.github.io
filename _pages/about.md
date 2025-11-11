@@ -24,7 +24,7 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
 
 <style>
 .activities-scroll { 
-  max-height: 450px; 
+  max-height: 300px; 
   overflow-y: auto; 
   padding: 8px 6px; 
   border: 1px solid #eaeaea; 
@@ -38,15 +38,24 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-between; 
-  gap: 20px; 
+  gap: 15px; 
 }
 .activities-item { 
-  flex: 0 0 calc(33.333% - 14px); 
+  flex: 0 0 calc(32.5% - 10px); 
   text-align: center; 
   min-width: 0;
 }
+.activities-item p {
+  font-size: 0.88em;
+  color: #666;
+  margin: 0;
+  font-weight: bold;
+  line-height: 1.2;
+  white-space: nowrap;
+}
 @media (max-width: 768px) {
   .activities-item { flex: 0 0 100%; }
+  .activities-item p { white-space: normal; }
 }
 </style>
 
@@ -54,27 +63,27 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
   <div class="activities-container">
     <div class="activities-item">
       <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
+      <p>机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\Tencent_xuanwu_lab.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
+      <p>腾讯安全技术开放日-玄武实验室 (北京,2025.09.10)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\pku_IAI.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
+      <p>北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">BDAS实验室合照 (四川雅安,2022.06)</p>
+      <p>BDAS实验室合照 (四川雅安,2022.06)</p>
     </div>
     <div class="activities-item">
-      <img src='images\activities\huliwang.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">互联网+大赛 (四川成都,2021.10)</p>
+      <img src='images\activities\huliwang.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p>互联网+大赛 (四川成都,2021.10)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\shumo.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p style="font-size: 0.9em; color: #666; margin: 0; font-weight: bold; word-wrap: break-word; white-space: normal; line-height: 1.3;">数模国赛答辩 (四川成都,2021.10)</p>
+      <p>数模国赛答辩 (四川成都,2021.10)</p>
     </div>
   </div>
 </div>
