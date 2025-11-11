@@ -74,12 +74,12 @@ I'm currently on this wild weight loss rollercoaster! It's definitely a challeng
       <p>北京大学 AI Tech Day·2025 (北京,2025.10.25)</p>
     </div>
     <div class="activities-item">
-      <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>BDAS实验室合照 (四川雅安,2022.06)</p>
+      <img src='images\activities\tiaozhanbei.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p>挑战杯大赛 (四川成都,2023.03)</p>
     </div>
     <div class="activities-item">
-      <img src='images\activities\huliwang.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>互联网+大赛 (四川成都,2021.10)</p>
+      <img src='images\activities\bdas.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <p>BDAS实验室合照 (四川雅安,2022.06)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\shumo.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
