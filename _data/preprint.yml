@@ -19,16 +19,6 @@ main:
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
     website: "https://uniprunebench-lmm.github.io/"
 
-  - title: "MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models"
-    authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu, Yuntao Du*.【2025.5】"
-    conference_short: Preprint
-    conference: Preprint
-    image: "images/paper_overview/MINED.png"
-    arxiv: "https://arxiv.org/pdf/2510.19457"
-    huggingface_paper: "https://huggingface.co/papers/2510.19457"
-    code: "https://github.com/MINED-LMM/MINED"
-    website: "https://mined-lmm.github.io/"
-
 
   - title: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Pathways"
     authors: "<strong>Kailin Jiang*</strong>, Yuntao Du*, Yukai Ding, Yuchen Ren, Ning Jiang, Zhi Gao, Zilong Zheng, Lei Liu, Bin Li, Qing Li.【2025.3】"
