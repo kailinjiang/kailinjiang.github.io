@@ -145,6 +145,8 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
+- **2026.01**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2026**! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
+- **2026.01**: &nbsp;🎉🎉 I will serve as **Reviewer** in ICML 2026!
 - **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">AAAI 2026 as Oral Presentation</strong>! <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
 - **2025.09**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2026!
 - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
@@ -197,7 +199,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 <div style="display: flex; justify-content: center; gap: 20px;">
   <div style="display: flex; align-items: center;">
     <img src="./images/conference/ICLR.png" alt="ICLR" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×2</span>
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×3</span>
   </div>
   <div style="display: flex; align-items: center;">
     <img src="./images/conference/AAAI.png" alt="AAAI" style="width: 150px; height: 45px;">
