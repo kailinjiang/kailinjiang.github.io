@@ -706,6 +706,7 @@ As these works are patented in China, all these names are directly translated fr
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+		<li><strong>2026.01</strong> ICML 2026 Reviewer</li>
 		<li><strong>2025.09</strong> ICLR 2026 Reviewer</li>
 		<li><strong>2025.02</strong> ICLR 2025 Workshop SSI-FM Reviewer</li>
 	</ul>
