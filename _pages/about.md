@@ -781,7 +781,7 @@ html[data-theme="dark"] .exp-img img,
 <div class="scroll-window">
 <ul class="exp-list">
 
-  <li class="exp-item">
+  <!-- <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">Intern Researcher</p>
       <p class="exp-sub">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
@@ -802,6 +802,15 @@ html[data-theme="dark"] .exp-img img,
         <li><strong>Advisor: Siyuan Qi</strong></li>
       </ul>
       <p class="exp-time">2024.02 - 2024.08</p>
+    </div>
+    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
+  </li> -->
+
+  <li class="exp-item">
+    <div class="exp-text">
+      <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-sub" style="margin: 6px 0 4px 0;"><strong>Intern Researcher</strong> Affliation: ML Lab；Advisor: Qing Li；2024.08 - now</p>
+      <p class="exp-sub" style="margin: 4px 0 6px 0;"><strong>Algorithm Intern</strong> Affliation: MAS Lab；Advisor: Siyuan Qi；2024.02 - 2024.08</p>
     </div>
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li>
