@@ -18,14 +18,14 @@ main:
   # - title: "Invention Patents"
   #   url: "/#invention-patents"
 
-  - title: "Honors"
-    url: "/#honors"
+  # - title: "Honors"
+  #   url: "/#honors"
 
-  - title: "Competitions"
-    url: "/#competitions"
+  # - title: "Competitions"
+  #   url: "/#competitions"
 
-  - title: "Funding"
-    url: "/#funding"
+  # - title: "Funding"
+  #   url: "/#funding"
 
   - title: "Peer Review"
     url: "/#peer-review"
