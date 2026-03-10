@@ -20,7 +20,7 @@ redirect_from:
 
 ---
 
-I'm currently on this wild weight loss rollercoaster! It's definitely a challenge, full of stops and starts and all the crazy ups and downs. I'm hoping to use this journey as a way to capture **a snapshot of every 'me'** that shows up in all these different stages.
+
 
 <style>
 .activities-scroll { 
