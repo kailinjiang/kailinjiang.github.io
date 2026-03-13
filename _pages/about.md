@@ -107,7 +107,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 😊 About me
 
-I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://liqing.io/'>Qing Li(BIGAI, 李庆)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>, <a href='https://faculty.ustc.edu.cn/liulei13/zh_CN/index.htm'>Lei Liu (USTC, 刘磊)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing/injection, multimodal continual learning, VLM evaluation. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
+I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing/injection, multimodal continual learning, VLM evaluation. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
 <!-- I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">  -->
@@ -146,7 +146,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
 - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ICLR 2026</strong>! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
-- **2026.01**: &nbsp;🎉🎉 I will serve as **Reviewer** in ICML 2026!
+- **2026.01**: &nbsp;📣📣 I will serve as **Reviewer** in ICML 2026!
 - **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">AAAI 2026 as Oral Presentation</strong>! <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
 - **2025.09**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2026!
 - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
@@ -812,15 +812,20 @@ html[data-theme="dark"] .exp-img img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
-      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - now</p>
+      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2026.03 - now</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: ML Lab</li>
-        <li>Advisor: Qing Li</li>
+        <li>Advisor: <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
+      </ul>
+      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - 2026.03</p>
+      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+        <li>Affliation: ML Lab</li>
+        <li>Advisor: <a href="https://liqing.io/">Qing Li</a></li>
       </ul>
       <p class="exp-sub" style="margin: 12px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: MAS Lab</li>
-        <li>Advisor: Siyuan Qi</li>
+        <li>Advisor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
       </ul>
     </div>
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
