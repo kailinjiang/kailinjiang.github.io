@@ -812,15 +812,10 @@ html[data-theme="dark"] .exp-img img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
-      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2026.03 - now</p>
-      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Affliation: ML Lab</li>
-        <li>Advisor: <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
-      </ul>
       <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - 2026.03</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: ML Lab</li>
-        <li>Advisor: <a href="https://liqing.io/">Qing Li</a></li>
+        <li>Advisor: <a href="https://liqing.io/">Qing Li</a> and <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
       </ul>
       <p class="exp-sub" style="margin: 12px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
