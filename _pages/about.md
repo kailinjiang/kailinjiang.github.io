@@ -147,7 +147,6 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
-- **2026.05**: &nbsp;📣📣 I will serve as **Reviewer** in NeurIPS 2026!
 - **2026.04**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ACL 2026</strong>! <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
 - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ICLR 2026</strong>! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
 - **2026.01**: &nbsp;📣📣 I will serve as **Reviewer** in ICML 2026!
@@ -713,7 +712,6 @@ As these works are patented in China, all these names are directly translated fr
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-		<li><strong>2026.05</strong> NeurIPS 2026 Reviewer</li>
 		<li><strong>2026.01</strong> ICML 2026 Reviewer</li>
 		<li><strong>2025.09</strong> ICLR 2026 Reviewer</li>
 		<li><strong>2025.02</strong> ICLR 2025 Workshop SSI-FM Reviewer</li>
