@@ -207,8 +207,8 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+    <img src="./images/conference/ACL.png" alt="ACL" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
     <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
