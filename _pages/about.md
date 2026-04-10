@@ -782,10 +782,7 @@ As these works are patented in China, all these names are directly translated fr
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  align-items: stretch;
+  flex: 1 1 auto;
 }
 .exp-layout{
   max-width: 900px;
@@ -809,14 +806,30 @@ As these works are patented in China, all these names are directly translated fr
   margin: 0;
   height: 100%;
 }
+.exp-item .exp-text{ width: 100%; }
+.exp-roles{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+.exp-role{
+  background: transparent;
+  border: none;
+  padding: 0;
+  height: 100%;
+}
+.exp-role .exp-sub{ margin-bottom: 6px; }
+.exp-role ul{ margin: 6px 0 0 18px !important; padding: 0 !important; font-size: 0.96em !important; color: #555 !important; }
 .exp-text { flex: 1 1 auto; font-family: "Times New Roman", Times, serif; }
 .exp-title { font-weight: 700; margin: 0 0 6px; }
 .exp-sub { color: #555; margin: 0 0 6px; }
 .exp-time { color: #777; font-size: 0.95em; }
 @media (max-width: 900px) {
   .exp-layout{ flex-direction: column; }
-  .exp-list { grid-template-columns: 1fr; }
   .exp-logo{ max-width: 100%; flex-basis: auto; }
+  .exp-roles{ grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) { .exp-item { flex-direction: column; } }
 </style>
@@ -896,22 +909,22 @@ html[data-theme="dark"] .exp-logo img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
-      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - now</p>
-      <ul style="margin: 6px 0 0 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Affliation: ML Lab</li>
-        <li>Advisor: <a href="https://liqing.io/">Qing Li</a> and <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
-      </ul>
-    </div>
-  </li>
-
-  <li class="exp-item">
-    <div class="exp-text">
-      <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
-      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
-      <ul style="margin: 6px 0 0 18px; padding: 0; font-size: 0.96em; color: #555;">
-        <li>Affliation: MAS Lab</li>
-        <li>Advisor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
-      </ul>
+      <div class="exp-roles">
+        <div class="exp-role">
+          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - now</p>
+          <ul>
+            <li>Affliation: ML Lab</li>
+            <li>Advisor: <a href="https://liqing.io/">Qing Li</a> and <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
+          </ul>
+        </div>
+        <div class="exp-role">
+          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
+          <ul>
+            <li>Affliation: MAS Lab</li>
+            <li>Advisor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </li>
 
