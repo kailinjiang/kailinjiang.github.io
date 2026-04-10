@@ -299,7 +299,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 .conference .periodical { font-size: 0.96rem; }
 .conference .conference-name { color: #8B0000; font-weight: bold; }
 .conference .links a { font-size: 12px !important; }
-.conference .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: flex-start; }
+.conference .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: center; }
 .conference .links { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
 .conference .pub-button {
   font-family: "Times New Roman", Times, serif;
@@ -380,14 +380,14 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
     </div>
-    {% if link.github_repo or link.citations %}
+    {% if link.github_repo != blank or link.citations != blank %}
     <div class="pub-metrics-inline">
-      {% if link.github_repo %}
+      {% if link.github_repo != blank %}
       <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if link.citations %}
+      {% if link.citations != blank %}
       <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
         <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ link.citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
@@ -523,7 +523,7 @@ h2 {
 .preprint .author { font-size: 0.98rem; }
 .preprint .periodical { font-size: 0.96rem; }
 .preprint .links a { font-size: 12px !important; }
-.preprint .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: flex-start; }
+.preprint .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: center; }
 .preprint .links { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
 .preprint .pub-button {
   font-family: "Times New Roman", Times, serif;
@@ -598,14 +598,14 @@ h2 {
       <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
       {% endif %}
 </div>
-    {% if link.github_repo or link.citations %}
+    {% if link.github_repo != blank or link.citations != blank %}
     <div class="pub-metrics-inline">
-      {% if link.github_repo %}
+      {% if link.github_repo != blank %}
       <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if link.citations %}
+      {% if link.citations != blank %}
       <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
         <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ link.citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
