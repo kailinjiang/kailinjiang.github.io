@@ -381,16 +381,19 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
     </div>
-    {% if link.github_repo != blank or link.citations != blank %}
+    {% assign github_repo = link.github_repo | default: '' | strip %}
+    {% assign citations = link.citations | default: '' | strip %}
+    {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
+    {% if github_repo != '' or citations != '' %}
     <div class="pub-metrics-inline">
-      {% if link.github_repo != blank %}
-      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
+      {% if github_repo != '' %}
+      <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if link.citations != blank %}
-      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ link.citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
+      {% if citations != '' %}
+      <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
       {% endif %}
     </div>
@@ -593,16 +596,19 @@ h2 {
         <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
 </div>
-    {% if link.github_repo != blank or link.citations != blank %}
+    {% assign github_repo = link.github_repo | default: '' | strip %}
+    {% assign citations = link.citations | default: '' | strip %}
+    {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
+    {% if github_repo != '' or citations != '' %}
     <div class="pub-metrics-inline">
-      {% if link.github_repo != blank %}
-      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
+      {% if github_repo != '' %}
+      <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if link.citations != blank %}
-      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ link.citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
+      {% if citations != '' %}
+      <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
       {% endif %}
     </div>
