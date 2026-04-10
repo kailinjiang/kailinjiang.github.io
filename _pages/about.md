@@ -286,14 +286,13 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
   font-weight: 700;
   font-size: 0.95rem;
 }
-.conference .pub-metrics {
-  margin-top: 8px;
+.conference .pub-metrics-inline {
   display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
 }
-.conference .pub-metrics img { height: 20px; }
+.conference .pub-metrics-inline img { height: 20px; }
 .conference .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .conference .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .conference .author { font-size: 0.98rem; }
@@ -347,20 +346,6 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
-    {% if link.github_repo or link.citations %}
-    <div class="pub-metrics">
-      {% if link.github_repo %}
-      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
-      </a>
-      {% endif %}
-      {% if link.citations %}
-      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
-      </a>
-      {% endif %}
-    </div>
-    {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
@@ -379,6 +364,20 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
       {% endif %}
       {% if link.website %}
         <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% endif %}
+      {% if link.github_repo or link.citations %}
+      <div class="pub-metrics-inline">
+        {% if link.github_repo %}
+        <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
+          <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
+        </a>
+        {% endif %}
+        {% if link.citations %}
+        <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
+          <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
+        </a>
+        {% endif %}
+      </div>
       {% endif %}
       {% if link.dataset %}
         <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
@@ -509,14 +508,13 @@ h2 {
   font-weight: 700;
   font-size: 0.95rem;
 }
-.preprint .pub-metrics {
-  margin-top: 8px;
+.preprint .pub-metrics-inline {
   display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
 }
-.preprint .pub-metrics img { height: 20px; }
+.preprint .pub-metrics-inline img { height: 20px; }
 .preprint .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .preprint .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .preprint .author { font-size: 0.98rem; }
@@ -569,20 +567,6 @@ h2 {
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
-    {% if link.github_repo or link.citations %}
-    <div class="pub-metrics">
-      {% if link.github_repo %}
-      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
-      </a>
-      {% endif %}
-      {% if link.citations %}
-      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
-      </a>
-      {% endif %}
-    </div>
-    {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
@@ -601,6 +585,20 @@ h2 {
       {% endif %}
       {% if link.website %}
         <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% endif %}
+      {% if link.github_repo or link.citations %}
+      <div class="pub-metrics-inline">
+        {% if link.github_repo %}
+        <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
+          <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
+        </a>
+        {% endif %}
+        {% if link.citations %}
+        <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
+          <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
+        </a>
+        {% endif %}
+      </div>
       {% endif %}
       {% if link.github_folks %} 
       <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub forks" align="right" src="https://img.shields.io/github/forks/{{ link.github_folks }}?style=social"></a>
