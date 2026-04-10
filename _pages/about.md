@@ -206,8 +206,8 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+    <img src="./images/conference/ACL.png" alt="ACL" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
     <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
@@ -299,7 +299,8 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 .conference .periodical { font-size: 0.96rem; }
 .conference .conference-name { color: #8B0000; font-weight: bold; }
 .conference .links a { font-size: 12px !important; }
-.conference .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.conference .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: flex-start; }
+.conference .links { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
 .conference .pub-button {
   font-family: "Times New Roman", Times, serif;
   background: #fff;
@@ -352,6 +353,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
+    <div class="links-row">
     <div class="links">
       {% if link.arxiv %}
         <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
@@ -365,20 +367,6 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
       {% if link.website %}
         <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
-      {% if link.github_repo or link.citations %}
-      <div class="pub-metrics-inline">
-        {% if link.github_repo %}
-        <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-          <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
-        </a>
-        {% endif %}
-        {% if link.citations %}
-        <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
-          <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
-        </a>
-        {% endif %}
-      </div>
-      {% endif %}
       {% if link.dataset %}
         <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
       {% endif %}
@@ -391,6 +379,21 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
       {% if link.slides %}
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
+    </div>
+    {% if link.github_repo or link.citations %}
+    <div class="pub-metrics-inline">
+      {% if link.github_repo %}
+      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
+      </a>
+      {% endif %}
+      {% if link.citations %}
+      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ link.citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
     </div>
 </div>
 </div>
@@ -520,7 +523,8 @@ h2 {
 .preprint .author { font-size: 0.98rem; }
 .preprint .periodical { font-size: 0.96rem; }
 .preprint .links a { font-size: 12px !important; }
-.preprint .links { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+.preprint .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: flex-start; }
+.preprint .links { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
 .preprint .pub-button {
   font-family: "Times New Roman", Times, serif;
   background: #fff;
@@ -573,6 +577,7 @@ h2 {
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
+    <div class="links-row">
     <div class="links">
       {% if link.arxiv %}
         <a href="{{ link.arxiv | default: '/404.html' }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
@@ -586,26 +591,27 @@ h2 {
       {% if link.website %}
         <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
-      {% if link.github_repo or link.citations %}
-      <div class="pub-metrics-inline">
-        {% if link.github_repo %}
-        <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-          <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
-        </a>
-        {% endif %}
-        {% if link.citations %}
-        <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
-          <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
-        </a>
-        {% endif %}
-      </div>
-      {% endif %}
       {% if link.github_folks %} 
       <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub forks" align="right" src="https://img.shields.io/github/forks/{{ link.github_folks }}?style=social"></a>
       {% endif %}
       {% if link.github_stars %} 
       <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
       {% endif %}
+</div>
+    {% if link.github_repo or link.citations %}
+    <div class="pub-metrics-inline">
+      {% if link.github_repo %}
+      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
+      </a>
+      {% endif %}
+      {% if link.citations %}
+      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ link.citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
 </div>
 </div>
 </div>
