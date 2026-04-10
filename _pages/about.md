@@ -351,7 +351,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     <div class="pub-metrics">
       {% if link.github_repo %}
       <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=flat&label=Stars">
+        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
       {% if link.citations %}
@@ -573,7 +573,7 @@ h2 {
     <div class="pub-metrics">
       {% if link.github_repo %}
       <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
-        <img alt="Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=flat&label=Stars">
+        <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
       {% if link.citations %}
