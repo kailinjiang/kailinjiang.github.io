@@ -382,7 +382,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
       {% endif %}
     </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
-    {% assign citations = link.citations | default: '' | strip %}
+    {% assign citations = link.citations | default: '' | append: '' | strip %}
     {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
     {% if github_repo != '' or citations != '' %}
     <div class="pub-metrics-inline">
@@ -391,7 +391,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if citations != '' %}
+      {% if citations != '' and citations != '0' %}
       <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
         <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
@@ -597,7 +597,7 @@ h2 {
       {% endif %}
 </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
-    {% assign citations = link.citations | default: '' | strip %}
+    {% assign citations = link.citations | default: '' | append: '' | strip %}
     {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
     {% if github_repo != '' or citations != '' %}
     <div class="pub-metrics-inline">
@@ -606,7 +606,7 @@ h2 {
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if citations != '' %}
+      {% if citations != '' and citations != '0' %}
       <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
         <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
