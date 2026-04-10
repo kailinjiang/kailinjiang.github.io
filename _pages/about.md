@@ -143,11 +143,8 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 
 
-
-
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
-- **2026.04**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ACL 2026</strong>! <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
 - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ICLR 2026</strong>! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
 - **2026.01**: &nbsp;📣📣 I will serve as **Reviewer** in ICML 2026!
 - **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">AAAI 2026 as Oral Presentation</strong>! <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
@@ -209,8 +206,8 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/ACL.png" alt="ACL" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
+    <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
   </div>
   <div style="display: flex; align-items: center;">
     <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
@@ -289,6 +286,14 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
   font-weight: 700;
   font-size: 0.95rem;
 }
+.conference .pub-metrics {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.conference .pub-metrics img { height: 20px; }
 .conference .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .conference .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .conference .author { font-size: 0.98rem; }
@@ -341,6 +346,20 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     {% endif %}
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+    {% if link.github_repo or link.citations %}
+    <div class="pub-metrics">
+      {% if link.github_repo %}
+      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=flat&label=Stars">
+      </a>
+      {% endif %}
+      {% if link.citations %}
+      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
+      </a>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
@@ -490,6 +509,14 @@ h2 {
   font-weight: 700;
   font-size: 0.95rem;
 }
+.preprint .pub-metrics {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.preprint .pub-metrics img { height: 20px; }
 .preprint .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .preprint .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .preprint .author { font-size: 0.98rem; }
@@ -541,6 +568,20 @@ h2 {
     {% endif %}
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+    {% if link.github_repo or link.citations %}
+    <div class="pub-metrics">
+      {% if link.github_repo %}
+      <a href="https://github.com/{{ link.github_repo }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Stars" src="https://img.shields.io/github/stars/{{ link.github_repo }}?style=flat&label=Stars">
+      </a>
+      {% endif %}
+      {% if link.citations %}
+      <a href="{{ link.citations_url | default: link.arxiv | default: '/404.html' }}" target="_blank" rel="noopener noreferrer">
+        <img alt="Citations" src="https://img.shields.io/badge/Citations-{{ link.citations }}-EBB215">
+      </a>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
