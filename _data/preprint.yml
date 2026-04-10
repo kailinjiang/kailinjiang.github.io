@@ -7,6 +7,9 @@ main:
     arxiv: "https://arxiv.org/pdf/2510.19316"
     huggingface_paper: "https://huggingface.co/papers/2510.19316"
     code: "https://github.com/KORE-LMM/KORE"
+    github_repo: "KORE-LMM/KORE"
+    citations: 2
+    citations_url: https://arxiv.org/pdf/2510.19316
     website: "https://kore-lmm.github.io/"
 
   - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
@@ -17,4 +20,7 @@ main:
     arxiv: "https://arxiv.org/abs/2511.02650"
     huggingface_paper: "https://huggingface.co/papers/2511.02650"
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
+    github_repo: "TianfanPeng/VLMUniPruneBench"
+    citations: 2
+    citations_url: https://arxiv.org/abs/2511.02650
     website: "https://uniprunebench-lmm.github.io/"
