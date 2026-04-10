@@ -7,6 +7,9 @@ main:
     arxiv: "https://arxiv.org/pdf/2510.19457"
     huggingface_paper: "https://huggingface.co/papers/2510.19457"
     code: "https://github.com/MINED-LMM/MINED"
+    github_repo: "MINED-LMM/MINED"
+    citations: 0
+    citations_url: https://arxiv.org/pdf/2510.19457
     website: "https://mined-lmm.github.io/"
     
   - title: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
@@ -17,6 +20,9 @@ main:
     arxiv: "https://arxiv.org/abs/2505.24449"
     huggingface_paper: "https://huggingface.co/papers/2505.24449"
     code: "https://github.com/EVOKE-LMM/EVOKE"
+    github_repo: "EVOKE-LMM/EVOKE"
+    citations: 4
+    citations_url: https://arxiv.org/abs/2505.24449
     website: "https://evoke-lmm.github.io/"
 
   - title: "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models"
@@ -27,6 +33,9 @@ main:
     arxiv: "https://arxiv.org/pdf/2505.19509"
     huggingface_paper: "https://huggingface.co/papers/2505.19509"
     code: "https://github.com/MLLMKCBENCH/MLLMKC"
+    github_repo: "MLLMKCBENCH/MLLMKC"
+    citations: 6
+    citations_url: https://arxiv.org/pdf/2505.19509
     website: "https://mllmkcbench.github.io/"
 
   - title: "MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge"
@@ -37,6 +46,9 @@ main:
     arxiv: "https://arxiv.org/pdf/2502.19870"
     huggingface_paper: "https://huggingface.co/papers/2502.19870"
     code: "https://github.com/MMKE-Bench-ICLR/MMKE-Bench"
+    github_repo: "MMKE-Bench-ICLR/MMKE-Bench"
+    citations: 13
+    citations_url: https://arxiv.org/pdf/2502.19870
     website: "https://mmke-bench-iclr.github.io/"
 
 
@@ -48,5 +60,7 @@ main:
     arxiv: "https://arxiv.org/pdf/2406.11194"
     huggingface_paper: "https://huggingface.co/papers/2406.11194"
     code: "https://github.com/bigai-ai/ICE"
-
+    github_repo: "bigai-ai/ICE"
+    citations: 22
+    citations_url: https://arxiv.org/pdf/2406.11194
 
