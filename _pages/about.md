@@ -592,11 +592,11 @@ h2 {
       {% if link.website %}
         <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
-      {% if link.github_folks %} 
-      <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub forks" align="right" src="https://img.shields.io/github/forks/{{ link.github_folks }}?style=social"></a>
+      {% if link.github_folks != blank %} 
+      <a target="_blank" href="https://github.com/{{ link.github_folks }}"><img alt="GitHub forks" align="right" src="https://img.shields.io/github/forks/{{ link.github_folks }}?style=social"></a>
       {% endif %}
-      {% if link.github_stars %} 
-      <a target="_blank" href ="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
+      {% if link.github_stars != blank %} 
+      <a target="_blank" href="https://github.com/{{ link.github_stars }}"><img alt="GitHub stars" align="right" src="https://img.shields.io/github/stars/{{ link.github_stars }}?style=social"></a>
       {% endif %}
 </div>
     {% if link.github_repo != blank or link.citations != blank %}
