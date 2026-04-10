@@ -780,16 +780,9 @@ As these works are patented in China, all these names are directly translated fr
 <style>
 .exp-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  flex: 1 1 auto;
-}
-.exp-layout{
-  max-width: 900px;
   margin: 0 auto;
-  display: flex;
-  gap: 16px;
-  align-items: stretch;
+  padding: 0;
+  max-width: 900px;
 }
 .exp-logo{
   flex: 0 0 200px;
@@ -827,7 +820,7 @@ As these works are patented in China, all these names are directly translated fr
 .exp-sub { color: #555; margin: 0 0 6px; }
 .exp-time { color: #777; font-size: 0.95em; }
 @media (max-width: 900px) {
-  .exp-layout{ flex-direction: column; }
+  .exp-item{ flex-direction: column; align-items: stretch; }
   .exp-logo{ max-width: 100%; flex-basis: auto; }
   .exp-roles{ grid-template-columns: 1fr; }
 }
@@ -878,7 +871,6 @@ html[data-theme="dark"] .exp-logo img,
 
 <div class="experiences">
 <div class="scroll-window">
-<div class="exp-layout">
 <ul class="exp-list">
 
   <!-- <li class="exp-item">
@@ -926,14 +918,13 @@ html[data-theme="dark"] .exp-logo img,
         </div>
       </div>
     </div>
+    <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div>
   </li>
 
 
 
 
  </ul>
- <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div>
-</div>
 </div>
 </div>
 <span class='anchor' id='person'></span>
