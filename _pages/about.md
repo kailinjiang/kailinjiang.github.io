@@ -778,19 +778,47 @@ As these works are patented in China, all these names are directly translated fr
 <span class='anchor' id='internships'></span>
 # 💻 Internships
 <style>
-.exp-list { list-style: none; margin: 0; padding: 0; }
+.exp-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+.exp-layout{
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+.exp-logo{
+  flex: 0 0 200px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exp-logo img{ width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 .exp-item { 
   background: #fff; border: 1px solid #eee; border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
-  display: flex; gap: 16px; align-items: center; max-width: 900px; margin: 10px auto;
+  display: flex; gap: 16px; align-items: center;
+  margin: 0;
+  height: 100%;
 }
 .exp-text { flex: 1 1 auto; font-family: "Times New Roman", Times, serif; }
 .exp-title { font-weight: 700; margin: 0 0 6px; }
 .exp-sub { color: #555; margin: 0 0 6px; }
 .exp-time { color: #777; font-size: 0.95em; }
-.exp-img { flex: 0 0 200px; max-width: 200px; }
-.exp-img img { width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
-@media (max-width: 640px) { .exp-item { flex-direction: column; } .exp-img { max-width: 100%; flex-basis: auto; } }
+@media (max-width: 900px) {
+  .exp-layout{ flex-direction: column; }
+  .exp-list { grid-template-columns: 1fr; }
+  .exp-logo{ max-width: 100%; flex-basis: auto; }
+}
+@media (max-width: 640px) { .exp-item { flex-direction: column; } }
 </style>
 
 <style>
@@ -827,10 +855,17 @@ body.dark .exp-img img,
 html[data-theme="dark"] .exp-img img,
 :root[data-theme="dark"] .exp-img img,
 [data-scheme="dark"] .exp-img img { background: transparent !important; }
+
+html.dark .exp-logo img,
+body.dark .exp-logo img,
+html[data-theme="dark"] .exp-logo img,
+:root[data-theme="dark"] .exp-logo img,
+[data-scheme="dark"] .exp-logo img { background: transparent !important; }
 </style>
 
 <div class="experiences">
 <div class="scroll-window">
+<div class="exp-layout">
 <ul class="exp-list">
 
   <!-- <li class="exp-item">
@@ -862,23 +897,30 @@ html[data-theme="dark"] .exp-img img,
     <div class="exp-text">
       <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - now</p>
-      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+      <ul style="margin: 6px 0 0 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: ML Lab</li>
         <li>Advisor: <a href="https://liqing.io/">Qing Li</a> and <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
       </ul>
-      <p class="exp-sub" style="margin: 12px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
-      <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
+    </div>
+  </li>
+
+  <li class="exp-item">
+    <div class="exp-text">
+      <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
+      <ul style="margin: 6px 0 0 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Affliation: MAS Lab</li>
         <li>Advisor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
       </ul>
     </div>
-    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li>
 
 
 
 
  </ul>
+ <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div>
+</div>
 </div>
 </div>
 <span class='anchor' id='person'></span>
