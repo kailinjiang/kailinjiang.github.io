@@ -14,7 +14,7 @@ main:
     
   - title: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
     authors: "<strong>Kailin Jiang*</strong>, Yuntao Du*, Yukai Ding, Yuchen Ren, Ning Jiang, Zhi Gao, Zilong Zheng, Lei Liu, Bin Li, Qing Li.【2025.3】"
-    conference_short: ICLR 2026
+    conference_short: ICLR 2026 & VALSE 2026
     conference: The Fourteenth International Conference on Learning Representations
     image: "images/paper_overview/MMEVOKE.png"
     arxiv: "https://arxiv.org/abs/2505.24449"
