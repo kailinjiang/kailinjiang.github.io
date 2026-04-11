@@ -102,7 +102,7 @@ redirect_from:
     </div>
     <div class="activities-item">
       <img src='images\activities\shumo.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>数模国赛答辩 (四川成都,2021.10)</p>
+      <p><a href="https://news.sicau.edu.cn/info/1078/65449.htm" target="_blank" rel="noopener noreferrer">数模国赛答辩</a> (四川成都,2021.10)</p>
     </div>
   </div>
 </div>
