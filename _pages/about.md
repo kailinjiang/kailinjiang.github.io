@@ -906,14 +906,14 @@ html[data-theme="dark"] .exp-logo img,
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
           <ul>
             <li>Affliation: MAS Lab</li>
-            <li>Advisor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
+            <li>Mentor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
           </ul>
         </div>
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - now</p>
           <ul>
             <li>Affliation: ML Lab</li>
-            <li>Advisor: <a href="https://liqing.io/">Qing Li</a> and <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
+            <li>Mentor: <a href="https://liqing.io/">Qing Li</a> and <a href="https://zhigao2017.github.io/">Zhi Gao</a></li>
           </ul>
         </div>
       </div>
