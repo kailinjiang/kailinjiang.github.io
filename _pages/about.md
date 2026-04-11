@@ -906,7 +906,7 @@ html[data-theme="dark"] .exp-logo img,
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
           <ul>
             <li>Affliation: MAS Lab</li>
-            <li>Mentor: <a href="https://siyuan.io/">Siyuan Qi</a></li>
+            <li>Mentor: <a href="https://scholar.google.com/citations?user=ePclJR4AAAAJ">Siyuan Qi</a></li>
           </ul>
         </div>
         <div class="exp-role">
@@ -1027,6 +1027,8 @@ html[data-theme="dark"] .edu-img img,
 [data-scheme="dark"] .edu-img img { background: transparent !important; }
 </style>
 
+
+
 <div class="educations">
 <div class="scroll-window">
 <ul class="edu-list">
@@ -1036,7 +1038,7 @@ html[data-theme="dark"] .edu-img img,
       <p class="edu-sub">University of Science and Technology of China (USTC)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Key universities under the <strong>"985 Project"</strong></li>
-        <li><strong>Advisor: Bin Li</strong></li>
+        <li><strong>Advisor: <a href="http://staff.ustc.edu.cn/~binli/">Bin Li</a></strong></li>
         <li>Major: Information and Communication Engineering</li>
       </ul>
       <p class="edu-time">2024.09 - now</p>
