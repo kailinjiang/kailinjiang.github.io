@@ -66,6 +66,11 @@ redirect_from:
 }
 </style>
 
+
+
+
+
+
 <div class="activities-scroll">
   <div class="activities-container">
     <div class="activities-item">
@@ -82,7 +87,7 @@ redirect_from:
     </div>
     <div class="activities-item">
       <img src='images\activities\jiqizhixin_ICLR25.jpeg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
-      <p>机器之心ICLR 2025 论文分享会 (北京,2025.04.20)</p>
+      <p><a href="https://mp.weixin.qq.com/s/J_uqQERxQh9g3BuC8P4nMw" target="_blank" rel="noopener noreferrer">机器之心ICLR 2025 论文分享会</a> (北京,2025.04.20)</p>
     </div>
     <div class="activities-item">
       <img src='images\activities\lainhuashan.jpg' alt="sym" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
