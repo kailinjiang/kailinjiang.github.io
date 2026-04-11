@@ -8,6 +8,13 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+/* 正文内链接文字加粗（仅本页主内容区，不含侧边栏） */
+.page__content a {
+  font-weight: 700;
+}
+</style>
+
 <div>
 <a href="https://kailinjiang.github.io/">
   <img 
