@@ -434,7 +434,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
     var marginTop = parseFloat(liStyle.marginTop) || 0;
     var marginBottom = parseFloat(liStyle.marginBottom) || 0;
     var perItem = rowRect.height + (marginTop + marginBottom);
-  var target = perItem * 3.5; // show ~3.5 items
+  var target = perItem * 3; // show 3 items
     container.style.maxHeight = target + 'px';
   }
   function onReady(fn) {
@@ -653,7 +653,7 @@ h2 {
     var marginTop = parseFloat(liStyle.marginTop) || 0;
     var marginBottom = parseFloat(liStyle.marginBottom) || 0;
     var perItem = rowRect.height + (marginTop + marginBottom);
-  var target = perItem * 3.5; // show ~3.5 items
+  var target = perItem * 2.5; // show 3 items
     container.style.maxHeight = target + 'px';
   }
   function onReady(fn) {
