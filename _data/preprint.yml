@@ -8,7 +8,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2510.19316"
     code: "https://github.com/KORE-LMM/KORE"
     github_repo: "KORE-LMM/KORE"
-    citations: 2
+    citations: 3
     citations_url: https://arxiv.org/pdf/2510.19316
     website: "https://kore-lmm.github.io/"
 
