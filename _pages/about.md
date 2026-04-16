@@ -160,7 +160,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 - **2026.04**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ACL 2026</strong>! ⏱️⏱️ <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
 - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ICLR 2026</strong>! 🧬🧬 <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
 - **2026.01**: &nbsp;📣📣 I will serve as **Reviewer** in ICML 2026!
-- **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">AAAI 2026 as Oral Presentation</strong>! 🧠🧠 <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
+- **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">AAAI 2026 as 🎤🎤 Oral Presentation</strong>! 🧠🧠 <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
 - **2025.09**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2026!
 - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
 - **2025.02**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2025 Workshop SSI-FM!
