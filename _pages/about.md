@@ -1056,7 +1056,7 @@ html[data-theme="dark"] .edu-img img,
       <p class="edu-sub">University of Science and Technology of China (USTC)</p>
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Key universities under the <strong>"985 Project"</strong></li>
-        <li><strong>Advisor: <a href="http://staff.ustc.edu.cn/~binli/">Bin Li</a></strong></li>
+        <li><strong>Advisor: <a href="http://staff.ustc.edu.cn/~binli/">Bin Li (李斌)</a></strong></li>
         <li>Major: Information and Communication Engineering</li>
       </ul>
       <p class="edu-time">2024.09 - now</p>
