@@ -1,1 +1,32 @@
 
+# 活动展示：image 为站点根目录相对路径；纯文本用 text；带外链用 link / link_text / suffix
+- image: images/activities/pku_IAI.jpg
+  text: "北京大学 AI Tech Day·2025 (北京,2025.10.25)"
+
+- image: images/activities/Tencent_xuanwu_lab.jpg
+  text: "腾讯安全技术开放日 玄武实验室 (北京,2025.09.10)"
+
+- image: images/activities/ml.jpg
+  text: "BIGAI ML Lab团建 (北京,2025.06.13)"
+
+- image: images/activities/jiqizhixin_ICLR25.jpeg
+  link: "https://mp.weixin.qq.com/s/J_uqQERxQh9g3BuC8P4nMw"
+  link_text: "机器之心ICLR 2025 论文分享会"
+  suffix: "(北京,2025.04.20)"
+
+- image: images/activities/lainhuashan.jpg
+  text: "莲花山研究院 二十周年研讨会 (湖北鄂州,2024.07.23)"
+
+- image: images/activities/mas1.jpg
+  text: "BIGAI MAS Lab (北京,2024.07.16)"
+
+- image: images/activities/tongban.jpeg
+  text: "通班大会 (北京,2024.07.06)"
+
+- image: images/activities/bdas.jpg
+  text: "BDAS Lab (四川雅安,2022.06)"
+
+- image: images/activities/shumo.jpg
+  link: "https://news.sicau.edu.cn/info/1078/65449.htm"
+  link_text: "数模国赛答辩"
+  suffix: "(四川成都,2021.10)"
