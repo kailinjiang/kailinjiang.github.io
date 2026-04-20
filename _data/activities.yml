@@ -1,6 +1,6 @@
 # 活动展示：image 为站点根目录相对路径；纯文本用 text；带外链用 link / link_text / suffix
 
-- image: images/activities/jiqizhixin_ICLR2026.jpeg
+- image: images/activities/jiqizhixin_ICLR2026.jpg
   link: "https://mp.weixin.qq.com/s/s-7xsWX9p8j9KN8Mv0198A"
   link_text: "机器之心ICLR 2026 论文分享会"
   suffix: "(北京,2026.04.18)"
