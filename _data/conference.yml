@@ -34,7 +34,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2505.19509"
     code: "https://github.com/MLLMKCBENCH/MLLMKC"
     github_repo: "MLLMKCBENCH/MLLMKC"
-    citations: 6
+    citations: 7
     citations_url: https://arxiv.org/pdf/2505.19509
     website: "https://mllmkcbench.github.io/"
 
