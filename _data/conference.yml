@@ -47,7 +47,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2502.19870"
     code: "https://github.com/MMKE-Bench-ICLR/MMKE-Bench"
     github_repo: "MMKE-Bench-ICLR/MMKE-Bench"
-    citations: 13
+    citations: 14
     citations_url: https://arxiv.org/pdf/2502.19870
     website: "https://mmke-bench-iclr.github.io/"
 
