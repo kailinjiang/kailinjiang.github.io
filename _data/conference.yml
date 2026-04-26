@@ -61,6 +61,6 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2406.11194"
     code: "https://github.com/bigai-ai/ICE"
     github_repo: "bigai-ai/ICE"
-    citations: 23
+    citations: 24
     citations_url: https://arxiv.org/pdf/2406.11194
 
