@@ -1040,7 +1040,7 @@ html[data-theme="dark"] .edu-img img,
       <ul style="margin: 6px 0 6px 18px; padding: 0; font-size: 0.96em; color: #555;">
         <li>Key universities under the <strong>"211 Project"</strong></li>
         <li><strong>Major: Information and Computational Science, Rank: 4/152 (2.6%)</strong></li>
-        <li>Finished my undergraduate in, SICAU, while the degree is offered by college of science in SICAU.</li>
+        <li>Finished my undergraduate in SICAU, while the degree is offered by college of science.</li>
       </ul>
       <p class="edu-time">2020.09 - 2024.06</p>
     </div>
