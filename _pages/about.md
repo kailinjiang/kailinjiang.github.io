@@ -1038,7 +1038,7 @@ html[data-theme="dark"] .edu-img img,
       </ul>
       <p class="edu-time">2024.09 - now</p>
     </div>
-    <div class="edu-img"><img src="images\ustc.png" alt="USTC"></div>
+    <div class="edu-img"><img src="images\edu\ustc.svg" alt="USTC"></div>
   </li>
   <li class="edu-item">
     <div class="edu-text">
@@ -1051,7 +1051,7 @@ html[data-theme="dark"] .edu-img img,
       </ul>
       <p class="edu-time">2020.09 - 2024.06</p>
     </div>
-    <div class="edu-img"><img src="images\sicau.png" alt="SICAU"></div>
+    <div class="edu-img"><img src="images\edu\sicau.svg" alt="SICAU"></div>
   </li>
 </ul>
 </div>
