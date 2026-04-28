@@ -137,7 +137,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 - **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by <strong style="color: #990000;">ICLR 2025</strong>! 🩺🩺 <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
 - **2024.09**: &nbsp;📣📣 I joined the **IIP Lab** at the University of Science and Technology of China to pursue a doctoral degree! 
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of <a href="https://www.sicau.edu.cn/" target="_blank" rel="noopener noreferrer">Sichuan Agricultural University (SICAU)</a>! 🌟🌟<a href='https://mp.weixin.qq.com/s/5bR7ilD4C7lCF2HiIcBMnA'>Student Spotlight</a>!🌟🌟
-- **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship! 🌟🌟<a href='https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w'>Student Spotlight</a>!🌟🌟
+- **2024.02**: &nbsp;📣📣 I will go to the <img src="images/internship/bigai.png" alt="BIGAI" style="height:18px; vertical-align:middle; margin-right:6px;">State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship! 🌟🌟<a href='https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w'>Student Spotlight</a>!🌟🌟
 
 
 
@@ -888,7 +888,7 @@ html[data-theme="dark"] .exp-logo img,
   
   <li class="exp-item">
     <div class="exp-text">
-      <p class="exp-title">State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-title"><img src="images\internship\bigai.png" alt="BIGAI" style="height:18px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <div class="exp-roles">
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
