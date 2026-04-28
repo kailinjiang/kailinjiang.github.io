@@ -779,7 +779,8 @@ As these works are patented in China, all these names are directly translated fr
   align-items: center;
   justify-content: center;
 }
-.exp-logo img{ width: 85%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
+.exp-logo img{ width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
+.exp-logo img.exp-logo--bigai2 { width: 85%; }
 .exp-item { 
   background: #fff; border: 1px solid #eee; border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
@@ -907,7 +908,7 @@ html[data-theme="dark"] .exp-logo img,
       </div>
     </div>
     <!-- <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div> -->
-    <div class="exp-logo"><img src="images\internship\bigai2.png" alt="BIGAI"></div>
+    <div class="exp-logo"><img class="exp-logo--bigai2" src="images\internship\bigai2.png" alt="BIGAI"></div>
   </li>
 
 
