@@ -780,7 +780,7 @@ As these works are patented in China, all these names are directly translated fr
   justify-content: center;
 }
 .exp-logo img{ width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
-.exp-logo img.exp-logo--bigai2 { width: 85%; }
+.exp-logo img.exp-logo--bigai2 { width: 90%; }
 .exp-item { 
   background: #fff; border: 1px solid #eee; border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
