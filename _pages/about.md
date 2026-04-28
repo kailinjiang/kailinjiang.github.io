@@ -906,7 +906,8 @@ html[data-theme="dark"] .exp-logo img,
         </div>
       </div>
     </div>
-    <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div>
+    <!-- <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div> -->
+    <div class="exp-logo"><img src="images\internship\bigai2.png" alt="BIGAI"></div>
   </li>
 
 
