@@ -141,14 +141,14 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
 
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
-- **2026.04**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ACL 2026</strong>! ⏱️⏱️ <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
-- **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">ICLR 2026</strong>! 🧬🧬 <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
+- **2026.04**: &nbsp;🎉🎉 One paper have been accepted by <img src="./images/conference/ACL.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">ACL 2026</strong>! ⏱️⏱️ <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
+- **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <img src="./images/conference/ICLR.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">ICLR 2026</strong>! 🧬🧬 <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
 - **2026.01**: &nbsp;📣📣 I will serve as 🧐🧐 **Reviewer** in ICML 2026!
-- **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <strong style="color: #990000;">AAAI 2026 as 🎤🎤 Oral Presentation</strong>! 🧠🧠 <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
+- **2025.11**: &nbsp;🎉🎉 One paper have been accepted by <img src="./images/conference/AAAI.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">AAAI 2026 as 🎤🎤 Oral Presentation</strong>! 🧠🧠 <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
 - **2025.09**: &nbsp;📣📣 I will serve as 🧐🧐 **Reviewer** in ICLR 2026!
 - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
 - **2025.02**: &nbsp;📣📣 I will serve as 🧐🧐 **Reviewer** in ICLR 2025 Workshop SSI-FM!
-- **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by <strong style="color: #990000;">ICLR 2025</strong>! 🩺🩺 <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
+- **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by <img src="./images/conference/ICLR.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">ICLR 2025</strong>! 🩺🩺 <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
 - **2024.09**: &nbsp;📣📣 I joined the **IIP Lab** at the <img src="images\edu\ustc.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">University of Science and Technology of China to pursue a doctoral degree! 
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of <img src="images\edu\sicau.svg" alt="BIGAI" style="height:26px; vertical-align:middle; margin-right:6px;"> <a href="https://www.sicau.edu.cn/" target="_blank" rel="noopener noreferrer">Sichuan Agricultural University (SICAU)</a>! 🌟🌟<a href='https://mp.weixin.qq.com/s/5bR7ilD4C7lCF2HiIcBMnA'>Student Spotlight</a>!🌟🌟
 - **2024.02**: &nbsp;📣📣 I will go to the <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship! 🌟🌟<a href='https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w'>Student Spotlight</a>!🌟🌟
