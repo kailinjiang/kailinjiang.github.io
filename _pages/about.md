@@ -89,7 +89,12 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # 😊 About me
 
-I am an upcoming joint **PhD student** at <img src="images/internship/bigai.png" alt="BIGAI" style="height:18px; vertical-align:middle; margin-right:6px;"> **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and <img src="images\ustc.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**the University of Science and Technology of China** (USTC), supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing/injection, multimodal continual learning, VLM evaluation. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
+
+
+
+
+
+I am an upcoming joint **PhD student** at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and <img src="images\ustc.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**the University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing/injection, multimodal continual learning, VLM evaluation. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
 <!-- I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">  -->
@@ -136,8 +141,8 @@ I am an upcoming joint **PhD student** at <img src="images/internship/bigai.png"
 - **2025.02**: &nbsp;📣📣 I will serve as 🧐🧐 **Reviewer** in ICLR 2025 Workshop SSI-FM!
 - **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by <strong style="color: #990000;">ICLR 2025</strong>! 🩺🩺 <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
 - **2024.09**: &nbsp;📣📣 I joined the **IIP Lab** at the <img src="images\ustc.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">University of Science and Technology of China to pursue a doctoral degree! 
-- **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of <img src="images\sicau.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> <a href="https://www.sicau.edu.cn/" target="_blank" rel="noopener noreferrer">Sichuan Agricultural University (SICAU)</a>! 🌟🌟<a href='https://mp.weixin.qq.com/s/5bR7ilD4C7lCF2HiIcBMnA'>Student Spotlight</a>!🌟🌟
-- **2024.02**: &nbsp;📣📣 I will go to the <img src="images/internship/bigai.png" alt="BIGAI" style="height:18px; vertical-align:middle; margin-right:6px;">State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship! 🌟🌟<a href='https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w'>Student Spotlight</a>!🌟🌟
+- **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of <img src="images\sicau.png" alt="BIGAI" style="height:26px; vertical-align:middle; margin-right:6px;"> <a href="https://www.sicau.edu.cn/" target="_blank" rel="noopener noreferrer">Sichuan Agricultural University (SICAU)</a>! 🌟🌟<a href='https://mp.weixin.qq.com/s/5bR7ilD4C7lCF2HiIcBMnA'>Student Spotlight</a>!🌟🌟
+- **2024.02**: &nbsp;📣📣 I will go to the <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship! 🌟🌟<a href='https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w'>Student Spotlight</a>!🌟🌟
 
 
 
@@ -889,7 +894,7 @@ html[data-theme="dark"] .exp-logo img,
   
   <li class="exp-item">
     <div class="exp-text">
-      <p class="exp-title"><img src="images\internship\bigai.png" alt="BIGAI" style="height:18px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-title"><img src="images\internship\bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <div class="exp-roles">
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
