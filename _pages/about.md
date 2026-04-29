@@ -917,6 +917,10 @@ html[data-theme="dark"] .exp-logo img,
           <ul>
             <li>Affliation: ML Lab</li>
             <li>Mentor: <a href="https://yuntaodu.github.io/">Yuntao Du (杜云涛)</a>, <a href="https://liqing.io/">Qing Li (李庆)</a> and <a href="https://zhigao2017.github.io/">Zhi Gao (高志)</a></li>
+          </ul>
+        </div>
+        <div class="exp-role" style="grid-column: 1 / -1;">
+          <ul style="list-style-type: circle;">
             <li>Research Intern on MLLM’s continual learning, knowledge editing, knowledge injection, evaluation and benchmarking.</li>
           </ul>
         </div>
