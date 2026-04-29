@@ -920,8 +920,8 @@ html[data-theme="dark"] .exp-logo img,
           </ul>
         </div>
         <div class="exp-role" style="grid-column: 1 / -1;">
-          <ul style="list-style-type: circle;">
-            <li>Research Intern on MLLM’s continual learning, knowledge editing, knowledge injection, evaluation and benchmarking.</li>
+          <ul style="list-style-type: circle; margin: 0 0 0 18px !important;">
+            <li>Research Intern on MLLM’s continual learning (knowledge editing & injection), evaluation and benchmarking.</li>
           </ul>
         </div>
       </div>
