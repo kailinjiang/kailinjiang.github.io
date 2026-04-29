@@ -904,6 +904,7 @@ html[data-theme="dark"] .exp-logo img,
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title"><img src="images\internship\bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-sub">&cir; Research Intern on MLLM’s continual learning (knowledge editing &amp; injection), evaluation and benchmarking.</p>
       <div class="exp-roles">
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
@@ -917,11 +918,6 @@ html[data-theme="dark"] .exp-logo img,
           <ul>
             <li>Affliation: ML Lab</li>
             <li>Mentor: <a href="https://yuntaodu.github.io/">Yuntao Du (杜云涛)</a>, <a href="https://liqing.io/">Qing Li (李庆)</a> and <a href="https://zhigao2017.github.io/">Zhi Gao (高志)</a></li>
-          </ul>
-        </div>
-        <div class="exp-role" style="grid-column: 1 / -1;">
-          <ul style="list-style-type: circle; margin: 0 0 0 18px !important;">
-            <li>Research Intern on MLLM’s continual learning (knowledge editing & injection), evaluation and benchmarking.</li>
           </ul>
         </div>
       </div>
