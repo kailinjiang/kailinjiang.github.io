@@ -1,4 +1,17 @@
 main:
+  - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints"
+    authors: "<strong>Kailin Jiang</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
+    conference_short: ICML 2026
+    conference: Forty-Third International Conference on Machine Learning
+    image: "images/paper_overview/KORE.png"
+    arxiv: "https://arxiv.org/pdf/2510.19316"
+    huggingface_paper: "https://huggingface.co/papers/2510.19316"
+    code: "https://github.com/KORE-LMM/KORE"
+    github_repo: "KORE-LMM/KORE"
+    citations: 3
+    citations_url: https://arxiv.org/pdf/2510.19316
+    website: "https://kore-lmm.github.io/"
+
   - title: "MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models"
     authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuntao Du, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Bin Li, Lei Liu, Qing Li.【2025.9】"
     conference_short: ACL 2026
@@ -63,4 +76,3 @@ main:
     github_repo: "bigai-ai/ICE"
     citations: 25
     citations_url: https://arxiv.org/pdf/2406.11194
-
