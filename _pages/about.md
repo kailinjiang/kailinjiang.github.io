@@ -126,7 +126,7 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
 
 <style>
 /* News section scroll window styles (scoped) */
-.news .scroll-window { max-height: 640px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+.news .scroll-window { max-height: 280px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
 .news .scroll-window::-webkit-scrollbar { width: 8px; }
 .news .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 </style>
@@ -151,12 +151,6 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of <img src="images\edu\sicau.svg" alt="BIGAI" style="height:26px; vertical-align:middle; margin-right:6px;"> <a href="https://www.sicau.edu.cn/" target="_blank" rel="noopener noreferrer">Sichuan Agricultural University (SICAU)</a>! 🌟🌟<a href='https://mp.weixin.qq.com/s/5bR7ilD4C7lCF2HiIcBMnA'>Student Spotlight</a>!🌟🌟
 - **2024.02**: &nbsp;📣📣 I will go to the <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship! 🌟🌟<a href='https://mp.weixin.qq.com/s/B4eL3sG3TI63i3imeKdw1w'>Student Spotlight</a>!🌟🌟
 
-
-
-
-
-
-
 </div>
 </div>
 
@@ -174,7 +168,7 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
     var marginTop = parseFloat(liStyle.marginTop) || 0;
     var marginBottom = parseFloat(liStyle.marginBottom) || 0;
     var perItem = liRect.height + (marginTop + marginBottom);
-    var target = perItem * 9; // show ~9 items
+    var target = perItem * 4; // show ~4 items; rest via scroll
     container.style.maxHeight = target + 'px';
   }
   function onReady(fn) {
