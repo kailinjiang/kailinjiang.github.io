@@ -1,5 +1,5 @@
 main:
-  - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints"
+  - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Controls"
     authors: "<strong>Kailin Jiang</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
     conference_short: ICML 2026
     conference: Forty-Third International Conference on Machine Learning
@@ -74,5 +74,5 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2406.11194"
     code: "https://github.com/bigai-ai/ICE"
     github_repo: "bigai-ai/ICE"
-    citations: 25
+    citations: 26
     citations_url: https://arxiv.org/pdf/2406.11194
