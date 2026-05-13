@@ -1,7 +1,9 @@
-# 活动展示：image 为站点根目录相对路径；纯文本用 text；带外链用 link / link_text / suffix
-- image: images/activities/valse2026.jpg
+# 活动展示：单图用 image；多图用 images 列表（两张及以上会自动横向轮播，两张为来回切换）
+# 纯文本用 text；带外链用 link / link_text / suffix
+- images:
+    - images/activities/valse2026.jpg
+    - images/activities/valse2026_2.jpg
   text: "VALSE 2026 (湖北武汉,2026.05.09)"
-
 
 - image: images/activities/jiqizhixin_ICLR2026.jpg
   link: "https://mp.weixin.qq.com/s/s-7xsWX9p8j9KN8Mv0198A"
