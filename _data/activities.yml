@@ -2,8 +2,11 @@
 - image: images/activities/valse2026.jpg
   text: "VALSE 2026 (湖北武汉,2026.05.09)"
 
+
 - image: images/activities/jiqizhixin_ICLR2026.jpg
-  text: "机器之心ICLR 2026 论文分享会 (北京,2026.04.18)"
+  link: "https://mp.weixin.qq.com/s/s-7xsWX9p8j9KN8Mv0198A"
+  link_text: "机器之心ICLR 2026 论文分享会"
+  suffix: "(北京,2026.04.18)"
 
 - image: images/activities/pku_IAI.jpg
   text: "北京大学 AI Tech Day·2025 (北京,2025.10.25)"
