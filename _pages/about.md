@@ -223,6 +223,7 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
 
 <div class="news" markdown="1">
 <div class="scroll-window" markdown="1">
+- **2026.05**: &nbsp;🎉🎉 <a href='https://arxiv.org/abs/2505.24449'>MMEOVKE</a> and <a href='https://arxiv.org/pdf/2510.19316'>KORE</a> reported by <img src="./images/xinzhiyuan.jpg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">XinZhiYuan</strong>! 🌟🌟<a href='https://mp.weixin.qq.com/s/eMw6nBmdVdKw9KGmJJJ-SQ'>WeChat Post</a>!🌟🌟
 - **2026.05**: &nbsp;🎉🎉 One paper have been accepted by <img src="./images/conference/ICML.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">ICML 2026</strong>! 💉💉 <a href='https://arxiv.org/pdf/2510.19316'>Knowledge Injection via Knowledge-Oriented Controls</a>!
 - **2026.04**: &nbsp;🎉🎉 One paper have been accepted by <img src="./images/conference/ACL.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">ACL 2026</strong>! ⏱️⏱️ <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
 - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by <img src="./images/conference/ICLR.png" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;"> <strong style="color: #990000;">ICLR 2026</strong>! 🧬🧬 <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
