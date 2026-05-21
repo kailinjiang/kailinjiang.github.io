@@ -245,7 +245,7 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
     var marginTop = parseFloat(liStyle.marginTop) || 0;
     var marginBottom = parseFloat(liStyle.marginBottom) || 0;
     var perItem = liRect.height + (marginTop + marginBottom);
-    var target = perItem * 5; // show 5 items; rest via scroll
+    var target = perItem * 7; // show 5 items; rest via scroll
     container.style.maxHeight = target + 'px';
   }
   function onReady(fn) {
