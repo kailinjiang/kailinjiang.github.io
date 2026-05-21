@@ -210,8 +210,8 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
 
 
 <style>
-/* News section scroll window styles (scoped) */
-.news .scroll-window { max-height: 280px; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
+/* News section scroll window styles (scoped) — 默认约 5 行，JS 会按实际行高精确设置 */
+.news .scroll-window { max-height: 15em; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
 .news .scroll-window::-webkit-scrollbar { width: 8px; }
 .news .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
 </style>
@@ -254,7 +254,7 @@ Currently, I am doing my internship in <img src="images/internship/bigai.png" al
     var marginTop = parseFloat(liStyle.marginTop) || 0;
     var marginBottom = parseFloat(liStyle.marginBottom) || 0;
     var perItem = liRect.height + (marginTop + marginBottom);
-    var target = perItem * 4; // show ~4 items; rest via scroll
+    var target = perItem * 5; // show 5 items; rest via scroll
     container.style.maxHeight = target + 'px';
   }
   function onReady(fn) {
