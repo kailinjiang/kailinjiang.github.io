@@ -1009,7 +1009,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
 
   <li class="exp-item exp-item--tencent">
     <div class="exp-text">
-      <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:22px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
+      <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
       <p class="exp-sub">&cir; Research Intern on Agentic Search, Reinforcement Learning.</p>
       <div class="exp-roles">
         <div class="exp-role">
