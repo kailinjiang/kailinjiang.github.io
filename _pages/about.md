@@ -969,7 +969,23 @@ html[data-theme="dark"] .exp-logo img,
     </div>
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li> -->
-  
+
+  <li class="exp-item">
+    <div class="exp-text">
+      <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:22px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
+      <p class="exp-sub">&cir; Research Intern on Agentic Search.</p>
+      <div class="exp-roles">
+        <div class="exp-role">
+          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.05 - now</p>
+          <ul>
+            <li><img src="images\internship\scholarship_logo_black.png" alt="Tencent" style="height:22px; vertical-align:middle; margin-right:6px;">Tencent QingYun</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="exp-logo"><img src="images/internship/Tencent.svg" alt="Tencent"></div>
+  </li>
+
   <li class="exp-item">
     <div class="exp-text">
       <p class="exp-title"><img src="images\internship\bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
@@ -983,7 +999,7 @@ html[data-theme="dark"] .exp-logo img,
           </ul>
         </div>
         <div class="exp-role">
-          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - now</p>
+          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - 2026.05</p>
           <ul>
             <li>Affliation: ML Lab</li>
             <li>Mentor: <a href="https://yuntaodu.github.io/">Yuntao Du (杜云涛)</a>, <a href="https://liqing.io/">Qing Li (李庆)</a> and <a href="https://zhigao2017.github.io/">Zhi Gao (高志)</a></li>
