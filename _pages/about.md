@@ -869,9 +869,9 @@ As these works are patented in China, all these names are directly translated fr
 .exp-logo img.exp-logo--bigai2 { width: 90%; }
 .exp-logo img.exp-logo--tencent { width: 90%; border-radius: 0; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 .exp-media {
-  flex: 0 1 150px;
-  max-width: 180px;
-  min-width: 72px;
+  flex: 0 1 96px;
+  max-width: 110px;
+  min-width: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -881,7 +881,7 @@ As these works are patented in China, all these names are directly translated fr
 .exp-media img {
   width: 100%;
   height: auto;
-  max-height: 130px;
+  max-height: 88px;
   object-fit: contain;
   display: block;
 }
@@ -925,7 +925,7 @@ As these works are patented in China, all these names are directly translated fr
 @media (max-width: 900px) {
   .exp-item{ flex-direction: column; align-items: stretch; }
   .exp-logo{ max-width: 100%; flex-basis: auto; }
-  .exp-media{ flex: 0 0 auto; max-width: 200px; margin: 8px auto; }
+  .exp-media{ flex: 0 0 auto; max-width: 120px; margin: 8px auto; }
   .exp-roles{ grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) { .exp-item { flex-direction: column; } }
