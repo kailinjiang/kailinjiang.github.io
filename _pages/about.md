@@ -864,6 +864,7 @@ As these works are patented in China, all these names are directly translated fr
 }
 .exp-logo img{ width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 .exp-logo img.exp-logo--bigai2 { width: 90%; }
+.exp-logo img.exp-logo--tencent { width: 100%; max-width: 200px; border-radius: 0; box-shadow: none; background: transparent; }
 .exp-item { 
   background: #fff; border: 1px solid #eee; border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
@@ -978,12 +979,12 @@ html[data-theme="dark"] .exp-logo img,
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.05 - now</p>
           <ul>
-            <li><img src="images\internship\scholarship_logo_black.png" alt="Tencent" style="height:22px; vertical-align:middle; margin-right:6px;">Tencent QingYun</li>
+            <li><img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle; margin-right:6px;"><a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent QingYun (腾讯青云计划)</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="exp-logo"><img class="exp-logo--bigai2" src="images/internship/Tencent.svg" alt="Tencent"></div>
+    <div class="exp-logo"><img class="exp-logo--tencent" src="images/internship/Tencent.svg" alt="Tencent"></div>
   </li>
 
   <li class="exp-item">
