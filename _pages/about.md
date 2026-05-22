@@ -1007,13 +1007,13 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li> -->
 
-  <!-- <li class="exp-item exp-item--tencent">
+  <li class="exp-item exp-item--tencent">
     <div class="exp-text">
       <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
       <p class="exp-sub">&cir; Research Intern on Agentic Search, Reinforcement Learning.</p>
       <div class="exp-roles">
         <div class="exp-role">
-          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.05 - now</p>
+          <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.06 - now</p>
           <ul>
             <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle;"><a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent QingYun (腾讯青云计划)</a></span></li>
           </ul>
@@ -1024,7 +1024,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
       <img src="images/internship/e.gif" alt="">
     </div>
     <div class="exp-logo"><img class="exp-logo--tencent" src="images/internship/Tencent.svg" alt="Tencent"></div>
-  </li> -->
+  </li>
 
   <li class="exp-item">
     <div class="exp-text">
