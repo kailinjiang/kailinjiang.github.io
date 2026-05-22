@@ -983,7 +983,7 @@ html[data-theme="dark"] .exp-logo img,
         </div>
       </div>
     </div>
-    <div class="exp-logo"><img src="images/internship/Tencent.svg" alt="Tencent"></div>
+    <div class="exp-logo"><img class="exp-logo--bigai2" src="mages/internship/Tencent.svg" alt="Tencent"></div>
   </li>
 
   <li class="exp-item">
