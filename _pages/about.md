@@ -854,6 +854,9 @@ As these works are patented in China, all these names are directly translated fr
   margin: 0 auto;
   padding: 0;
   max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
 }
 .exp-logo{
   flex: 0 0 200px;
@@ -864,15 +867,15 @@ As these works are patented in China, all these names are directly translated fr
 }
 .exp-logo img{ width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 .exp-logo img.exp-logo--bigai2 { width: 90%; }
-.exp-logo img.exp-logo--tencent { width: 100%; max-width: 200px; border-radius: 0; box-shadow: none; background: transparent; }
+.exp-logo img.exp-logo--tencent { width: 90%; border-radius: 0; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 .exp-item { 
   background: #fff; border: 1px solid #eee; border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
   display: flex; gap: 16px; align-items: center;
   margin: 0;
-  height: 100%;
+  height: auto;
 }
-.exp-item .exp-text{ width: 100%; }
+.exp-item .exp-text{ flex: 1 1 auto; min-width: 0; width: auto; }
 .exp-roles{
   margin-top: 10px;
   display: grid;
@@ -880,6 +883,16 @@ As these works are patented in China, all these names are directly translated fr
   gap: 12px;
   align-items: stretch;
 }
+.exp-role:only-child { grid-column: 1 / -1; }
+.exp-affiliation-line__inner {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 6px;
+  max-width: 100%;
+}
+.exp-affiliation-line__inner img { flex-shrink: 0; }
+.exp-affiliation-line__inner a { white-space: nowrap; }
 .exp-role{
   background: transparent;
   border: none;
@@ -940,6 +953,11 @@ body.dark .exp-logo img,
 html[data-theme="dark"] .exp-logo img,
 :root[data-theme="dark"] .exp-logo img,
 [data-scheme="dark"] .exp-logo img { background: transparent !important; }
+html.dark .exp-logo img.exp-logo--tencent,
+body.dark .exp-logo img.exp-logo--tencent,
+html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
+:root[data-theme="dark"] .exp-logo img.exp-logo--tencent,
+[data-scheme="dark"] .exp-logo img.exp-logo--tencent { box-shadow: 0 6px 14px rgba(0,0,0,0.35) !important; }
 </style>
 
 <div class="experiences">
@@ -979,7 +997,7 @@ html[data-theme="dark"] .exp-logo img,
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.05 - now</p>
           <ul>
-            <li><img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle; margin-right:6px;"><a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent QingYun (腾讯青云计划)</a></li>
+            <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle;"><a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent QingYun (腾讯青云计划)</a></span></li>
           </ul>
         </div>
       </div>
