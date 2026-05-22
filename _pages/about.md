@@ -868,6 +868,23 @@ As these works are patented in China, all these names are directly translated fr
 .exp-logo img{ width: 60%; height: auto; border-radius: 8px; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
 .exp-logo img.exp-logo--bigai2 { width: 90%; }
 .exp-logo img.exp-logo--tencent { width: 90%; border-radius: 0; box-shadow: 0 6px 14px rgba(0,0,0,0.10); background: #fff; }
+.exp-media {
+  flex: 0 1 150px;
+  max-width: 180px;
+  min-width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 0 4px;
+}
+.exp-media img {
+  width: 100%;
+  height: auto;
+  max-height: 130px;
+  object-fit: contain;
+  display: block;
+}
 .exp-item { 
   background: #fff; border: 1px solid #eee; border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 14px; 
@@ -908,6 +925,7 @@ As these works are patented in China, all these names are directly translated fr
 @media (max-width: 900px) {
   .exp-item{ flex-direction: column; align-items: stretch; }
   .exp-logo{ max-width: 100%; flex-basis: auto; }
+  .exp-media{ flex: 0 0 auto; max-width: 200px; margin: 8px auto; }
   .exp-roles{ grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) { .exp-item { flex-direction: column; } }
@@ -989,7 +1007,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li> -->
 
-  <li class="exp-item">
+  <li class="exp-item exp-item--tencent">
     <div class="exp-text">
       <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:22px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
       <p class="exp-sub">&cir; Research Intern on Agentic Search.</p>
@@ -1001,6 +1019,9 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
           </ul>
         </div>
       </div>
+    </div>
+    <div class="exp-media" aria-hidden="true">
+      <img src="images/internship/e.gif" alt="">
     </div>
     <div class="exp-logo"><img class="exp-logo--tencent" src="images/internship/Tencent.svg" alt="Tencent"></div>
   </li>
