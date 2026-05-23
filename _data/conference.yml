@@ -8,7 +8,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2510.19316"
     code: "https://github.com/KORE-LMM/KORE"
     github_repo: "KORE-LMM/KORE"
-    citations: 3
+    citations: 4
     citations_url: https://arxiv.org/pdf/2510.19316
     website: "https://kore-lmm.github.io/"
 
@@ -21,7 +21,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2510.19457"
     code: "https://github.com/MINED-LMM/MINED"
     github_repo: "MINED-LMM/MINED"
-    citations: 0
+    citations: 1
     citations_url: https://arxiv.org/pdf/2510.19457
     website: "https://mined-lmm.github.io/"
     
@@ -47,7 +47,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2505.19509"
     code: "https://github.com/MLLMKCBENCH/MLLMKC"
     github_repo: "MLLMKCBENCH/MLLMKC"
-    citations: 8
+    citations: 11
     citations_url: https://arxiv.org/pdf/2505.19509
     website: "https://mllmkcbench.github.io/"
 
@@ -60,7 +60,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2502.19870"
     code: "https://github.com/MMKE-Bench-ICLR/MMKE-Bench"
     github_repo: "MMKE-Bench-ICLR/MMKE-Bench"
-    citations: 15
+    citations: 16
     citations_url: https://arxiv.org/pdf/2502.19870
     website: "https://mmke-bench-iclr.github.io/"
 
@@ -74,5 +74,5 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2406.11194"
     code: "https://github.com/bigai-ai/ICE"
     github_repo: "bigai-ai/ICE"
-    citations: 26
+    citations: 27
     citations_url: https://arxiv.org/pdf/2406.11194
