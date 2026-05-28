@@ -1035,14 +1035,14 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2024.02 - 2024.08</p>
           <ul>
             <li>Affliation: MAS Lab</li>
-            <li>Mentor: <a href="https://scholar.google.com/citations?user=ePclJR4AAAAJ">Siyuan Qi (綦思源)</a></li>
+            <!-- <li>Mentor: <a href="https://scholar.google.com/citations?user=ePclJR4AAAAJ">Siyuan Qi (綦思源)</a></li> -->
           </ul>
         </div>
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Intern Researcher</strong>&nbsp;&nbsp;&nbsp;2024.08 - 2026.05</p>
           <ul>
             <li>Affliation: ML Lab</li>
-            <li>Mentor: <a href="https://yuntaodu.github.io/">Yuntao Du (杜云涛)</a>, <a href="https://liqing.io/">Qing Li (李庆)</a> and <a href="https://zhigao2017.github.io/">Zhi Gao (高志)</a></li>
+            <!-- <li>Mentor: <a href="https://yuntaodu.github.io/">Yuntao Du (杜云涛)</a>, <a href="https://liqing.io/">Qing Li (李庆)</a> and <a href="https://zhigao2017.github.io/">Zhi Gao (高志)</a></li> -->
           </ul>
         </div>
       </div>
