@@ -829,6 +829,7 @@ As these works are patented in China, all these names are directly translated fr
 
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+    <li><strong>2026.05</strong> NeurIPS 2026 Reviewer</li>
 		<li><strong>2026.01</strong> ICML 2026 Reviewer</li>
 		<li><strong>2025.09</strong> ICLR 2026 Reviewer</li>
 		<li><strong>2025.02</strong> ICLR 2025 Workshop SSI-FM Reviewer</li>
@@ -1007,7 +1008,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
     <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
   </li> -->
 
-  <!-- <li class="exp-item exp-item--tencent">
+  <li class="exp-item exp-item--tencent">
     <div class="exp-text">
       <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
       <p class="exp-sub">&cir; Research Intern on Agentic Search, Reinforcement Learning.</p>
@@ -1024,7 +1025,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
       <img src="images/internship/e.gif" alt="">
     </div>
     <div class="exp-logo"><img class="exp-logo--tencent" src="images/internship/Tencent.svg" alt="Tencent"></div>
-  </li> -->
+  </li>
 
   <li class="exp-item">
     <div class="exp-text">
