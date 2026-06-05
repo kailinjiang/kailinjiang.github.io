@@ -1019,7 +1019,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.06 - now</p>
           <ul>
-            <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/internship/yuanbao-color.svg" alt="Tencent QingYun" style="height:22px; vertical-align:middle;">Tencent Yuanbao</span></li> <img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle;"><a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent Qingyun</a></span></li>
+            <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/internship/yuanbao-color.svg" alt="Tencent QingYun" style="height:22px; vertical-align:middle;">Tencent Yuanbao</span></li> <img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent Qingyun</a></span></li>
           </ul>
         </div>
       </div>
