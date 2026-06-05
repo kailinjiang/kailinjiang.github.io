@@ -182,7 +182,7 @@ I am a **PhD student** in <img src="images\edu\ustc.svg" alt="BIGAI" style="heig
 
 <!-- I am an upcoming joint **PhD student** at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> **State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and <img src="images\edu\ustc.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>.  -->
 
-Currently, I am doing my internship in <img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent and working on Agentic Search and LLM for Ranking. Previously, I held research intern positions at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> BIGAI. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
+Currently, I am doing my internship in <img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent <img src="images/internship/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Yuanbao and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> BIGAI. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/wechat.png">Wechat</a>.
@@ -1014,11 +1014,12 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
   <li class="exp-item exp-item--tencent">
     <div class="exp-text">
       <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
-      <p class="exp-sub">&cir; Research Intern on Agentic Search, Reinforcement Learning.</p>
+      <p class="exp-sub">&cir; Research Intern on Agentic Search, LLM for Ranking.</p>
       <div class="exp-roles">
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.06 - now</p>
           <ul>
+            <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="yuanbao-color.svg" alt="Tencent QingYun" style="height:22px; vertical-align:middle;">Tencent Yuanbao</span></li>
             <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/internship/scholarship_logo_black.png" alt="Tencent QingYun" style="height:22px; vertical-align:middle;"><a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent QingYun</a></span></li>
           </ul>
         </div>
