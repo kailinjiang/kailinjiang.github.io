@@ -1,6 +1,13 @@
 # 活动展示：单图用 image；多图用 images 列表（两张及以上会自动横向轮播，两张为来回切换）
 # 纯文本用 text；带外链用 link / link_text / suffix
 - images:
+    - images/activities/alistar2026.jpg
+    - images/activities/alistar20262.jpg
+  link: "https://mp.weixin.qq.com/s/_YP_MzFDGz5jZImE7hYadg"
+  link_text: "阿里星热爱之旅"
+  suffix: "(北京,2026.04.18)"
+
+- images:
     - images/activities/valse2026.jpg
     - images/activities/valse2026_2.jpg
   text: "VALSE 2026 (湖北武汉,2026.05.09)"
