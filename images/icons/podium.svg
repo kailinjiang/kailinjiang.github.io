@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- 冠军台（金） -->
+  <rect x="18" y="12" width="12" height="20" rx="2" fill="#FFD700" stroke="#DAA520" stroke-width="1.5"/>
+  <path d="M4 32 L24 32 L20 12 L8 12 Z" fill="#C0C0C0" stroke="#A0A0A0" stroke-width="1.5"/>
+  <path d="M28 28 L44 28 L44 12 L32 12 Z" fill="#CD7F32" stroke="#A0522D" stroke-width="1.5"/>
+  <!-- 数字标签 -->
+  <text x="24" y="28" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff" stroke="#B8860B" stroke-width="0.5">1</text>
+  <text x="14" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff" stroke="#888" stroke-width="0.5">2</text>
+  <text x="36" y="28" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff" stroke="#8B4513" stroke-width="0.5">3</text>
+  <!-- 顶部装饰 -->
+  <circle cx="24" cy="8" r="4" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+  <circle cx="14" cy="12" r="3" fill="#C0C0C0" stroke="#A0A0A0" stroke-width="1"/>
+  <circle cx="36" cy="13" r="2.5" fill="#CD7F32" stroke="#A0522D" stroke-width="1"/>
+</svg>

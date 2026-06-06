@@ -34,7 +34,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2505.24449"
     code: "https://github.com/EVOKE-LMM/EVOKE"
     github_repo: "EVOKE-LMM/EVOKE"
-    citations: 4
+    citations: 6
     citations_url: https://arxiv.org/pdf/2505.24449
     website: "https://evoke-lmm.github.io/"
 
@@ -60,7 +60,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2502.19870"
     code: "https://github.com/MMKE-Bench-ICLR/MMKE-Bench"
     github_repo: "MMKE-Bench-ICLR/MMKE-Bench"
-    citations: 16
+    citations: 17
     citations_url: https://arxiv.org/pdf/2502.19870
     website: "https://mmke-bench-iclr.github.io/"
 
