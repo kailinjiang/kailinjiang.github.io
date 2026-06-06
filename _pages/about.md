@@ -587,7 +587,7 @@ h2 {
   position: absolute;
   top: -8px;
   left: -8px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
   color: #fff;
   padding: 6px 10px;
   border-radius: 6px;
