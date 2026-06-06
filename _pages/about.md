@@ -359,7 +359,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
   position: absolute;
   top: -8px;
   left: -8px;
-  background: #e74d3c;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #fff;
   padding: 6px 10px;
   border-radius: 6px;
@@ -587,7 +587,7 @@ h2 {
   position: absolute;
   top: -8px;
   left: -8px;
-  background: #e74d3c;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #fff;
   padding: 6px 10px;
   border-radius: 6px;
