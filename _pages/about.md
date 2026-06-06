@@ -185,6 +185,11 @@ I am a **PhD student** in <img src="images\edu\ustc.svg" alt="BIGAI" style="heig
 Currently, I am doing my internship in <img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent <img src="images/internship/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Yuanbao and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> BIGAI. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
+**Research Interests：**
+- **🧬 Continual Learning** — Enabling models to continuously acquire, update, and inject knowledge without catastrophic forgetting.
+- **⚖️ LLM for Ranking** — Leveraging large language models for next-generation information retrieval and ranking.
+- **🎯 MLLM Evaluation & Benchmarking** — Designing rigorous evaluation protocols to assess reasoning and reliability of foundation models.
+
 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/wechat.png">Wechat</a>.
 
 
