@@ -81,8 +81,7 @@ redirect_from:
 }
 .activities-img-slide-track img {
   height: 100%;
-  width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   min-width: 0;
 }
@@ -139,9 +138,9 @@ redirect_from:
         </div>
       </div>
       {% elsif item.images and item.images.size == 1 %}
-      <img src="{{ item.images[0] | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: contain; border-radius: 8px;">
+      <img src="{{ item.images[0] | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
       {% else %}
-      <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: contain; border-radius: 8px;">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
       {% endif %}
       <p>{% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.link_text }}</a> {{ item.suffix }}{% else %}{{ item.text }}{% endif %}</p>
     </div>
@@ -294,6 +293,10 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     <img src="./images/conference/ICML.png" alt="ICML" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
+    <div style="display: flex; align-items: center;">
+    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
 </div>
 
 <div style="display: flex; justify-content: center; gap: 20px; margin-top: 15px;">
@@ -302,6 +305,14 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
+    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
+    <div style="display: flex; align-items: center;">
+    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
+  </div>
+    <div style="display: flex; align-items: center;">
     <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
   </div>
