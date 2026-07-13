@@ -1,0 +1,9 @@
+apiVersion: xac.it.woa.com/v1alpha1
+kind: Project
+metadata:
+  annotations:
+    env-api-base: http://devnet.rio.tencent.com/ebus/acmdb_openapi/stage
+spec:
+  enName: kailinjiang.github.io
+  cnName: kailinjiang.github.io
+  references: []

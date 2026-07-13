@@ -7,13 +7,13 @@
     - images/activities/icml2026/t1_5.jpg
     - images/activities/icml2026/t1_3.jpg
     - images/activities/icml2026/t1_4.jpg
-    - images/activities/icml2026/t1_2.jpg
+    # - images/activities/icml2026/t1_2.jpg
   text: "T1 BASE CAMP (韩国首尔,2026.07.11)"
 
 
 - images:
     - images/activities/icml2026/ubiq_3.jpg
-    - images/activities/icml2026/ubiq_2.jpg
+    # - images/activities/icml2026/ubiq_2.jpg
     - images/activities/icml2026/ubiq_1.jpg
     - images/activities/icml2026/ubiq_4.jpg
   text: "UBIQUABNT@ICML 2026 (韩国首尔,2026.07.09)"
