@@ -293,12 +293,18 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     <img src="./images/conference/ICML.png" alt="ICML" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 15px;">
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="ICLR" style="width: 150px; height: 45px;">
+    <img src="./images/conference/MM2026.png" alt="ACM MM" style="width: 150px; height: 45px;">
+    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
   </div>
 </div>
-
 
 <span class='anchor' id='conference-papers'></span>
 <h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
