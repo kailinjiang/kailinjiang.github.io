@@ -1,13 +1,2 @@
 main:
-  - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
-    authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, <strong>Kailin Jiang</strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
-    conference_short: Preprint
-    conference: Preprint
-    image: "images/paper_overview/UniPruneBench.png"
-    arxiv: "https://arxiv.org/abs/2511.02650"
-    huggingface_paper: "https://huggingface.co/papers/2511.02650"
-    code: "https://github.com/TianfanPeng/VLMUniPruneBench"
-    github_repo: 
-    citations: 2
-    citations_url: https://arxiv.org/abs/2511.02650
-    website: "https://uniprunebench-lmm.github.io/"
+  

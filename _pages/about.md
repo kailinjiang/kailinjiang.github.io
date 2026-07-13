@@ -519,6 +519,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
 </script>
 
 
+{% if site.data.preprint.main and site.data.preprint.main.size > 0 %}
 <span class='anchor' id='preprints'></span>
 <h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
   <span style="display: flex; align-items: center;">
@@ -736,6 +737,7 @@ h2 {
   });
 })();
 </script>
+{% endif %}
 
 
 <!-- <span class='anchor' id='invention-patents'></span>

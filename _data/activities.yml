@@ -1,5 +1,31 @@
 # 活动展示：单图用 image；多图用 images 列表（两张及以上会自动横向轮播，两张为来回切换）
 # 纯文本用 text；带外链用 link / link_text / suffix
+
+
+
+- images:
+    - images/activities/icml2026/t1_1.jpg
+    - images/activities/icml2026/t1_3.jpg
+    - images/activities/icml2026/t1_4.jpg
+    - images/activities/icml2026/t1_2.jpg
+  text: "T1 BASE CAMP (韩国首尔,2026.07.11)"
+
+
+- images:
+    - images/activities/icml2026/ubiq_3.jpg
+    - images/activities/icml2026/ubiq_2.jpg
+    - images/activities/icml2026/ubiq_1.jpg
+    - images/activities/icml2026/ubiq_4.jpg
+  text: "UBIQUABNT@ICML 2026 (韩国首尔,2026.07.09)"
+
+
+- images:
+    - images/activities/icml2026/icml_3.jpg
+    - images/activities/icml2026/icml_1.jpg
+    - images/activities/icml2026/icml_2.jpg
+  text: "ICML 2026 (韩国首尔,2026.07.09)"
+
+
 - images:
     - images/activities/alistar2026.jpg
     - images/activities/alistar20262.jpeg
