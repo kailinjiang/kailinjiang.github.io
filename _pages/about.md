@@ -276,7 +276,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
 # 📝 Publications
 *: Co-First Author, Equal Contribution
 
-<div style="display: flex; justify-content: center; gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(5, max-content); justify-content: center; column-gap: 20px; row-gap: 15px;">
   <div style="display: flex; align-items: center;">
     <img src="./images/conference/ICLR.png" alt="ICLR" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×3</span>
@@ -293,28 +293,14 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     <img src="./images/conference/ICML.png" alt="ICML" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
-    <div style="display: flex; align-items: center;">
+  <div style="display: flex; align-items: center;">
     <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
   </div>
-</div>
 
-<div style="display: flex; justify-content: center; gap: 20px; margin-top: 15px;">
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/MM2026.png" alt="ACM MM" style="width: 150px; height: 45px;">
+    <img src="./images/conference/MM2026.png" alt="ACM MM" style="height: 45px; width: auto;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
-  </div>
-  <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
-  </div>
-    <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
-  </div>
-    <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
-    <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
   </div>
 </div>
 
