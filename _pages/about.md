@@ -81,7 +81,8 @@ redirect_from:
 }
 .activities-img-slide-track img {
   height: 100%;
-  object-fit: cover;
+  width: 100%;
+  object-fit: contain;
   display: block;
   min-width: 0;
 }
@@ -138,9 +139,9 @@ redirect_from:
         </div>
       </div>
       {% elsif item.images and item.images.size == 1 %}
-      <img src="{{ item.images[0] | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <img src="{{ item.images[0] | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: contain; border-radius: 8px;">
       {% else %}
-      <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: 'Activity' }}" style="display: block; margin-bottom: 10px; width: 100%; height: 200px; object-fit: contain; border-radius: 8px;">
       {% endif %}
       <p>{% if item.link %}<a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.link_text }}</a> {{ item.suffix }}{% else %}{{ item.text }}{% endif %}</p>
     </div>
