@@ -16,7 +16,10 @@
     # - images/activities/icml2026/ubiq_2.jpg
     - images/activities/icml2026/ubiq_1.jpg
     - images/activities/icml2026/ubiq_4.jpg
-  text: "UBIQUABNT@ICML 2026 (韩国首尔,2026.07.09)"
+  link: "https://mp.weixin.qq.com/s/kc6N6OcDlu9bZb3_NhmF4Q"
+  link_text: "UBIQUABNT@ICML 2026"
+  suffix: "(韩国首尔,2026.07.09)"
+
 
 
 - images:
