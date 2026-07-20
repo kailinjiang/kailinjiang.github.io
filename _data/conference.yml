@@ -8,7 +8,8 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2510.19316"
     code: "https://github.com/KORE-LMM/KORE"
     github_repo: "KORE-LMM/KORE"
-    citations: 4
+    internship: bigai
+    citations: 5
     citations_url: https://arxiv.org/pdf/2510.19316
     website: "https://kore-lmm.github.io/"
 
@@ -21,7 +22,8 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2510.19457"
     code: "https://github.com/MINED-LMM/MINED"
     github_repo: "MINED-LMM/MINED"
-    citations: 1
+    internship: bigai
+    citations: 2
     citations_url: https://arxiv.org/pdf/2510.19457
     website: "https://mined-lmm.github.io/"
 
@@ -34,7 +36,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2511.02650"
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
     github_repo: 
-    citations: 2
+    citations: 4
     citations_url: https://arxiv.org/abs/2511.02650
     website: "https://uniprunebench-lmm.github.io/"
 
@@ -48,7 +50,8 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2505.24449"
     code: "https://github.com/EVOKE-LMM/EVOKE"
     github_repo: "EVOKE-LMM/EVOKE"
-    citations: 6
+    internship: bigai
+    citations: 9
     citations_url: https://arxiv.org/pdf/2505.24449
     website: "https://evoke-lmm.github.io/"
 
@@ -61,7 +64,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2505.19509"
     code: "https://github.com/MLLMKCBENCH/MLLMKC"
     github_repo: "MLLMKCBENCH/MLLMKC"
-    citations: 11
+    citations: 14
     citations_url: https://arxiv.org/pdf/2505.19509
     website: "https://mllmkcbench.github.io/"
 
@@ -74,7 +77,8 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2502.19870"
     code: "https://github.com/MMKE-Bench-ICLR/MMKE-Bench"
     github_repo: "MMKE-Bench-ICLR/MMKE-Bench"
-    citations: 17
+    internship: bigai
+    citations: 23
     citations_url: https://arxiv.org/pdf/2502.19870
     website: "https://mmke-bench-iclr.github.io/"
 
@@ -88,5 +92,6 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2406.11194"
     code: "https://github.com/bigai-ai/ICE"
     github_repo: "bigai-ai/ICE"
-    citations: 27
+    internship: bigai
+    citations: 29
     citations_url: https://arxiv.org/pdf/2406.11194

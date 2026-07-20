@@ -433,7 +433,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="title">{% if link.internship == "bigai" %}<img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif link.internship == "yuanbao" %}<img src="images/internship/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
