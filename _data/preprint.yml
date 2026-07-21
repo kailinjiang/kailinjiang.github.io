@@ -1,14 +1,38 @@
 main:
+  - title: "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking"
+    authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Shaoqing Ren, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
+    conference_short: Preprint
+    conference: Preprint
+    image: "images/paper_overview/rubric4setwise.png"
+    arxiv: ""
+    huggingface_paper: ""
+    code: ""
+    github_repo: ""
+    internship: "tencent,yuanbao"
+    citations: 0
+    citations_url: 
+  - title: "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search"
+    authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, <strong>Kailin Jiang</strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
+    conference_short: Preprint
+    conference: Preprint
+    image: "images/paper_overview/MAPD.png"
+    arxiv: ""
+    huggingface_paper: ""
+    code: ""
+    github_repo: ""
+    internship: "ali,qwen"
+    citations: 0
+    citations_url: 
   - title: "Can Multimodal Large Language Models Understand OCT?"
-    authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang*</strong>, Yuntao Du, Weiye Song.【2026.07】"
+    authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang</strong>, Yuntao Du, Weiye Song.【2026.07】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/oct-bench.png"
     arxiv: "https://arxiv.org/pdf/2607.16609"
-    huggingface_paper: ""
+    huggingface_paper: "https://huggingface.co/papers/2607.16609"
     code: "https://github.com/baochenfu/OCT-Bench"
     github_repo: "baochenfu/OCT-Bench"
-    internship: bigai
+    internship: 
     citations: 0
     citations_url: https://arxiv.org/pdf/2607.16609
 

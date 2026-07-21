@@ -433,41 +433,41 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">{% if link.internship == "bigai" %}<img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif link.internship == "yuanbao" %}<img src="images/internship/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="title">{% if link.internship and link.internship.size > 0 %}{% assign intern_items = link.internship | split: "," %}{% for intern_item in intern_items %}{% assign intern_name = intern_item | strip %}{% if intern_name == "bigai" %}<img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "yuanbao" %}<img src="images/internship/yuanbao-color.svg" alt="Yuanbao" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "tencent" %}<img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "ali" %}<img src="images/internship/alibaba.svg" alt="Alibaba" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "qwen" %}<img src="images/internship/qwen.svg" alt="Qwen" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
     <div class="links-row">
     <div class="links">
-      {% if link.arxiv %}
+      {% if link.arxiv and link.arxiv.size > 0 %}
         <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
       {% endif %}
-      {% if link.huggingface_paper %}
+      {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
         <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
       {% endif %}
-      {% if link.code %}
+      {% if link.code and link.code.size > 0 %}
         <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
       {% endif %}
-      {% if link.website %}
+      {% if link.website and link.website.size > 0 %}
         <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
-      {% if link.dataset %}
+      {% if link.dataset and link.dataset.size > 0 %}
         <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
       {% endif %}
-      {% if link.model %}
+      {% if link.model and link.model.size > 0 %}
         <a href="{{ link.model }}" class="pub-button model" role="button" target="_blank">Model</a>
       {% endif %}
-      {% if link.poster %}
+      {% if link.poster and link.poster.size > 0 %}
         <a href="{{ link.poster }}" class="pub-button poster" role="button" target="_blank">Poster</a>
       {% endif %}
-      {% if link.slides %}
+      {% if link.slides and link.slides.size > 0 %}
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
     </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
     {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
-    {% if github_repo != '' or citations != '' %}
+    {% if github_repo != '' or (citations != '' and citations != '0') %}
     <div class="pub-metrics-inline">
       {% if github_repo != '' %}
       <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">
@@ -661,29 +661,29 @@ h2 {
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="title">{% if link.internship and link.internship.size > 0 %}{% assign intern_items = link.internship | split: "," %}{% for intern_item in intern_items %}{% assign intern_name = intern_item | strip %}{% if intern_name == "bigai" %}<img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "yuanbao" %}<img src="images/internship/yuanbao-color.svg" alt="Yuanbao" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "tencent" %}<img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "ali" %}<img src="images/internship/alibaba.svg" alt="Alibaba" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "qwen" %}<img src="images/internship/qwen.svg" alt="Qwen" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
     <div class="links-row">
     <div class="links">
-      {% if link.arxiv %}
-        <a href="{{ link.arxiv | default: '/404.html' }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
+      {% if link.arxiv and link.arxiv.size > 0 %}
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
       {% endif %}
-      {% if link.huggingface_paper %}
-        <a href="{{ link.huggingface_paper | default: '/404.html' }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
+      {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
+        <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
       {% endif %}
-      {% if link.code %}
-        <a href="{{ link.code | default: '/404.html' }}" class="pub-button code" role="button" target="_blank">Code</a>
+      {% if link.code and link.code.size > 0 %}
+        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
       {% endif %}
-      {% if link.website %}
-        <a href="{{ link.website | default: '/404.html' }}" class="pub-button website" role="button" target="_blank">Website</a>
+      {% if link.website and link.website.size > 0 %}
+        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
 </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
     {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
-    {% if github_repo != '' or citations != '' %}
+    {% if github_repo != '' or (citations != '' and citations != '0') %}
     <div class="pub-metrics-inline">
       {% if github_repo != '' %}
       <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">
