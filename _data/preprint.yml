@@ -1,2 +1,18 @@
 main:
+  - title: "Can Multimodal Large Language Models Understand OCT?"
+    authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang*</strong>, Yuntao Du, Weiye Song.【2026.07】"
+    conference_short: Preprint
+    conference: Preprint
+    image: "images/paper_overview/oct-bench.png"
+    arxiv: "https://arxiv.org/pdf/2607.16609"
+    huggingface_paper: ""
+    code: "https://github.com/baochenfu/OCT-Bench"
+    github_repo: "baochenfu/OCT-Bench"
+    internship: bigai
+    citations: 0
+    citations_url: https://arxiv.org/pdf/2607.16609
+
+
+
+
   
