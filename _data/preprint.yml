@@ -6,8 +6,8 @@ main:
     image: "images/paper_overview/rubric4setwise.png"
     arxiv: ""
     huggingface_paper: ""
-    code: ""
-    github_repo: ""
+    code: "https://github.com/Rubric4Setwise/Rubric4Setwise"
+    github_repo: "Rubric4Setwise/Rubric4Setwise"
     internship: "tencent,yuanbao"
     citations: 0
     citations_url: 
