@@ -1,6 +1,6 @@
 main:
   - title: "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking"
-    authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Shaoqing Ren, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
+    authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/rubric4setwise.png"
