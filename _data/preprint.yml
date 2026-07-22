@@ -11,6 +11,7 @@ main:
     internship: "tencent,yuanbao"
     citations: 0
     citations_url: 
+    website: "https://rubric4setwise.github.io"
   - title: "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search"
     authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, <strong>Kailin Jiang</strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
     conference_short: Preprint
@@ -22,7 +23,8 @@ main:
     github_repo: ""
     internship: "ali,qwen"
     citations: 0
-    citations_url: 
+    citations_url:
+    website: "" 
   - title: "Can Multimodal Large Language Models Understand OCT?"
     authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang</strong>, Yuntao Du, Weiye Song.【2026.07】"
     conference_short: Preprint
@@ -35,6 +37,7 @@ main:
     internship: 
     citations: 0
     citations_url: https://arxiv.org/pdf/2607.16609
+    website: ""
 
 
 
