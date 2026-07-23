@@ -467,11 +467,18 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
     {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
-    {% if github_repo != '' or (citations != '' and citations != '0') %}
+    {% assign hf_daily_rank = link.hf_daily_rank | default: '' | append: '' | strip %}
+    {% assign hf_daily_url = link.hf_daily_url | default: link.huggingface_paper | default: '' | strip %}
+    {% if github_repo != '' or (citations != '' and citations != '0') or hf_daily_rank != '' %}
     <div class="pub-metrics-inline">
       {% if github_repo != '' %}
       <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
+      </a>
+      {% endif %}
+      {% if hf_daily_rank != '' %}
+      <a href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">
+        <img alt="HuggingFace Paper of the day" src="https://img.shields.io/badge/%F0%9F%A4%97%20%23{{ hf_daily_rank }}%20Paper%20of%20the%20day-FFD21E?style=flat&labelColor=FFD21E&color=FFD21E">
       </a>
       {% endif %}
       {% if citations != '' and citations != '0' %}
@@ -683,11 +690,18 @@ h2 {
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
     {% assign citations_href = link.citations_url | default: link.arxiv | default: '/404.html' %}
-    {% if github_repo != '' or (citations != '' and citations != '0') %}
+    {% assign hf_daily_rank = link.hf_daily_rank | default: '' | append: '' | strip %}
+    {% assign hf_daily_url = link.hf_daily_url | default: link.huggingface_paper | default: '' | strip %}
+    {% if github_repo != '' or (citations != '' and citations != '0') or hf_daily_rank != '' %}
     <div class="pub-metrics-inline">
       {% if github_repo != '' %}
       <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
+      </a>
+      {% endif %}
+      {% if hf_daily_rank != '' %}
+      <a href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">
+        <img alt="HuggingFace Paper of the day" src="https://img.shields.io/badge/%F0%9F%A4%97%20%23{{ hf_daily_rank }}%20Paper%20of%20the%20day-FFD21E?style=flat&labelColor=FFD21E&color=FFD21E">
       </a>
       {% endif %}
       {% if citations != '' and citations != '0' %}
