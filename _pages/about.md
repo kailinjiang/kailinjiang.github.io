@@ -377,6 +377,23 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
   align-items: flex-start;
 }
 .conference .pub-metrics-inline img { height: 20px; }
+.conference .pub-metrics-inline .paper-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: #FFF3B0;
+  border: 1px solid #E5B800;
+  color: #222 !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: filter 0.15s ease;
+}
+.conference .pub-metrics-inline .paper-badge:hover { filter: brightness(0.95); }
 .conference .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .conference .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .conference .author { font-size: 0.98rem; }
@@ -477,9 +494,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
       </a>
       {% endif %}
       {% if hf_daily_rank != '' %}
-      <a href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">
-        <img alt="HuggingFace Paper of the day" src="https://img.shields.io/badge/%F0%9F%A4%97%20%23{{ hf_daily_rank }}%20Paper%20of%20the%20day-FFD21E?style=flat&labelColor=FFD21E&color=FFD21E">
-      </a>
+      <a class="paper-badge" href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">🤗 #{{ hf_daily_rank }} Paper of the day</a>
       {% endif %}
       {% if citations != '' and citations != '0' %}
       <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
@@ -613,6 +628,23 @@ h2 {
   align-items: flex-start;
 }
 .preprint .pub-metrics-inline img { height: 20px; }
+.preprint .pub-metrics-inline .paper-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: #FFF3B0;
+  border: 1px solid #E5B800;
+  color: #222 !important;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: filter 0.15s ease;
+}
+.preprint .pub-metrics-inline .paper-badge:hover { filter: brightness(0.95); }
 .preprint .pub-content { flex: 1 1 auto; padding-left: 4px; }
 .preprint .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .preprint .author { font-size: 0.98rem; }
@@ -700,9 +732,7 @@ h2 {
       </a>
       {% endif %}
       {% if hf_daily_rank != '' %}
-      <a href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">
-        <img alt="HuggingFace Paper of the day" src="https://img.shields.io/badge/%F0%9F%A4%97%20%23{{ hf_daily_rank }}%20Paper%20of%20the%20day-FFD21E?style=flat&labelColor=FFD21E&color=FFD21E">
-      </a>
+      <a class="paper-badge" href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">🤗 #{{ hf_daily_rank }} Paper of the day</a>
       {% endif %}
       {% if citations != '' and citations != '0' %}
       <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
