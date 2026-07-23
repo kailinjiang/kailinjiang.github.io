@@ -4,13 +4,13 @@ main:
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/rubric4setwise.png"
-    arxiv: ""
-    huggingface_paper: ""
+    arxiv: "https://arxiv.org/pdf/2607.19747"
+    huggingface_paper: "https://huggingface.co/papers/2607.19747"
     code: "https://github.com/Rubric4Setwise/Rubric4Setwise"
     github_repo: "Rubric4Setwise/Rubric4Setwise"
     internship: "tencent,yuanbao"
     citations: 0
-    citations_url: 
+    citations_url: https://arxiv.org/pdf/2607.19747
     website: "https://rubric4setwise.github.io"
   - title: "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search"
     authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, <strong>Kailin Jiang</strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
