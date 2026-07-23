@@ -12,7 +12,7 @@ main:
     citations: 0
     citations_url: https://arxiv.org/pdf/2607.19747
     website: "https://rubric4setwise.github.io"
-    hf_daily_rank: 3
+    hf_daily_rank: 2
     hf_daily_url: "https://huggingface.co/papers/date/2026-07-23"
   - title: "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search"
     authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, <strong>Kailin Jiang</strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
