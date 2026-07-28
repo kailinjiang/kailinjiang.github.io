@@ -19,10 +19,10 @@ main:
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/MAPD.png"
-    arxiv: ""
-    huggingface_paper: ""
-    code: ""
-    github_repo: ""
+    arxiv: "https://arxiv.org/pdf/2607.24280"
+    huggingface_paper: "https://huggingface.co/papers/2607.24280"
+    code: "https://github.com/AaronLiu0702/MAPD"
+    github_repo: "AaronLiu0702/MAPD"
     internship: "ali,qwen"
     citations: 0
     citations_url:
