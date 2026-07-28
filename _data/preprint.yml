@@ -27,6 +27,8 @@ main:
     citations: 0
     citations_url:
     website: "" 
+    hf_daily_rank: 3
+    hf_daily_url: "https://huggingface.co/papers/date/2026-07-28"
   - title: "Can Multimodal Large Language Models Understand OCT?"
     authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang</strong>, Yuntao Du, Weiye Song.【2026.07】"
     conference_short: Preprint
