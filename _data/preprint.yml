@@ -9,7 +9,7 @@ main:
     code: "https://github.com/Rubric4Setwise/Rubric4Setwise"
     github_repo: "Rubric4Setwise/Rubric4Setwise"
     internship: "tencent,yuanbao"
-    citations: 0
+    citations: 1
     citations_url: https://arxiv.org/pdf/2607.19747
     website: "https://rubric4setwise.github.io"
     hf_daily_rank: 2
@@ -24,7 +24,7 @@ main:
     code: "https://github.com/AaronLiu0702/MAPD"
     github_repo: "AaronLiu0702/MAPD"
     internship: "ali,qwen"
-    citations: 0
+    citations: 1
     citations_url:
     website: "" 
   - title: "Can Multimodal Large Language Models Understand OCT?"

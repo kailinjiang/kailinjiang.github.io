@@ -9,7 +9,7 @@ main:
     code: "https://github.com/KORE-LMM/KORE"
     github_repo: "KORE-LMM/KORE"
     internship: bigai
-    citations: 11
+    citations: 12
     citations_url: https://arxiv.org/pdf/2510.19316
     website: "https://kore-lmm.github.io/"
 
@@ -23,7 +23,7 @@ main:
     code: "https://github.com/MINED-LMM/MINED"
     github_repo: "MINED-LMM/MINED"
     internship: bigai
-    citations: 6
+    citations: 7
     citations_url: https://arxiv.org/pdf/2510.19457
     website: "https://mined-lmm.github.io/"
 
@@ -36,7 +36,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2511.02650"
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
     github_repo: 
-    citations: 11
+    citations: 12
     citations_url: https://arxiv.org/abs/2511.02650
     website: "https://uniprunebench-lmm.github.io/"
 
@@ -64,7 +64,7 @@ main:
     huggingface_paper: "https://huggingface.co/papers/2505.19509"
     code: "https://github.com/MLLMKCBENCH/MLLMKC"
     github_repo: "MLLMKCBENCH/MLLMKC"
-    citations: 18
+    citations: 19
     citations_url: https://arxiv.org/pdf/2505.19509
     website: "https://mllmkcbench.github.io/"
 
@@ -93,5 +93,5 @@ main:
     code: "https://github.com/bigai-ai/ICE"
     github_repo: "bigai-ai/ICE"
     internship: bigai
-    citations: 32
+    citations: 34
     citations_url: https://arxiv.org/pdf/2406.11194
