@@ -493,13 +493,13 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if hf_daily_rank != '' %}
-      <a class="paper-badge" href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">🤗 #{{ hf_daily_rank }} Paper of the day</a>
-      {% endif %}
       {% if citations != '' and citations != '0' %}
       <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
         <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
+      {% endif %}
+      {% if hf_daily_rank != '' %}
+      <a class="paper-badge" href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">🤗 #{{ hf_daily_rank }} Paper of the day</a>
       {% endif %}
     </div>
     {% endif %}
@@ -731,13 +731,13 @@ h2 {
         <img alt="Code Stars" src="https://img.shields.io/github/stars/{{ github_repo }}?style=social&label=Code+Stars">
       </a>
       {% endif %}
-      {% if hf_daily_rank != '' %}
-      <a class="paper-badge" href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">🤗 #{{ hf_daily_rank }} Paper of the day</a>
-      {% endif %}
       {% if citations != '' and citations != '0' %}
       <a href="{{ citations_href }}" target="_blank" rel="noopener noreferrer">
         <img alt="Google Scholar Citations" src="https://img.shields.io/badge/Google%20Scholar-{{ citations }}-4285F4?style=flat&logo=googlescholar&logoColor=white">
       </a>
+      {% endif %}
+      {% if hf_daily_rank != '' %}
+      <a class="paper-badge" href="{{ hf_daily_url }}" target="_blank" rel="noopener noreferrer">🤗 #{{ hf_daily_rank }} Paper of the day</a>
       {% endif %}
     </div>
     {% endif %}
