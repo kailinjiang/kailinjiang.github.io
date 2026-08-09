@@ -40,6 +40,19 @@ main:
     citations: 0
     citations_url: https://arxiv.org/pdf/2607.16609
     website: ""
+  - title: "KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation"
+    authors: "Ruihan Li, Jiyang Tan, <strong>Kailin Jiang</strong>, Huining Li, Hengyang Lu, Yu Huang, Qian Li, Yuntao Du.【2026.08】"
+    conference_short: Preprint
+    conference: Preprint
+    image: "images/paper_overview/KnowHal.png"
+    arxiv: "https://arxiv.org/pdf/2608.03782v1"
+    huggingface_paper: ""
+    code: ""
+    github_repo: ""
+    internship: 
+    citations: 0
+    citations_url: https://arxiv.org/pdf/2608.03782v1
+    website: ""
 
 
 
