@@ -46,7 +46,7 @@ main:
     conference: Preprint
     image: "images/paper_overview/KnowHal.png"
     arxiv: "https://arxiv.org/pdf/2608.03782v1"
-    huggingface_paper: ""
+    huggingface_paper: "https://huggingface.co/papers/2608.03782"
     code: ""
     github_repo: ""
     internship: 
