@@ -304,6 +304,114 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
   </div>
 </div>
 
+<style>
+/* ===== Shared BibTeX drawer styles (Conference + Preprints) ===== */
+.pub-button.bibtex-toggle {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.pub-button.bibtex-toggle::before {
+  content: "{ }";
+  font-weight: 700;
+  color: #6a5acd;
+  letter-spacing: -1px;
+  transition: color .2s ease;
+}
+.pub-button.bibtex-toggle.is-active {
+  border-color: #4285F4;
+  color: #1e5bb8;
+  background: linear-gradient(180deg, #f3f7ff 0%, #eaf1ff 100%);
+}
+.pub-button.bibtex-toggle.is-active::before { color: #4285F4; }
+.bibtex-drawer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .38s cubic-bezier(.16,1,.3,1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.bibtex-drawer.open { grid-template-rows: 1fr; }
+.bibtex-drawer__inner { overflow: hidden; min-height: 0; }
+.bibtex-card {
+  margin-top: 10px;
+  border: 1px solid #e2e8f4;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fbfcff 0%, #f4f7fd 100%);
+  box-shadow: 0 10px 26px rgba(30, 55, 110, 0.10);
+  overflow: hidden;
+  transform: translateY(-8px);
+  opacity: 0;
+  transition: transform .38s cubic-bezier(.16,1,.3,1), opacity .3s ease;
+}
+.bibtex-drawer.open .bibtex-card { transform: translateY(0); opacity: 1; }
+.bibtex-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 14px;
+  background: linear-gradient(135deg, #4285F4 0%, #6a5acd 100%);
+  color: #fff;
+}
+.bibtex-card__title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: .96rem;
+  letter-spacing: .3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.bibtex-card__title svg { width: 16px; height: 16px; opacity: .95; }
+.bibtex-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid rgba(255, 255, 255, .55);
+  background: rgba(255, 255, 255, .16);
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: .82rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background .15s ease, transform .06s ease, border-color .15s ease;
+}
+.bibtex-copy:hover { background: rgba(255, 255, 255, .30); }
+.bibtex-copy:active { transform: scale(.95); }
+.bibtex-copy svg { width: 14px; height: 14px; }
+.bibtex-copy.copied { background: #2ecc71; border-color: #2ecc71; }
+.bibtex-card__code {
+  margin: 0;
+  padding: 14px 16px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: .82rem;
+  line-height: 1.55;
+  color: #243b53;
+  white-space: pre;
+  overflow-x: auto;
+  background: transparent;
+  tab-size: 2;
+}
+.bibtex-card__code code {
+  font-family: inherit;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  white-space: pre;
+}
+.bibtex-card__code::-webkit-scrollbar { height: 8px; }
+.bibtex-card__code::-webkit-scrollbar-thumb { background: #cdd7e6; border-radius: 4px; }
+@media (prefers-color-scheme: dark) {
+  .bibtex-card { background: #14171c; border-color: #2c313a; box-shadow: 0 10px 26px rgba(0,0,0,0.55); }
+  .bibtex-card__code { color: #cdd7e6; }
+  .pub-button.bibtex-toggle.is-active { background: #1b2536; color: #9cc0ff; }
+}
+</style>
+
 <span class='anchor' id='conference-papers'></span>
 <h2 style="display: flex; align-items: center; justify-content: flex-start; border-left: 4px solid #4285F4; padding-left: 12px; margin-left: -16px; color: #333; flex-wrap: wrap; gap: 12px;">
   <span style="display: flex; align-items: center;">
@@ -480,6 +588,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
       {% if link.slides and link.slides.size > 0 %}
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
+      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false">BibTeX</button>
     </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
@@ -506,6 +615,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     </div>
 </div>
 </div>
+{% include paper_bibtex.html link=link type="inproceedings" %}
 </li>
 
 {% endfor %}
@@ -718,6 +828,7 @@ h2 {
       {% if link.website and link.website.size > 0 %}
         <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
       {% endif %}
+      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false">BibTeX</button>
 </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
@@ -744,6 +855,7 @@ h2 {
 </div>
 </div>
 </div>
+{% include paper_bibtex.html link=link type="preprint" %}
 </li>
 
 
@@ -786,6 +898,57 @@ h2 {
 })();
 </script>
 {% endif %}
+
+<script>
+/* BibTeX drawer: toggle expand/collapse + copy-to-clipboard (event delegation) */
+(function() {
+  document.addEventListener('click', function(e) {
+    var toggle = e.target.closest ? e.target.closest('.bibtex-toggle') : null;
+    if (toggle) {
+      var li = toggle.closest('li');
+      if (!li) return;
+      var drawer = li.querySelector('[data-bibtex-drawer]');
+      if (!drawer) return;
+      var isOpen = drawer.classList.toggle('open');
+      toggle.classList.toggle('is-active', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      return;
+    }
+    var copyBtn = e.target.closest ? e.target.closest('.bibtex-copy') : null;
+    if (copyBtn) {
+      var card = copyBtn.closest('.bibtex-card');
+      if (!card) return;
+      var codeEl = card.querySelector('code');
+      if (!codeEl) return;
+      var text = codeEl.innerText;
+      var label = copyBtn.querySelector('.bibtex-copy__label');
+      var done = function() {
+        copyBtn.classList.add('copied');
+        if (label) { label.dataset.orig = label.dataset.orig || label.textContent; label.textContent = 'Copied!'; }
+        setTimeout(function() {
+          copyBtn.classList.remove('copied');
+          if (label && label.dataset.orig) label.textContent = label.dataset.orig;
+        }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(function() { fallbackCopy(text, done); });
+      } else {
+        fallbackCopy(text, done);
+      }
+    }
+  });
+  function fallbackCopy(text, done) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); done(); } catch (err) {}
+    document.body.removeChild(ta);
+  }
+})();
+</script>
 
 
 <!-- <span class='anchor' id='invention-patents'></span>

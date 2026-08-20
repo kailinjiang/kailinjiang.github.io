@@ -1,5 +1,12 @@
 main:
   - title: "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking"
+    bibtex: |
+      @article{jiang2026beyond,
+        title={Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking},
+        author={Jiang, Kailin and Liu, Lei and Xi, Jian and Xu, Hui and Liu, Junlin and Fu, Baochen and Ren, Shaoqing and Li, Bin and Lu, Yu and Shi, Haibo and others},
+        journal={arXiv preprint arXiv:2607.19747},
+        year={2026}
+      }
     authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
     conference_short: Preprint
     conference: Preprint
@@ -15,6 +22,13 @@ main:
     hf_daily_rank: 2
     hf_daily_url: "https://huggingface.co/papers/date/2026-07-23"
   - title: "From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search"
+    bibtex: |
+      @article{liu2026proprietary,
+        title={From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation in Agentic Search},
+        author={Liu, Junlin and Chen, Jiangwang and Song, Zixin and Zhou, Shuaiyu and Lv, Chunji and Wu, Hank and Jiang, Kailin and Wu, Jinyang and Yu, Bohan and Zhou, Chenxi},
+        journal={arXiv preprint arXiv:2607.24280},
+        year={2026}
+      }
     authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, <strong>Kailin Jiang</strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
     conference_short: Preprint
     conference: Preprint
@@ -28,6 +42,13 @@ main:
     citations_url:
     website: "" 
   - title: "Can Multimodal Large Language Models Understand OCT?"
+    bibtex: |
+      @article{fu2026can,
+        title={Can Multimodal Large Language Models Understand OCT?},
+        author={Fu, Baochen and Deng, Wenzhi and Jin, Baihao and Li, Yang and Nie, Zihan and Jiang, Kailin and Du, Yuntao and Song, Weiye},
+        journal={arXiv preprint arXiv:2607.16609},
+        year={2026}
+      }
     authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang</strong>, Yuntao Du, Weiye Song.【2026.07】"
     conference_short: Preprint
     conference: Preprint
@@ -41,6 +62,13 @@ main:
     citations_url: https://arxiv.org/pdf/2607.16609
     website: ""
   - title: "KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation"
+    bibtex: |
+      @article{li2026knowhal,
+        title={KnowHal: A Knowledge-Driven Benchmark for Comprehensive Multimodal Hallucination Evaluation},
+        author={Li, Ruihan and Tan, Jiyang and Jiang, Kailin and Li, Huining and Lu, Hengyang and Huang, Yu and Li, Qian and Du, Yuntao},
+        journal={arXiv preprint arXiv:2608.03782},
+        year={2026}
+      }
     authors: "Ruihan Li, Jiyang Tan, <strong>Kailin Jiang</strong>, Huining Li, Hengyang Lu, Yu Huang, Qian Li, Yuntao Du.【2026.08】"
     conference_short: Preprint
     conference: Preprint

@@ -1,5 +1,11 @@
 main:
   - title: "KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Controls"
+    bibtex: |
+      @article{jiang2025kore,
+        title={KORE: Enhancing Knowledge Injection for Large Multimodal Models via Knowledge-Oriented Augmentations and Constraints},
+        author={Jiang, Kailin and Jiang, Hongbo and Jiang, Ning and Gao, Zhi and Bi, Jinhe and Ren, Yuchen and Li, Bin and Du, Yuntao and Liu, Lei and Li, Qing},
+        year={2025}
+      }
     authors: "<strong>Kailin Jiang</strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
     conference_short: ICML 2026
     conference: Forty-Third International Conference on Machine Learning
@@ -14,6 +20,14 @@ main:
     website: "https://kore-lmm.github.io/"
 
   - title: "MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models"
+    bibtex: |
+      @inproceedings{jiang2026mined,
+        title={Mined: Probing and updating with multimodal time-sensitive knowledge for large multimodal models},
+        author={Jiang, Kailin and Jiang, Ning and Du, Yuntao and Ren, Yuchen and Li, Yuchen and Gao, Yifan and Bi, Jinhe and Ma, Yunpu and Li, Bin and Liu, Lei and others},
+        booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+        pages={13766--13795},
+        year={2026}
+      }
     authors: "<strong>Kailin Jiang*</strong>, Ning Jiang*, Yuntao Du, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Bin Li, Lei Liu, Qing Li.【2025.9】"
     conference_short: ACL 2026
     conference: The 64th Annual Meeting of the Association for Computational Linguistics
@@ -28,6 +42,13 @@ main:
     website: "https://mined-lmm.github.io/"
 
   - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
+    bibtex: |
+      @article{peng2025can,
+        title={Can visual input be compressed? a visual token compression benchmark for large multimodal models},
+        author={Peng, Tianfan and Du, Yuntao and Ji, Pengzhou and Dong, Shijie and Jiang, Kailin and Ma, Mingchuan and Tian, Yijun and Bi, Jinhe and Li, Qian and Du, Wei and others},
+        journal={arXiv preprint arXiv:2511.02650},
+        year={2025}
+      }
     authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, <strong>Kailin Jiang</strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
     conference_short: ACM MM 2026
     conference: The 34th ACM International Conference on Multimedia
@@ -42,6 +63,15 @@ main:
 
 
   - title: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
+    bibtex: |
+      @inproceedings{jiang2026large,
+        title={When large multimodal models confront evolving knowledge: Challenges and explorations},
+        author={Jiang, Kailin and Ding, Yukai and Ren, Yuchen and Jiang, Ning and Gao, Zhi and Zheng, Zilong and Liu, Lei and Li, Bin and Li, Qing and others},
+        booktitle={International Conference on Learning Representations},
+        volume={2026},
+        pages={72306--72351},
+        year={2026}
+      }
     authors: "<strong>Kailin Jiang*</strong>, Yuntao Du*, Yukai Ding, Yuchen Ren, Ning Jiang, Zhi Gao, Zilong Zheng, Lei Liu, Bin Li, Qing Li.【2025.3】"
     conference_short: ICLR 2026 & VALSE 2026
     conference: The Fourteenth International Conference on Learning Representations
@@ -56,6 +86,16 @@ main:
     website: "https://evoke-lmm.github.io/"
 
   - title: "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models"
+    bibtex: |
+      @inproceedings{jia2026benchmarking,
+        title={Benchmarking multimodal knowledge conflict for large multimodal models},
+        author={Jia, Yifan and Du, Yuntao and Jiang, Kailin and Liang, Yuyang and Ren, Qihan and Xin, Yi and Yang, Rui and Feng, Fenze and Chen, MingCai and Lu, Hengyang and others},
+        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+        volume={40},
+        number={27},
+        pages={22283--22291},
+        year={2026}
+      }
     authors: "Yifan Jia*, <strong>Kailin Jiang*</strong>, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】"
     conference_short: AAAI 2026 Oral
     conference: The Fortieth AAAI Conference on Artificial Intelligence
@@ -69,6 +109,15 @@ main:
     website: "https://mllmkcbench.github.io/"
 
   - title: "MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge"
+    bibtex: |
+      @article{Du2025MMKEBenchAM,
+        title={MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge},
+        author={Yuntao Du and Kailin Jiang and Zhi Gao and Chenrui Shi and Zilong Zheng and Siyuan Qi and Qing Li},
+        journal={ArXiv},
+        year={2025},
+        volume={abs/2502.19870},
+        url={https://api.semanticscholar.org/CorpusID:276647796}
+      }
     authors: "Yuntao Du*, <strong>Kailin Jiang*</strong>, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li.【2024.10】"
     conference_short: ICLR 2025 & ICLR 2025 Workshop SSI-FM
     conference: The Thirteenth International Conference on Learning Representations
@@ -84,6 +133,15 @@ main:
 
 
   - title: "In-Context Editing: Learning Knowledge from Self-Induced Distributions"
+    bibtex: |
+      @inproceedings{qi2025context,
+        title={In-context editing: Learning knowledge from self-induced distributions},
+        author={Qi, Siyuan and Yang, Bangcheng and Jiang, Kailin and Wang, Xiaobo and Li, Jiaqi and Zhong, Yifan and Yang, Yaodong and Zheng, Zilong},
+        booktitle={International Conference on Learning Representations},
+        volume={2025},
+        pages={77563--77585},
+        year={2025}
+      }
     authors: "Siyuan Qi*, Bangcheng Yang*, <strong>Kailin Jiang*</strong>, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng.【2024.06】"
     conference_short: ICLR 2025
     conference: The Thirteenth International Conference on Learning Representations

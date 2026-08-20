@@ -1,0 +1,80 @@
+{%- comment -%}
+  Renders an expandable BibTeX drawer for a single paper.
+  Usage: {% include paper_bibtex.html link=link type="inproceedings" %}
+  - link : a paper entry from _data/conference.yml or _data/preprint.yml
+  - type : "inproceedings" (published) or anything else (preprint / arXiv)
+  If the entry defines a `bibtex` field, it is used verbatim; otherwise a
+  clean BibTeX entry is auto-generated from title / authors / year.
+{%- endcomment -%}
+{%- assign ob = '{' -%}
+{%- assign cb = '}' -%}
+{%- assign entrytype = "article" -%}
+{%- if include.type == "inproceedings" -%}{%- assign entrytype = "inproceedings" -%}{%- endif -%}
+{%- comment -%} Clean authors: drop HTML, drop the 【date】 tag, split on commas {%- endcomment -%}
+{%- assign authors_src = include.link.authors | strip_html | split: "【" | first | strip -%}
+{%- assign author_parts = authors_src | split: "," -%}
+{%- assign authors_bib = "" -%}
+{%- for a in author_parts -%}
+  {%- assign an = a | strip | replace: "*", "" | replace: ".", "" | strip -%}
+  {%- if an != "" -%}
+    {%- if authors_bib == "" -%}{%- assign authors_bib = an -%}
+    {%- else -%}{%- assign authors_bib = authors_bib | append: " and " | append: an -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- comment -%} Year: prefer conference year for published, else the 【date】 year {%- endcomment -%}
+{%- assign year = "" -%}
+{%- if include.link.authors contains "【" -%}
+  {%- assign yraw = include.link.authors | split: "【" | last | split: "】" | first -%}
+  {%- assign year = yraw | split: "." | first | strip -%}
+{%- endif -%}
+{%- assign pubyear = year -%}
+{%- if entrytype == "inproceedings" and include.link.conference_short -%}
+  {%- assign cs_words = include.link.conference_short | split: " " -%}
+  {%- for w in cs_words -%}
+    {%- assign ws = w | strip -%}
+    {%- if ws.size == 4 and ws contains "20" -%}{%- assign pubyear = ws -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if pubyear == "" -%}{%- assign pubyear = "" -%}{%- endif -%}
+{%- comment -%} Citation key: firstauthorsurname + year + firsttitleword {%- endcomment -%}
+{%- assign first_author = author_parts | first | strip | replace: "*", "" | replace: ".", "" | strip -%}
+{%- assign fa_words = first_author | split: " " -%}
+{%- assign surname = fa_words | last | downcase -%}
+{%- assign title_words = include.link.title | split: " " -%}
+{%- assign title_first = title_words | first | downcase | replace: ":", "" | replace: ",", "" | replace: "?", "" -%}
+{%- assign bibkey = surname | append: pubyear | append: title_first -%}
+{%- comment -%} arXiv id from the pdf/abs link {%- endcomment -%}
+{%- assign arxiv_id = "" -%}
+{%- if include.link.arxiv contains "arxiv.org" -%}
+  {%- assign arxiv_id = include.link.arxiv | split: "/" | last | replace: ".pdf", "" -%}
+{%- endif -%}
+<div class="bibtex-drawer" data-bibtex-drawer>
+  <div class="bibtex-drawer__inner">
+    <div class="bibtex-card">
+      <div class="bibtex-card__header">
+        <span class="bibtex-card__title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          BibTeX
+        </span>
+        <button type="button" class="bibtex-copy" aria-label="Copy BibTeX to clipboard">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          <span class="bibtex-copy__label">Copy</span>
+        </button>
+      </div>
+{%- if include.link.bibtex and include.link.bibtex != "" -%}
+      <pre class="bibtex-card__code"><code>{{ include.link.bibtex | strip }}</code></pre>
+{%- else -%}
+      <pre class="bibtex-card__code"><code>@{{ entrytype }}{{ ob }}{{ bibkey }},
+  title   = {{ ob }}{{ include.link.title }}{{ cb }},
+  author  = {{ ob }}{{ authors_bib }}{{ cb }},
+{% if entrytype == "inproceedings" %}  booktitle = {{ ob }}{{ include.link.conference }}{{ cb }},
+{% else %}{% if arxiv_id != "" %}  journal = {{ ob }}arXiv preprint arXiv:{{ arxiv_id }}{{ cb }},
+  eprint  = {{ ob }}{{ arxiv_id }}{{ cb }},
+  archivePrefix = {{ ob }}arXiv{{ cb }},
+{% else %}  journal = {{ ob }}Preprint{{ cb }},
+{% endif %}{% endif %}{% if pubyear != "" %}  year    = {{ ob }}{{ pubyear }}{{ cb }},
+{% endif %}{{ cb }}</code></pre>
+{%- endif -%}
+    </div>
+  </div>
+</div>
