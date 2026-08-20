@@ -410,6 +410,30 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
   .bibtex-card__code { color: #cdd7e6; }
   .pub-button.bibtex-toggle.is-active { background: #1b2536; color: #9cc0ff; }
 }
+
+/* ===== Preprint BibTeX drawer: warm tone to match the "Preprint" badge ===== */
+.preprint .pub-button.bibtex-toggle::before { color: #ff8a5b; }
+.preprint .pub-button.bibtex-toggle.is-active {
+  border-color: #ff8c42;
+  color: #d2541f;
+  background: linear-gradient(180deg, #fff6ef 0%, #ffe9d6 100%);
+}
+.preprint .pub-button.bibtex-toggle.is-active::before { color: #ff6b6b; }
+.preprint .bibtex-card {
+  border-color: #f6dcc7;
+  background: linear-gradient(180deg, #fffaf6 0%, #fdf1e7 100%);
+  box-shadow: 0 10px 26px rgba(200, 90, 40, 0.12);
+}
+.preprint .bibtex-card__header {
+  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+}
+.preprint .bibtex-card__code { color: #5a3a26; }
+.preprint .bibtex-card__code::-webkit-scrollbar-thumb { background: #f0cdae; }
+@media (prefers-color-scheme: dark) {
+  .preprint .bibtex-card { background: #1c1712; border-color: #3a2b1e; box-shadow: 0 10px 26px rgba(0,0,0,0.55); }
+  .preprint .bibtex-card__code { color: #e6cbb0; }
+  .preprint .pub-button.bibtex-toggle.is-active { background: #2a1f16; color: #ffb27a; }
+}
 </style>
 
 <span class='anchor' id='conference-papers'></span>
