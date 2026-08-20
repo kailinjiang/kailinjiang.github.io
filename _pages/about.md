@@ -425,8 +425,14 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
   box-shadow: 0 10px 26px rgba(200, 90, 40, 0.12);
 }
 .preprint .bibtex-card__header {
-  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #ffb14e 100%);
 }
+.preprint .bibtex-copy {
+  background: rgba(120, 55, 20, .30);
+  border-color: rgba(255, 255, 255, .85);
+  color: #fff;
+}
+.preprint .bibtex-copy:hover { background: rgba(120, 55, 20, .45); }
 .preprint .bibtex-card__code { color: #5a3a26; }
 .preprint .bibtex-card__code::-webkit-scrollbar-thumb { background: #f0cdae; }
 @media (prefers-color-scheme: dark) {
