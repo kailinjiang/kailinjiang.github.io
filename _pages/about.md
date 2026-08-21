@@ -520,7 +520,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
   gap: 6px;
   align-items: flex-start;
 }
-.conference .pub-metrics-inline img { height: 20px; }
+.conference .pub-metrics-inline img { height: 20px; width: auto; max-width: none; }
 .conference .pub-metrics-inline .paper-badge {
   display: inline-flex;
   align-items: center;
@@ -779,7 +779,7 @@ h2 {
   gap: 6px;
   align-items: flex-start;
 }
-.preprint .pub-metrics-inline img { height: 20px; }
+.preprint .pub-metrics-inline img { height: 20px; width: auto; max-width: none; }
 .preprint .pub-metrics-inline .paper-badge {
   display: inline-flex;
   align-items: center;
