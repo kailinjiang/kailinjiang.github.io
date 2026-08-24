@@ -56,7 +56,7 @@ main:
     arxiv: "https://arxiv.org/abs/2511.02650"
     huggingface_paper: "https://huggingface.co/papers/2511.02650"
     code: "https://github.com/TianfanPeng/VLMUniPruneBench"
-    github_repo: 
+    github_repo: "TianfanPeng/VLMUniPruneBench"
     citations: 12
     citations_url: https://arxiv.org/abs/2511.02650
     website: "https://uniprunebench-lmm.github.io/"
