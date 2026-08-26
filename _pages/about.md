@@ -190,7 +190,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
 - **⚖️ LLM for Ranking** — Leveraging large language models for next-generation information retrieval and ranking.
 - **🎯 MLLM Evaluation & Benchmarking** — Designing rigorous evaluation protocols to assess reasoning and reliability of foundation models.
 
-💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/wechat.png">Wechat</a>.
+<!-- 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/wechat.png">Wechat</a>. -->
 
 
 <!-- I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">  -->
