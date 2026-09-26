@@ -1,4 +1,18 @@
 main:
+  - title: "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research"
+    bibtex: |
+    authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Yangqi Chen, Hui Xu, Hongwei Zhao,  Bin Li, Yu Lu, Haibo Shi.【2026.09】"
+    conference_short: Preprint
+    conference: Preprint
+    image: "images/paper_overview/adatutorank.png"
+    arxiv: ""
+    huggingface_paper: ""
+    code: "https://github.com/AdaTutoRank/AdaTutoRank"
+    github_repo: "AdaTutoRank/AdaTutoRank"
+    internship: "tencent,yuanbao"
+    citations: 
+    citations_url:
+    website: "" 
   - title: "Beyond Relevance-Centric Retrieval: Rubric-Oriented Document Set Selection and Ranking"
     bibtex: |
       @article{jiang2026beyond,
