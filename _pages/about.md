@@ -1090,7 +1090,7 @@ As these works are patented in China, all these names are directly translated fr
 <span class='anchor' id='peer-review'></span>
 # 📰 Peer Review
 
-<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+<!-- <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
     <li><strong>2026.07</strong> AAAI 2027 Program Committee</li>
     <li><strong>2026.05</strong> NeurIPS 2026 Reviewer</li>
@@ -1098,9 +1098,16 @@ As these works are patented in China, all these names are directly translated fr
 		<li><strong>2025.09</strong> ICLR 2026 Reviewer</li>
 		<li><strong>2025.02</strong> ICLR 2025 Workshop SSI-FM Reviewer</li>
 	</ul>
-</div>
+</div> -->
 <!-- <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div> -->
-
+<div style="max-height: 300px; overflow: auto; font-size: 15px;">
+	<ul>
+    <li><strong>AAAI 2027 Program Committee</strong></li>
+    <li><strong>NeurIPS 2026 Reviewer</strong> </li>
+		<li><strong>ICML 2026 Reviewer</strong> </li>
+		<li><strong>ICLR 2026,2027 Reviewer</strong> </li>
+	</ul>
+</div>
 
 
 
