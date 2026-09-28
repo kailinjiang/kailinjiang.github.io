@@ -13,7 +13,7 @@ google_scholar_stats_use_cdn : true
 
 # Enlarge a paper overview thumbnail while the mouse rests on it.
 paper_image_hover_zoom       : true   # set to false to turn the effect off
-paper_image_hover_zoom_width : 46     # preview width, in percent of viewport width
+paper_image_hover_zoom_width : 50     # preview width, in percent of viewport width
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
