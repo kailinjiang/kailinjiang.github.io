@@ -1,0 +1,110 @@
+{%- comment -%}
+  Hover-to-zoom preview for paper overview thumbnails.
+
+  Controlled by _config.yml:
+    paper_image_hover_zoom       : true / false   (feature switch)
+    paper_image_hover_zoom_width : preview width as a percentage of viewport width
+
+  The thumbnails live inside a scrollable container, so a CSS transform would be
+  clipped by it. Instead we render one shared fixed-position overlay on <body>.
+  The overlay keeps pointer-events: none so it can never steal the hover that
+  is keeping it open.
+{%- endcomment -%}
+{%- if site.paper_image_hover_zoom -%}
+{%- assign zoom_width = site.paper_image_hover_zoom_width | default: 46 -%}
+<style>
+.pub-zoom-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+.pub-zoom-overlay.is-visible { opacity: 1; }
+.pub-zoom-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 18, 30, 0.45);
+  backdrop-filter: blur(2px);
+}
+.pub-zoom-overlay img {
+  position: relative;
+  width: {{ zoom_width }}vw;
+  max-width: 1100px;
+  max-height: 88vh;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.38);
+  transform: scale(.96);
+  transition: transform .18s ease;
+}
+.pub-zoom-overlay.is-visible img { transform: scale(1); }
+.pub-thumb img.is-zoom-source { cursor: zoom-in; }
+
+/* Touch screens have no real hover, and reduced-motion users opted out. */
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .pub-zoom-overlay { display: none; }
+}
+</style>
+<script>
+(function () {
+  var SELECTOR = '.conference .pub-thumb img, .preprint .pub-thumb img';
+
+  function init() {
+    // Only wire things up where hovering is actually possible.
+    if (window.matchMedia && !window.matchMedia('(hover: hover)').matches) { return; }
+
+    var thumbs = document.querySelectorAll(SELECTOR);
+    if (!thumbs.length) { return; }
+
+    var overlay = document.createElement('div');
+    overlay.className = 'pub-zoom-overlay';
+    var preview = document.createElement('img');
+    preview.alt = '';
+    overlay.appendChild(preview);
+    document.body.appendChild(overlay);
+
+    var hideTimer = null;
+
+    function show(src) {
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
+      if (preview.getAttribute('src') !== src) { preview.setAttribute('src', src); }
+      overlay.classList.add('is-visible');
+    }
+
+    function hide() {
+      overlay.classList.remove('is-visible');
+      // Drop the src only after the fade-out so the image does not blink away.
+      hideTimer = setTimeout(function () { preview.removeAttribute('src'); }, 200);
+    }
+
+    Array.prototype.forEach.call(thumbs, function (img) {
+      img.classList.add('is-zoom-source');
+      img.addEventListener('mouseenter', function () { show(img.currentSrc || img.src); });
+      img.addEventListener('mouseleave', hide);
+    });
+
+    // Scrolling moves the thumbnail out from under the cursor without always
+    // firing mouseleave. The list scrolls inside .scroll-window and scroll
+    // events do not bubble, so listen on the capture phase to catch those too.
+    document.addEventListener('scroll', hide, { capture: true, passive: true });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { hide(); }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+{%- endif -%}

@@ -992,6 +992,8 @@ h2 {
 })();
 </script>
 
+{% include paper_image_hover_zoom.html %}
+
 
 <!-- <span class='anchor' id='invention-patents'></span>
 ## Invention Patents
