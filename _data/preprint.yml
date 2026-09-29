@@ -5,8 +5,8 @@ main:
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/adatutorank2.png"
-    arxiv: ""
-    huggingface_paper: ""
+    arxiv: "https://arxiv.org/abs/2609.32472"
+    huggingface_paper: "https://huggingface.co/papers/2609.32472"
     code: "https://github.com/AdaTutoRank/AdaTutoRank"
     github_repo: "AdaTutoRank/AdaTutoRank"
     internship: "tencent,yuanbao"
