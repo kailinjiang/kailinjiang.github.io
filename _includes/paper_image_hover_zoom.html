@@ -48,6 +48,32 @@
 .pub-zoom-overlay.is-visible img { transform: scale(1); }
 .pub-thumb img.is-zoom-source { cursor: zoom-in; }
 
+/* Magnifier hint in the thumbnail's bottom-right corner. It must not receive
+   pointer events, or moving onto it would count as leaving the image. */
+.pub-zoom-wrap {
+  position: relative;
+  display: block;
+}
+.pub-zoom-hint {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(20, 24, 38, 0.62);
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+  opacity: .85;
+  transition: opacity .18s ease, transform .18s ease;
+}
+.pub-zoom-hint svg { width: 15px; height: 15px; }
+.pub-zoom-wrap:hover .pub-zoom-hint { opacity: 1; transform: scale(1.08); }
+
 /* Touch screens have no real hover, and reduced-motion users opted out. */
 @media (hover: none), (prefers-reduced-motion: reduce) {
   .pub-zoom-overlay { display: none; }
@@ -85,8 +111,24 @@
       hideTimer = setTimeout(function () { preview.removeAttribute('src'); }, 200);
     }
 
+    var HINT_SVG =
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" ' +
+      'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+      '<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>' +
+      '<path d="M11 8v6M8 11h6"/></svg>';
+
     Array.prototype.forEach.call(thumbs, function (img) {
       img.classList.add('is-zoom-source');
+
+      var wrap = document.createElement('span');
+      wrap.className = 'pub-zoom-wrap';
+      img.parentNode.insertBefore(wrap, img);
+      wrap.appendChild(img);
+      var hint = document.createElement('span');
+      hint.className = 'pub-zoom-hint';
+      hint.innerHTML = HINT_SVG;
+      wrap.appendChild(hint);
+
       img.addEventListener('mouseenter', function () { show(img.currentSrc || img.src); });
       img.addEventListener('mouseleave', hide);
     });
