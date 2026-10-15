@@ -1,3 +1,5 @@
 jsonpickle
 scholarly
+# scholarly imports bibtexparser's 1.x module layout.
+bibtexparser==1.4.3
 tqdm
