@@ -613,25 +613,35 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 .conference .conference-icon { display: inline-block; font-style: normal; }
 .conference .links a { font-size: 12px !important; }
 .conference .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: center; }
-.conference .links { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
+.conference .links { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .conference .pub-button {
-  font-family: "Times New Roman", Times, serif;
-  background: #fff;
-  color: #333;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  padding: 8px 14px;
-  font-size: 1rem;
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 9px;
+  border: 0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.85em !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  transition: filter 0.15s ease;
 }
-.conference .pub-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 18px rgba(0,0,0,0.16);
-  border-color: #bbb;
-  text-decoration: none;
+.conference .pub-button:hover,
+.conference .pub-button:focus {
+  filter: brightness(0.94);
+  text-decoration: none !important;
 }
+.conference .pub-button.arxiv { background: #E8F0FE; color: #1A73E8; }
+.conference .pub-button.huggingface-paper { background: #FEEFE3; color: #B06000; }
+.conference .pub-button.code { background: #E8EAED; color: #3C4043; }
+.conference .pub-button.website { background: #EDE7F6; color: #7B61C9; }
+.conference .pub-button.bibtex-toggle { background: #E8EAF6; color: #3F51B5; }
+.conference .pub-button i { font-size: 1em; }
 .conference .title a { color: #2a72d4; text-decoration: none; }
 .conference .title a:hover { text-decoration: underline; color: #1e5bb8; }
 /* Scroll window to show only a few items initially */
@@ -669,16 +679,16 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
     <div class="links-row">
     <div class="links">
       {% if link.arxiv and link.arxiv.size > 0 %}
-        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> ArXiv</a>
       {% endif %}
       {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
-        <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
+        <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank"><span aria-hidden="true">🤗</span> HF Paper</a>
       {% endif %}
       {% if link.code and link.code.size > 0 %}
-        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
+        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
       {% endif %}
       {% if link.website and link.website.size > 0 %}
-        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
+        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank"><i class="fas fa-link" aria-hidden="true"></i> Website</a>
       {% endif %}
       {% if link.dataset and link.dataset.size > 0 %}
         <a href="{{ link.dataset }}" class="pub-button dataset" role="button" target="_blank">Dataset</a>
@@ -692,7 +702,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
       {% if link.slides and link.slides.size > 0 %}
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
-      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false">BibTeX</button>
+      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false"><i class="fas fa-quote-left" aria-hidden="true"></i> BibTeX</button>
     </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
@@ -871,25 +881,35 @@ h2 {
 .preprint .periodical { font-size: 0.96rem; }
 .preprint .links a { font-size: 12px !important; }
 .preprint .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: center; }
-.preprint .links { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-start; }
+.preprint .links { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .preprint .pub-button {
-  font-family: "Times New Roman", Times, serif;
-  background: #fff;
-  color: #333;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  padding: 8px 14px;
-  font-size: 1rem;
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-  transition: transform .05s ease, box-shadow .2s ease, border-color .2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 9px;
+  border: 0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.85em !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  cursor: pointer;
+  transition: filter 0.15s ease;
 }
-.preprint .pub-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 18px rgba(0,0,0,0.16);
-  border-color: #bbb;
-  text-decoration: none;
+.preprint .pub-button:hover,
+.preprint .pub-button:focus {
+  filter: brightness(0.94);
+  text-decoration: none !important;
 }
+.preprint .pub-button.arxiv { background: #E8F0FE; color: #1A73E8; }
+.preprint .pub-button.huggingface-paper { background: #FEEFE3; color: #B06000; }
+.preprint .pub-button.code { background: #E8EAED; color: #3C4043; }
+.preprint .pub-button.website { background: #EDE7F6; color: #7B61C9; }
+.preprint .pub-button.bibtex-toggle { background: #E8EAF6; color: #3F51B5; }
+.preprint .pub-button i { font-size: 1em; }
 .preprint .title a { color: #2a72d4; text-decoration: none; }
 .preprint .title a:hover { text-decoration: underline; color: #1e5bb8; }
 /* Scroll window to show only a few items initially */
@@ -927,18 +947,18 @@ h2 {
     <div class="links-row">
     <div class="links">
       {% if link.arxiv and link.arxiv.size > 0 %}
-        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank">ArXiv</a>
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> ArXiv</a>
       {% endif %}
       {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
-        <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank">HuggingFace Paper</a>
+        <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank"><span aria-hidden="true">🤗</span> HF Paper</a>
       {% endif %}
       {% if link.code and link.code.size > 0 %}
-        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank">Code</a>
+        <a href="{{ link.code }}" class="pub-button code" role="button" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
       {% endif %}
       {% if link.website and link.website.size > 0 %}
-        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank">Website</a>
+        <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank"><i class="fas fa-link" aria-hidden="true"></i> Website</a>
       {% endif %}
-      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false">BibTeX</button>
+      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false"><i class="fas fa-quote-left" aria-hidden="true"></i> BibTeX</button>
 </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
