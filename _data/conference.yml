@@ -8,7 +8,7 @@ main:
       }
     authors: "🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Hongbo Jiang, Ning Jiang, Zhi Gao, Jinhe Bi, Yuchen Ren, Bin Li, Yuntao Du, Lei Liu, Qing Li.【2025.9】"
     conference_short: ICML 2026
-    conference: "🏛️ Forty-Third International Conference on Machine Learning"
+    conference: "<span class='conference-icon'>🏛️</span> Forty-Third International Conference on Machine Learning"
     image: "images/paper_overview/KORE.png"
     arxiv: "https://arxiv.org/pdf/2510.19316"
     huggingface_paper: "https://huggingface.co/papers/2510.19316"
@@ -30,7 +30,7 @@ main:
       }
     authors: "🧑‍💻 <strong><u>Kailin Jiang*</u></strong>, Ning Jiang*, Yuntao Du, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Bin Li, Lei Liu, Qing Li.【2025.9】"
     conference_short: ACL 2026
-    conference: "🏛️ The 64th Annual Meeting of the Association for Computational Linguistics"
+    conference: "<span class='conference-icon'>🏛️</span> The 64th Annual Meeting of the Association for Computational Linguistics"
     image: "images/paper_overview/MINED.png"
     arxiv: "https://arxiv.org/pdf/2510.19457"
     huggingface_paper: "https://huggingface.co/papers/2510.19457"
@@ -51,7 +51,7 @@ main:
       }
     authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, 🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
     conference_short: ACM MM 2026
-    conference: "🏛️ The 34th ACM International Conference on Multimedia"
+    conference: "<span class='conference-icon'>🏛️</span> The 34th ACM International Conference on Multimedia"
     image: "images/paper_overview/VLMUniPruneBench.png"
     arxiv: "https://arxiv.org/abs/2511.02650"
     huggingface_paper: "https://huggingface.co/papers/2511.02650"
@@ -74,7 +74,7 @@ main:
       }
     authors: "🧑‍💻 <strong><u>Kailin Jiang*</u></strong>, Yuntao Du*, Yukai Ding, Yuchen Ren, Ning Jiang, Zhi Gao, Zilong Zheng, Lei Liu, Bin Li, Qing Li.【2025.3】"
     conference_short: ICLR 2026 & VALSE 2026
-    conference: "🏛️ The Fourteenth International Conference on Learning Representations"
+    conference: "<span class='conference-icon'>🏛️</span> The Fourteenth International Conference on Learning Representations"
     image: "images/paper_overview/Evolving-Knowledge.png"
     arxiv: "https://arxiv.org/pdf/2505.24449"
     huggingface_paper: "https://huggingface.co/papers/2505.24449"
@@ -98,7 +98,7 @@ main:
       }
     authors: "Yifan Jia*, 🧑‍💻 <strong><u>Kailin Jiang*</u></strong>, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】"
     conference_short: AAAI 2026 Oral
-    conference: "🏛️ The Fortieth AAAI Conference on Artificial Intelligence"
+    conference: "<span class='conference-icon'>🏛️</span> The Fortieth AAAI Conference on Artificial Intelligence"
     image: "images/paper_overview/MLLMKC.png"
     arxiv: "https://arxiv.org/pdf/2505.19509"
     huggingface_paper: "https://huggingface.co/papers/2505.19509"
@@ -120,7 +120,7 @@ main:
       }
     authors: "Yuntao Du*, 🧑‍💻 <strong><u>Kailin Jiang*</u></strong>, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li.【2024.10】"
     conference_short: ICLR 2025 & ICLR 2025 Workshop SSI-FM
-    conference: "🏛️ The Thirteenth International Conference on Learning Representations"
+    conference: "<span class='conference-icon'>🏛️</span> The Thirteenth International Conference on Learning Representations"
     image: "images/paper_overview/MMKE-Bench.png"
     arxiv: "https://arxiv.org/pdf/2502.19870"
     huggingface_paper: "https://huggingface.co/papers/2502.19870"
@@ -144,7 +144,7 @@ main:
       }
     authors: "Siyuan Qi*, Bangcheng Yang*, 🧑‍💻 <strong><u>Kailin Jiang*</u></strong>, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng.【2024.06】"
     conference_short: ICLR 2025
-    conference: "🏛️ The Thirteenth International Conference on Learning Representations"
+    conference: "<span class='conference-icon'>🏛️</span> The Thirteenth International Conference on Learning Representations"
     image: "images/paper_overview/In-Context-Editing.png"
     arxiv: "https://arxiv.org/pdf/2406.11194"
     huggingface_paper: "https://huggingface.co/papers/2406.11194"
