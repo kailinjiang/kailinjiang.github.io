@@ -679,7 +679,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
     <div class="links-row">
     <div class="links">
       {% if link.arxiv and link.arxiv.size > 0 %}
-        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> Paper</a>
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a>
       {% endif %}
       {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
         <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank"><span aria-hidden="true">🤗</span> HF Paper</a>
@@ -947,7 +947,7 @@ h2 {
     <div class="links-row">
     <div class="links">
       {% if link.arxiv and link.arxiv.size > 0 %}
-        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> Paper</a>
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a>
       {% endif %}
       {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
         <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank"><span aria-hidden="true">🤗</span> HF Paper</a>
