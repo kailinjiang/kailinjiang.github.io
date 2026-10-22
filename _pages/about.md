@@ -222,6 +222,39 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
 .news .scroll-window { max-height: 15em; overflow-y: auto; padding: 8px 6px; border: 1px solid #eaeaea; border-radius: 12px; background: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); }
 .news .scroll-window::-webkit-scrollbar { width: 8px; }
 .news .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
+.news .btn-link {
+  display: inline-block;
+  padding: 2px 9px;
+  margin-right: 2px;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  border-radius: 4px;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  transition: filter 0.15s ease;
+}
+.news .btn-link:hover,
+.news .btn-link:focus {
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  filter: brightness(0.94);
+}
+.news .btn-blog,
+.news .btn-blog:hover {
+  background: #E8F5E9;
+  color: #21b84c;
+}
+.news .btn-link img {
+  height: 1.05em;
+  width: auto;
+  vertical-align: -0.15em;
+  margin-right: 4px;
+  box-shadow: none;
+}
 </style>
 
 
