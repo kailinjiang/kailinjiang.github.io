@@ -679,7 +679,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
     <div class="links-row">
     <div class="links">
       {% if link.arxiv and link.arxiv.size > 0 %}
-        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> ArXiv</a>
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> Paper</a>
       {% endif %}
       {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
         <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank"><span aria-hidden="true">🤗</span> HF Paper</a>
@@ -702,7 +702,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
       {% if link.slides and link.slides.size > 0 %}
         <a href="{{ link.slides }}" class="pub-button slides" role="button" target="_blank">Slides</a>
       {% endif %}
-      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false"><i class="fas fa-quote-left" aria-hidden="true"></i> BibTeX</button>
+      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false">BibTeX</button>
     </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
@@ -947,7 +947,7 @@ h2 {
     <div class="links-row">
     <div class="links">
       {% if link.arxiv and link.arxiv.size > 0 %}
-        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> ArXiv</a>
+        <a href="{{ link.arxiv }}" class="pub-button arxiv" role="button" target="_blank"><i class="far fa-file-alt" aria-hidden="true"></i> Paper</a>
       {% endif %}
       {% if link.huggingface_paper and link.huggingface_paper.size > 0 %}
         <a href="{{ link.huggingface_paper }}" class="pub-button huggingface-paper" role="button" target="_blank"><span aria-hidden="true">🤗</span> HF Paper</a>
@@ -958,7 +958,7 @@ h2 {
       {% if link.website and link.website.size > 0 %}
         <a href="{{ link.website }}" class="pub-button website" role="button" target="_blank"><i class="fas fa-link" aria-hidden="true"></i> Website</a>
       {% endif %}
-      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false"><i class="fas fa-quote-left" aria-hidden="true"></i> BibTeX</button>
+      <button type="button" class="pub-button bibtex-toggle" aria-expanded="false">BibTeX</button>
 </div>
     {% assign github_repo = link.github_repo | default: '' | strip %}
     {% assign citations = link.citations | default: '' | append: '' | strip %}
