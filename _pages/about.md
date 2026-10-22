@@ -13,6 +13,40 @@ redirect_from:
 .page__content a {
   font-weight: 700;
 }
+
+.entity-mention {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--entity-color);
+  background: var(--entity-bg);
+  border-radius: 4px;
+  padding: 1px 6px;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.entity-logo {
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  flex: 0 0 auto;
+  object-fit: contain;
+  box-shadow: none !important;
+}
+
+.entity-mention:hover {
+  background: var(--entity-hover-bg);
+  box-shadow: 0 0 8px var(--entity-glow), 0 0 16px var(--entity-glow-soft);
+}
+
+.entity-link,
+.entity-link:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
 </style>
 
 <div>
@@ -174,7 +208,7 @@ redirect_from:
 
 
 
-I am a **PhD student** in <img src="images/logos/education/USTC.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>.
+I am a **PhD student** in <strong><a class="entity-link" href="https://www.ustc.edu.cn/index.htm"><span class="entity-mention" style="--entity-color:#005caa; --entity-bg:#edf6fc; --entity-hover-bg:#e1f0fa; --entity-glow:rgba(0,92,170,.34); --entity-glow-soft:rgba(0,92,170,.18);"><img class="entity-logo" src="images/logos/education/USTC.svg" alt="">University of Science and Technology of China (USTC)</span></a></strong>, supervised by <a href="http://staff.ustc.edu.cn/~binli/">Bin Li (USTC, 李斌)</a>.
 
 
 
@@ -182,7 +216,7 @@ I am a **PhD student** in <img src="images/logos/education/USTC.svg" alt="BIGAI"
 
 <!-- I am an upcoming joint **PhD student** at <img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> **State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and <img src="images/logos/education/USTC.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>.  -->
 
-Currently, I am doing my internship in <img src="images/logos/organizations/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent <img src="images/logos/organizations/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Yuanbao and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> BIGAI. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
+Currently, I am doing my internship in <strong><a class="entity-link" href="https://yuanbao.tencent.com/"><span class="entity-mention" style="--entity-color:#00a85a; --entity-bg:#ecfaf3; --entity-hover-bg:#ddf7ea; --entity-glow:rgba(0,168,90,.34); --entity-glow-soft:rgba(0,168,90,.18);"><img class="entity-logo" src="images/logos/organizations/yuanbao-color.svg" alt="">Tencent Yuanbao</span></a></strong> and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <strong><a class="entity-link" href="https://www.bigai.ai/"><span class="entity-mention" style="--entity-color:#9a4035; --entity-bg:#f9efed; --entity-hover-bg:#f4e2df; --entity-glow:rgba(154,64,53,.34); --entity-glow-soft:rgba(154,64,53,.18);"><img class="entity-logo" src="images/logos/organizations/bigai-mark.png" alt="">BIGAI</span></a></strong>. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
 **Research Interests：**
