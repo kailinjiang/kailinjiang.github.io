@@ -1,7 +1,7 @@
 main:
   - title: "AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research"
     bibtex: |
-    authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Yangqi Chen, Hui Xu, Hongwei Zhao,  Bin Li, Yu Lu, Haibo Shi.【2026.09】"
+    authors: "🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Lei Liu, Jian Xi, Yangqi Chen, Hui Xu, Hongwei Zhao,  Bin Li, Yu Lu, Haibo Shi.【2026.09】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/AdaTutoRank.png"
@@ -21,7 +21,7 @@ main:
         journal={arXiv preprint arXiv:2607.19747},
         year={2026}
       }
-    authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
+    authors: "🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/Rubric4Setwise.png"
@@ -43,7 +43,7 @@ main:
         journal={arXiv preprint arXiv:2607.24280},
         year={2026}
       }
-    authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, <strong>Kailin Jiang</strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
+    authors: "Junlin Liu, Chunji Lv, Jiangwang Chen, Zixin Song, Shuaiyu Zhou, Xingjian Wu, 🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Jinyang Wu, Bohan yu, Chenxi Zhou, Xiao Yang, Da Zhu, Guanjun Jiang.【2026.07】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/MAPD.png"
@@ -63,7 +63,7 @@ main:
         journal={arXiv preprint arXiv:2607.16609},
         year={2026}
       }
-    authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang</strong>, Yuntao Du, Weiye Song.【2026.07】"
+    authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, 🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Yuntao Du, Weiye Song.【2026.07】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/OCT-Bench.png"
@@ -83,7 +83,7 @@ main:
         journal={arXiv preprint arXiv:2608.03782},
         year={2026}
       }
-    authors: "Ruihan Li, Jiyang Tan, <strong>Kailin Jiang</strong>, Huining Li, Hengyang Lu, Yu Huang, Qian Li, Yuntao Du.【2026.08】"
+    authors: "Ruihan Li, Jiyang Tan, 🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Huining Li, Hengyang Lu, Yu Huang, Qian Li, Yuntao Du.【2026.08】"
     conference_short: Preprint
     conference: Preprint
     image: "images/paper_overview/KnowHal.png"
