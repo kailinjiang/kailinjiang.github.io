@@ -4,7 +4,7 @@ main:
     authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Yangqi Chen, Hui Xu, Hongwei Zhao,  Bin Li, Yu Lu, Haibo Shi.【2026.09】"
     conference_short: Preprint
     conference: Preprint
-    image: "images/paper_overview/adatutorank2.png"
+    image: "images/paper_overview/AdaTutoRank.png"
     arxiv: "https://arxiv.org/abs/2609.32472"
     huggingface_paper: "https://huggingface.co/papers/2609.32472"
     code: "https://github.com/AdaTutoRank/AdaTutoRank"
@@ -24,7 +24,7 @@ main:
     authors: "<strong>Kailin Jiang</strong>, Lei Liu, Jian Xi, Hui Xu, Junlin Liu, Baochen Fu, Bin Li, Vichwang, Yu Lu, Haibo Shi.【2026.07】"
     conference_short: Preprint
     conference: Preprint
-    image: "images/paper_overview/rubric4setwise.png"
+    image: "images/paper_overview/Rubric4Setwise.png"
     arxiv: "https://arxiv.org/pdf/2607.19747"
     huggingface_paper: "https://huggingface.co/papers/2607.19747"
     code: "https://github.com/Rubric4Setwise/Rubric4Setwise"
@@ -66,7 +66,7 @@ main:
     authors: "Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, <strong>Kailin Jiang</strong>, Yuntao Du, Weiye Song.【2026.07】"
     conference_short: Preprint
     conference: Preprint
-    image: "images/paper_overview/oct-bench.png"
+    image: "images/paper_overview/OCT-Bench.png"
     arxiv: "https://arxiv.org/pdf/2607.16609"
     huggingface_paper: "https://huggingface.co/papers/2607.16609"
     code: "https://github.com/baochenfu/OCT-Bench"

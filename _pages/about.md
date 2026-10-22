@@ -174,15 +174,15 @@ redirect_from:
 
 
 
-I am a **PhD student** in <img src="images\edu\ustc.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. 
+I am a **PhD student** in <img src="images/logos/education/USTC.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>.
 
 
 
 
 
-<!-- I am an upcoming joint **PhD student** at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> **State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and <img src="images\edu\ustc.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>.  -->
+<!-- I am an upcoming joint **PhD student** at <img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> **State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and <img src="images/logos/education/USTC.svg" alt="BIGAI" style="height:28px; vertical-align:middle; margin-right:6px;">**University of Science and Technology of China** <a href='https://www.ustc.edu.cn/index.htm'>(USTC)</a>, supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>.  -->
 
-Currently, I am doing my internship in <img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent <img src="images/internship/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Yuanbao and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> BIGAI. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
+Currently, I am doing my internship in <img src="images/logos/organizations/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent <img src="images/logos/organizations/yuanbao-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Yuanbao and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> BIGAI. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
 **Research Interests：**
@@ -190,7 +190,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
 - **⚖️ LLM for Ranking** — Leveraging large language models for next-generation information retrieval and ranking.
 - **🎯 MLLM Evaluation & Benchmarking** — Designing rigorous evaluation protocols to assess reasoning and reliability of foundation models.
 
-<!-- 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/wechat.png">Wechat</a>. -->
+<!-- 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/contact/wechat-qr.png">Wechat</a>. -->
 
 
 <!-- I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">  -->
@@ -311,28 +311,28 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
 
 <div style="display: grid; grid-template-columns: repeat(5, max-content); justify-content: center; column-gap: 20px; row-gap: 15px;">
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/ICLR.png" alt="ICLR" style="width: 150px; height: 45px;">
+    <img src="./images/logos/conferences/ICLR.png" alt="ICLR" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×3</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/AAAI.png" alt="AAAI" style="width: 150px; height: 45px;">
+    <img src="./images/logos/conferences/AAAI.png" alt="AAAI" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/ACL.png" alt="ACL" style="width: 150px; height: 45px;">
+    <img src="./images/logos/conferences/ACL.png" alt="ACL" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/ICML.png" alt="ICML" style="width: 150px; height: 45px;">
+    <img src="./images/logos/conferences/ICML.png" alt="ICML" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/blank.png" alt="" style="width: 150px; height: 45px;">
+    <img src="./images/site/blank-conference-logo.png" alt="" style="width: 150px; height: 45px;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;"></span>
   </div>
 
   <div style="display: flex; align-items: center;">
-    <img src="./images/conference/MM2026.png" alt="ACM MM" style="height: 45px; width: auto;">
+    <img src="./images/logos/conferences/ACM-MM-2026.png" alt="ACM MM" style="height: 45px; width: auto;">
     <span style="margin-left: 10px; font-size: 20px; font-weight: bold; color: #8B4513;">×1</span>
   </div>
 </div>
@@ -627,7 +627,7 @@ Currently, I am doing my internship in <img src="images/internship/tencent-color
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">{% if link.internship and link.internship.size > 0 %}{% assign intern_items = link.internship | split: "," %}{% for intern_item in intern_items %}{% assign intern_name = intern_item | strip %}{% if intern_name == "bigai" %}<img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "yuanbao" %}<img src="images/internship/yuanbao-color.svg" alt="Yuanbao" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "tencent" %}<img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "ali" %}<img src="images/internship/alibaba.svg" alt="Alibaba" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "qwen" %}<img src="images/internship/qwen.svg" alt="Qwen" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="title">{% if link.internship and link.internship.size > 0 %}{% assign intern_items = link.internship | split: "," %}{% for intern_item in intern_items %}{% assign intern_name = intern_item | strip %}{% if intern_name == "bigai" %}<img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "yuanbao" %}<img src="images/logos/organizations/yuanbao-color.svg" alt="Yuanbao" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "tencent" %}<img src="images/logos/organizations/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "ali" %}<img src="images/logos/organizations/alibaba.svg" alt="Alibaba" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "qwen" %}<img src="images/logos/organizations/qwen.svg" alt="Qwen" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
@@ -885,7 +885,7 @@ h2 {
     {% endif %}
   </div>
   <div class="col-sm-9 pub-content" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">{% if link.internship and link.internship.size > 0 %}{% assign intern_items = link.internship | split: "," %}{% for intern_item in intern_items %}{% assign intern_name = intern_item | strip %}{% if intern_name == "bigai" %}<img src="images/internship/bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "yuanbao" %}<img src="images/internship/yuanbao-color.svg" alt="Yuanbao" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "tencent" %}<img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "ali" %}<img src="images/internship/alibaba.svg" alt="Alibaba" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "qwen" %}<img src="images/internship/qwen.svg" alt="Qwen" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
+      <div class="title">{% if link.internship and link.internship.size > 0 %}{% assign intern_items = link.internship | split: "," %}{% for intern_item in intern_items %}{% assign intern_name = intern_item | strip %}{% if intern_name == "bigai" %}<img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "yuanbao" %}<img src="images/logos/organizations/yuanbao-color.svg" alt="Yuanbao" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "tencent" %}<img src="images/logos/organizations/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "ali" %}<img src="images/logos/organizations/alibaba.svg" alt="Alibaba" style="height:24px; vertical-align:middle; margin-right:6px;">{% elsif intern_name == "qwen" %}<img src="images/logos/organizations/qwen.svg" alt="Qwen" style="height:24px; vertical-align:middle; margin-right:6px;">{% endif %}{% unless forloop.last %} {% endunless %}{% endfor %}{% endif %}<a href="{{ link.arxiv | default: '/404.html' }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em class="conference-name">{{ link.conference }}</em>
       </div>
@@ -1148,8 +1148,8 @@ As these works are patented in China, all these names are directly translated fr
 
 
 <!-- # 💻 Internships
-- **2024.08 - now**, <img src='./images/internship/bigai.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
-- **2024.02 - 2024.08**, <img src='./images/internship/bigai.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern. -->
+- **2024.08 - now**, <img src='./images/logos/organizations/bigai-mark.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
+- **2024.02 - 2024.08**, <img src='./images/logos/organizations/bigai-mark.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern. -->
 
 
 ---
@@ -1299,7 +1299,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
       </ul>
       <p class="exp-time">2024.08 - now</p>
     </div>
-    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
+    <div class="exp-img"><img src="images/logos/organizations/bigai-mark.png" alt="BIGAI"></div>
   </li>
   <li class="exp-item">
     <div class="exp-text">
@@ -1311,31 +1311,31 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
       </ul>
       <p class="exp-time">2024.02 - 2024.08</p>
     </div>
-    <div class="exp-img"><img src="images\tong.png" alt="BIGAI"></div>
+    <div class="exp-img"><img src="images/logos/organizations/bigai-mark.png" alt="BIGAI"></div>
   </li> -->
 
   <li class="exp-item exp-item--tencent">
     <div class="exp-text">
-      <p class="exp-title"><img src="images/internship/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
+      <p class="exp-title"><img src="images/logos/organizations/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle; margin-right:6px;"> Tencent (Beijing, China)</p>
       <p class="exp-sub">&cir; Research Intern on Agentic Search, LLM for Ranking.</p>
       <div class="exp-roles">
         <div class="exp-role">
           <p class="exp-sub" style="margin: 6px 0 2px 0; font-weight: 700;"><strong>Algorithm Intern</strong>&nbsp;&nbsp;&nbsp;2026.06 - now</p>
           <ul>
-            <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/internship/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:22px; vertical-align:middle;">Tencent Yuanbao <img src="images/internship/scholarship_logo_black.png" alt="Tencent Qingyun" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent Project UP</a></span></li>
+            <li class="exp-affiliation-line"><span class="exp-affiliation-line__inner"><img src="images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:22px; vertical-align:middle;">Tencent Yuanbao <img src="images/logos/programs/tencent-project-up.png" alt="Tencent Qingyun" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer">Tencent Project UP</a></span></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="exp-media" aria-hidden="true">
-      <img src="images/internship/e.gif" alt="">
+      <img src="images/animations/tencent-internship.gif" alt="">
     </div>
-    <div class="exp-logo"><img class="exp-logo--tencent" src="images/internship/Tencent.svg" alt="Tencent"></div>
+    <div class="exp-logo"><img class="exp-logo--tencent" src="images/logos/organizations/tencent-brand-color.svg" alt="Tencent"></div>
   </li>
 
   <li class="exp-item">
     <div class="exp-text">
-      <p class="exp-title"><img src="images\internship\bigai.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
+      <p class="exp-title"><img src="images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:22px; vertical-align:middle; margin-right:6px;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China)</p>
       <p class="exp-sub">&cir; Research Intern on Continual Learning (Knowledge Editing &amp; Injection), Evaluation and Benchmarking.</p>
       <div class="exp-roles">
         <div class="exp-role">
@@ -1354,8 +1354,8 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
         </div>
       </div>
     </div>
-    <!-- <div class="exp-logo"><img src="images\tong.png" alt="BIGAI"></div> -->
-    <div class="exp-logo"><img class="exp-logo--bigai2" src="images\internship\bigai2.png" alt="BIGAI"></div>
+    <!-- <div class="exp-logo"><img src="images/logos/organizations/bigai-mark.png" alt="BIGAI"></div> -->
+    <div class="exp-logo"><img class="exp-logo--bigai2" src="images/logos/organizations/bigai-wordmark.png" alt="BIGAI"></div>
   </li>
 
 
@@ -1398,13 +1398,13 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
 
 <!-- <div style="display: flex; justify-content: center;">
   <div style="text-align: center;">
-    <img src="./images/internship/bigai.png" alt="BIGAI" style="width: 200px; height: 60px;">
+    <img src="./images/logos/organizations/bigai-mark.png" alt="BIGAI" style="width: 200px; height: 60px;">
   </div>
 </div> -->
 
 
 <!-- # 📖 Educations
-- **2024.06 - now**, <img src='./images/ustc.png' style='width: 2em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
+- **2024.06 - now**, <img src='./images/logos/education/USTC.png' style='width: 2em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
 
 - **2020.09 - 2024.06**, **Sichuan Agricultural University (SICAU), graduate student**. I am studying for a degree in Information and Computational Science at the college of science in SICAU. -->
 
@@ -1480,7 +1480,7 @@ html[data-theme="dark"] .edu-img img,
       </ul>
       <p class="edu-time">2024.09 - now</p>
     </div>
-    <div class="edu-img"><img src="images\edu\ustc.svg" alt="USTC"></div>
+    <div class="edu-img"><img src="images/logos/education/USTC.svg" alt="USTC"></div>
   </li>
   <li class="edu-item">
     <div class="edu-text">
@@ -1493,7 +1493,7 @@ html[data-theme="dark"] .edu-img img,
       </ul>
       <p class="edu-time">2020.09 - 2024.06</p>
     </div>
-    <div class="edu-img"><img src="images\edu\sicau.svg" alt="SICAU"></div>
+    <div class="edu-img"><img src="images/logos/education/SICAU.svg" alt="SICAU"></div>
   </li>
 </ul>
 </div>

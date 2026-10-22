@@ -26,7 +26,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Kailin Jiang \n蒋凯林"
-  avatar           : "images/me.png"
+  avatar           : "images/profile/avatar.png"
   bio              : "Ph.D @ University of Science and Technology of China"
   location         : "Beijing , China"
   employer         :

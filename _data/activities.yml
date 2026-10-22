@@ -4,18 +4,18 @@
 
 
 - images:
-    - images/activities/icml2026/t1_5.jpg
-    - images/activities/icml2026/t1_3.jpg
-    - images/activities/icml2026/t1_4.jpg
-    # - images/activities/icml2026/t1_2.jpg
+    - images/activities/2026/icml/t1-base-camp/photo-5.jpg
+    - images/activities/2026/icml/t1-base-camp/photo-3.jpg
+    - images/activities/2026/icml/t1-base-camp/photo-4.jpg
+    # - images/activities/2026/icml/t1-base-camp/photo-2.jpg
   text: "T1 BASE CAMP (韩国首尔,2026.07.11)"
 
 
 - images:
-    - images/activities/icml2026/ubiq_3.jpg
-    # - images/activities/icml2026/ubiq_2.jpg
-    - images/activities/icml2026/ubiq_1.jpg
-    - images/activities/icml2026/ubiq_4.jpg
+    - images/activities/2026/icml/ubiquant/photo-3.jpg
+    # - images/activities/2026/icml/ubiquant/photo-2.jpg
+    - images/activities/2026/icml/ubiquant/photo-1.jpg
+    - images/activities/2026/icml/ubiquant/photo-4.jpg
   link: "https://mp.weixin.qq.com/s/kc6N6OcDlu9bZb3_NhmF4Q"
   link_text: "UBIQUANT@ICML 2026"
   suffix: "(韩国首尔,2026.07.09)"
@@ -23,56 +23,56 @@
 
 
 - images:
-    - images/activities/icml2026/icml_3.jpg
-    - images/activities/icml2026/icml_1.jpg
-    - images/activities/icml2026/icml_4.jpg
+    - images/activities/2026/icml/conference/photo-3.jpg
+    - images/activities/2026/icml/conference/photo-1.jpg
+    - images/activities/2026/icml/conference/photo-4.jpg
   text: "ICML 2026 (韩国首尔,2026.07.09)"
 
 
 - images:
-    - images/activities/alistar2026.jpg
-    - images/activities/alistar20262.jpeg
+    - images/activities/2026/alistar-trip/photo-1.jpg
+    - images/activities/2026/alistar-trip/photo-2.jpeg
   link: "https://mp.weixin.qq.com/s/_YP_MzFDGz5jZImE7hYadg"
   link_text: "阿里星热爱之旅"
   suffix: "(北京,2026.05.29)"
 
 - images:
-    - images/activities/valse2026.jpg
-    - images/activities/valse2026_2.jpg
+    - images/activities/2026/valse/photo-1.jpg
+    - images/activities/2026/valse/photo-2.jpg
   text: "VALSE 2026 (湖北武汉,2026.05.09)"
 
-- image: images/activities/jiqizhixin_ICLR2026.jpg
+- image: images/activities/2026/iclr-paper-sharing/photo-1.jpg
   link: "https://mp.weixin.qq.com/s/s-7xsWX9p8j9KN8Mv0198A"
   link_text: "机器之心ICLR 2026 论文分享会"
   suffix: "(北京,2026.04.18)"
 
-- image: images/activities/pku_IAI.jpg
+- image: images/activities/2025/pku-ai-tech-day/poster-session.jpg
   text: "北京大学 AI Tech Day·2025 (北京,2025.10.25)"
 
-- image: images/activities/Tencent_xuanwu_lab.jpg
+- image: images/activities/2025/tencent-xuanwu-open-day/photo.jpg
   text: "腾讯安全技术开放日 玄武实验室 (北京,2025.09.10)"
 
-- image: images/activities/ml.jpg
+- image: images/activities/2025/bigai-ml-lab/group-photo.jpg
   text: "BIGAI ML Lab团建 (北京,2025.06.13)"
 
-- image: images/activities/jiqizhixin_ICLR25.jpeg
+- image: images/activities/2025/iclr-paper-sharing/photo.jpeg
   link: "https://mp.weixin.qq.com/s/J_uqQERxQh9g3BuC8P4nMw"
   link_text: "机器之心ICLR 2025 论文分享会"
   suffix: "(北京,2025.04.20)"
 
-- image: images/activities/lainhuashan.jpg
+- image: images/activities/2024/lianhuashan-symposium/group-photo.jpg
   text: "莲花山研究院二十周年研讨会 (湖北鄂州,2024.07.23)"
 
-- image: images/activities/mas1.jpg
+- image: images/activities/2024/bigai-mas-lab/group-photo.jpg
   text: "BIGAI MAS Lab (北京,2024.07.16)"
 
-- image: images/activities/tongban.jpeg
+- image: images/activities/2024/tong-class-conference/group-photo.jpeg
   text: "通班大会 (北京,2024.07.06)"
 
-- image: images/activities/bdas.jpg
+- image: images/activities/2022/bdas-lab/group-photo.jpg
   text: "BDAS Lab (四川雅安,2022.06)"
 
-- image: images/activities/shumo.jpg
+- image: images/activities/2021/modeling-competition-defense/photo.jpg
   link: "https://news.sicau.edu.cn/info/1078/65449.htm"
   link_text: "数模国赛答辩"
   suffix: "(四川成都,2021.10)"
