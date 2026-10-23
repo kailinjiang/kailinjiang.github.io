@@ -132,6 +132,34 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 </script>
 
 
+<style>
+.model-release-label {
+  display: inline-block;
+  padding: 2px 9px;
+  margin-right: 6px;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  color: #0F766E !important;
+  background: #E6F4F1;
+  border: 0 !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: filter 0.15s ease;
+}
+.model-release-label:hover,
+.model-release-label:focus {
+  color: #0F766E !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  filter: brightness(0.94);
+}
+</style>
+
 
 <span class='anchor' id='internships'></span>
 # 💻 Internship Experience
