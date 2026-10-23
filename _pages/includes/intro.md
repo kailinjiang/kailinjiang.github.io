@@ -138,7 +138,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 
 
 
-- **2026.06 – Present｜ <img src="./images/logos/organizations/tencent-brand-color.svg" alt="Tencent" style="height:18px; vertical-align:middle;"> Tencent, <img src="./images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:25px; vertical-align:middle;"> Tencent Yuanbao AI Search Team. <img src="./images/logos/programs/tencent-project-up.png" alt="Tencent Project UP" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer"><span style="color:red">(Tencent Project UP)</span></a>**
+- **2026.06 – Present｜ <img src="./images/logos/organizations/tencent-brand-color.svg" alt="Tencent" style="height:18px; vertical-align:middle;"> Tencent, <img src="./images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:25px; vertical-align:middle;"> Yuanbao AI Search Team. <img src="./images/logos/programs/tencent-project-up.png" alt="Tencent Project UP" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer"><span style="color:red">(Tencent Project UP)</span></a>**
   - I work on LLM4Ranking for RAG & Deep Research, developing [**AdaTutoRank**](https://arxiv.org/abs/2609.32472) for adaptive tutoring optimization in document-set reranking, and [**Rubric4Setwise**](https://arxiv.org/pdf/2607.19747) for rubric-oriented document set selection and ranking.
 
 - **2024.02 – 2026.05｜ <img src="./images/logos/organizations/bigai-all.png" alt="BIGAI" style="height:32px; vertical-align:middle;"> BIGAI, MAS & ML Lab.**
