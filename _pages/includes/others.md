@@ -117,13 +117,13 @@ As these works are patented in China, all these names are directly translated fr
 
 
 
-<!-- # 💻 Internships
+{% comment %}
+# 💻 Internships
 - **2024.08 - now**, <img src='./images/logos/organizations/bigai-mark.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
-- **2024.02 - 2024.08**, <img src='./images/logos/organizations/bigai-mark.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern. -->
+- **2024.02 - 2024.08**, <img src='./images/logos/organizations/bigai-mark.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern.
 
 
 ---
-{% comment %}
 <span class='anchor' id='internships'></span>
 # 💻 Internships
 <style>
