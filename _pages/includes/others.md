@@ -89,7 +89,47 @@ As these works are patented in China, all these names are directly translated fr
 
 
 
+<style>
+.honors-blog {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 9px;
+  margin-left: 6px;
+  color: #21b84c !important;
+  background: #E8F5E9;
+  border: 0 !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.55;
+  text-decoration: none !important;
+  transition: filter 0.15s ease;
+}
+.honors-blog:hover,
+.honors-blog:focus {
+  color: #21b84c !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  filter: brightness(0.94);
+}
+.honors-blog img {
+  width: auto;
+  height: 1.05em;
+  margin: 0;
+  box-shadow: none !important;
+}
+</style>
 
+# 🏆 Honors and Awards
+- **2026.10**, China National Scholarship, University of Science and Technology of China.
+- **2021.11**, National First Prize in the National College Student Mathematical Modeling Competition (Top 0.65%). <a href="https://news.sicau.edu.cn/info/1078/65449.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+- **2022.11**, China Telecom Scholarship · Fly Young Award. <a href="https://news.sicau.edu.cn/info/1133/69730.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+- **2022.05**, Youth May Fourth Model of SICAU. <a href="https://news.sicau.edu.cn/info/1078/67652.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+- **2023.12**, Outstanding Student Model of SICAU. <a href="https://news.sicau.edu.cn/info/1135/74600.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
 
 
 <span class='anchor' id='peer-review'></span>
@@ -113,6 +153,9 @@ As these works are patented in China, all these names are directly translated fr
 		<li><strong>ICLR 2026,2027</strong> Reviewer </li>
 	</ul>
 </div>
+
+
+
 
 
 
