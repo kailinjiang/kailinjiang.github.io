@@ -41,27 +41,6 @@ main:
     citations_url: https://arxiv.org/pdf/2510.19457
     website: "https://mined-lmm.github.io/"
 
-  - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
-    bibtex: |
-      @article{peng2025can,
-        title={Can visual input be compressed? a visual token compression benchmark for large multimodal models},
-        author={Peng, Tianfan and Du, Yuntao and Ji, Pengzhou and Dong, Shijie and Jiang, Kailin and Ma, Mingchuan and Tian, Yijun and Bi, Jinhe and Li, Qian and Du, Wei and others},
-        journal={arXiv preprint arXiv:2511.02650},
-        year={2025}
-      }
-    authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, 🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
-    conference_short: ACM MM 2026
-    conference: "<span class='conference-icon'>🏛️</span> The 34th ACM International Conference on Multimedia"
-    image: "images/paper_overview/VLMUniPruneBench.png"
-    arxiv: "https://arxiv.org/abs/2511.02650"
-    huggingface_paper: "https://huggingface.co/papers/2511.02650"
-    code: "https://github.com/TianfanPeng/VLMUniPruneBench"
-    github_repo: "TianfanPeng/VLMUniPruneBench"
-    citations: 18
-    citations_url: https://arxiv.org/abs/2511.02650
-    website: "https://uniprunebench-lmm.github.io/"
-
-
   - title: "When Large Multimodal Models Confront Evolving Knowledge: Challenges and Explorations"
     bibtex: |
       @inproceedings{jiang2026large,
@@ -84,6 +63,26 @@ main:
     citations: 14
     citations_url: https://arxiv.org/pdf/2505.24449
     website: "https://evoke-lmm.github.io/"
+
+  - title: "Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models"
+    bibtex: |
+      @article{peng2025can,
+        title={Can visual input be compressed? a visual token compression benchmark for large multimodal models},
+        author={Peng, Tianfan and Du, Yuntao and Ji, Pengzhou and Dong, Shijie and Jiang, Kailin and Ma, Mingchuan and Tian, Yijun and Bi, Jinhe and Li, Qian and Du, Wei and others},
+        journal={arXiv preprint arXiv:2511.02650},
+        year={2025}
+      }
+    authors: "Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, 🧑‍💻 <strong><u>Kailin Jiang</u></strong>, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui.【2025.9】"
+    conference_short: ACM MM 2026
+    conference: "<span class='conference-icon'>🏛️</span> The 34th ACM International Conference on Multimedia"
+    image: "images/paper_overview/VLMUniPruneBench.png"
+    arxiv: "https://arxiv.org/abs/2511.02650"
+    huggingface_paper: "https://huggingface.co/papers/2511.02650"
+    code: "https://github.com/TianfanPeng/VLMUniPruneBench"
+    github_repo: "TianfanPeng/VLMUniPruneBench"
+    citations: 18
+    citations_url: https://arxiv.org/abs/2511.02650
+    website: "https://uniprunebench-lmm.github.io/"
 
   - title: "Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models"
     bibtex: |
