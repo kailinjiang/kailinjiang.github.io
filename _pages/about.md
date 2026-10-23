@@ -339,6 +339,18 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 
 
 
+# 💻 Internship Experience
+
+- **2026.06 – Present｜ <img src="./images/logos/organizations/tencent-color.svg" alt="Tencent" style="height:24px; vertical-align:middle;"> Tencent, <img src="./images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:24px; vertical-align:middle;"> Tencent Yuanbao AI Search Team. <img src="./images/logos/programs/tencent-project-up.png" alt="Tencent Project UP" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer"><span style="color:red">(Tencent Project UP)</span></a>**
+  - I work on Agentic Search and LLM for Ranking as an Algorithm Intern.
+
+- **2024.02 – 2026.05｜ <img src="./images/logos/organizations/bigai-mark.png" alt="BIGAI" style="height:24px; vertical-align:middle;"> State Key Laboratory of General Artificial Intelligence (BIGAI, Beijing, China).**
+  - I worked on Continual Learning (Knowledge Editing & Injection), Evaluation and Benchmarking.
+  - **2024.08 – 2026.05:** Intern Researcher, ML Lab.
+  - **2024.02 – 2024.08:** Algorithm Intern, MAS Lab.
+
+
+
 
 # 📝 Publications
 *: Co-First Author, Equal Contribution
@@ -1192,10 +1204,10 @@ As these works are patented in China, all these names are directly translated fr
 <!-- <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div> -->
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
-    <li><strong>AAAI 2027 Program Committee</strong></li>
-    <li><strong>NeurIPS 2026 Reviewer</strong> </li>
-		<li><strong>ICML 2026 Reviewer</strong> </li>
-		<li><strong>ICLR 2026,2027 Reviewer</strong> </li>
+    <li><strong>AAAI 2027</strong> Program Committee</li>
+    <li><strong>NeurIPS 2026</strong> Reviewer </li>
+		<li><strong>ICML 2026</strong> Reviewer </li>
+		<li><strong>ICLR 2026,2027</strong> Reviewer </li>
 	</ul>
 </div>
 
@@ -1208,7 +1220,7 @@ As these works are patented in China, all these names are directly translated fr
 
 
 ---
-<span class='anchor' id='internships'></span>
+<!-- <span class='anchor' id='internships'></span>
 # 💻 Internships
 <style>
 .exp-list {
@@ -1448,7 +1460,7 @@ html[data-theme="dark"] .exp-logo img.exp-logo--tencent,
     resizeTimeout = setTimeout(setExpScrollWindowHeight, 150);
   });
 })();
-</script>
+</script> -->
 
 
 <!-- <div style="display: flex; justify-content: center;">
