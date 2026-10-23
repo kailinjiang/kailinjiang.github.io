@@ -24,7 +24,7 @@ As these works are patented in China, all these names are directly translated fr
 	<ul>
 		<li><strong>2022.12</strong> Typical Innovation and Entrepreneurship Models of SICAU (<span class="highlight-info">10 school-wide slots available, CNY 1,000.00</span>).</li>
 		<li><strong>2022.11</strong> China Telecom Scholarship · Fly Young Award. (<span class="highlight-info">CNY 5,000.00</span>)</li>
-		<li><strong>2022.04</strong> Youth May Fourth Model of SICAU (<span class="highlight-info">10 school-wide slots available</span>).</li>
+		<li><strong>2022.04</strong> May Fourth Outstanding Youth Award, Sichuan Agricultural University (<span class="highlight-info">10 school-wide slots available</span>).</li>
     <li><strong>2022.04</strong> The Star of Science and Technology Innovation at SICAU (<span class="highlight-info">10 school-wide slots available, CNY 1,000.00</span>).</li>
     <li><strong>2021.12</strong> A-level Certificate of Comprehensive Quality for College Students in Sichuan Province.</li>
 
@@ -125,11 +125,13 @@ As these works are patented in China, all these names are directly translated fr
 </style>
 
 # 🏆 Honors and Awards
-- **2026.10**, China National Scholarship, University of Science and Technology of China.
-- **2021.11**, National First Prize in the National College Student Mathematical Modeling Competition (Top 0.65%). <a href="https://news.sicau.edu.cn/info/1078/65449.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+- **2026.10**, National Scholarship, USTC.
+- **2023.12**, Student Person of the Year, SICAU. <a href="https://news.sicau.edu.cn/info/1135/74600.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
 - **2022.11**, China Telecom Scholarship · Fly Young Award. <a href="https://news.sicau.edu.cn/info/1133/69730.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
-- **2022.05**, Youth May Fourth Model of SICAU. <a href="https://news.sicau.edu.cn/info/1078/67652.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
-- **2023.12**, Outstanding Student Model of SICAU. <a href="https://news.sicau.edu.cn/info/1135/74600.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+- **2022.05**, May Fourth Outstanding Youth Award, SICAU. <a href="https://news.sicau.edu.cn/info/1078/67652.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+- **2021.11**, National First Prize in the National College Student Mathematical Modeling Competition (Top 0.65%). <a href="https://news.sicau.edu.cn/info/1078/65449.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
+
+
 
 
 <span class='anchor' id='peer-review'></span>
