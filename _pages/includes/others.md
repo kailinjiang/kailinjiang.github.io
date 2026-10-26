@@ -149,6 +149,7 @@ As these works are patented in China, all these names are directly translated fr
 <!-- <div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div> -->
 <div style="max-height: 300px; overflow: auto; font-size: 15px;">
 	<ul>
+    <li><strong>ACL Rolling Review 2026</strong> Reviewer </li>
     <li><strong>AAAI 2027</strong> Program Committee</li>
     <li><strong>NeurIPS 2026</strong> Reviewer </li>
 		<li><strong>ICML 2026</strong> Reviewer </li>
