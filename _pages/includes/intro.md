@@ -168,7 +168,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 
 
 
-- **2026.06 – Present｜ <img src="./images/logos/organizations/tencent-brand-color.svg" alt="Tencent" style="height:18px; vertical-align:middle;"> Tencent, <img src="./images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:25px; vertical-align:middle;"> Yuanbao AI Search Team. <img src="./images/logos/programs/tencent-project-up.png" alt="Tencent Project UP" style="height:22px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer"><span style="color:red">(Tencent Project UP)</span></a>**
+- **2026.06 – Present｜ <img src="./images/logos/organizations/tencent-brand-color.svg" alt="Tencent" style="height:20px; vertical-align:middle;"> Tencent, <img src="./images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:27px; vertical-align:middle;"> Yuanbao AI Search Team. <img src="./images/logos/programs/tencent-project-up.png" alt="Tencent Project UP" style="height:24px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer"><span style="color:red">(Tencent Project UP)</span></a>**
   - I work on LLM4Ranking for RAG & Deep Research, developing [**AdaTutoRank**](https://arxiv.org/abs/2609.32472) for 🎯🎯 adaptive tutoring optimization in document-set reranking, and [**Rubric4Setwise**](https://arxiv.org/pdf/2607.19747) for ⚖️⚖️ rubric-oriented document set selection and ranking.
   - <a href="https://cloud.tencent.com/product/wsa" class="btn-link model-release-label">🚀 Open Resources</a> [**Tencent Yuanbao Search**](https://cloud.tencent.com/product/wsa).
   - Mentor: [**Jian Xi**](https://openreview.net/profile?id=~Jian_Xi2).
@@ -177,6 +177,6 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 
 
 
-- **2024.02 – 2026.05｜ <img src="./images/logos/organizations/bigai-all.png" alt="State Key Laboratory of General Artificial Intelligence (BIGAI)" style="height:40px; vertical-align:middle;"> State Key Laboratory of General Artificial Intelligence (BIGAI), MAS & ML Lab.**
+- **2024.02 – 2026.05｜ <img src="./images/logos/organizations/bigai-all.png" alt="State Key Laboratory of General Artificial Intelligence (BIGAI)" style="height:42px; vertical-align:middle;"> State Key Laboratory of General Artificial Intelligence (BIGAI), MAS & ML Lab.**
   - I worked on continual learning (knowledge injection & editing) and knowledge evaluation, developing [**KORE (ICML26)**](https://arxiv.org/pdf/2510.19316) and [**MMEVOKE (ICLR26)**](https://arxiv.org/pdf/2505.24449) for 💉💉 continual knowledge injection, [**ICE (ICLR25)**](https://arxiv.org/pdf/2406.11194) and [**MMKE-Bench (ICLR25)**](https://arxiv.org/pdf/2502.19870) for 🩺🩺 knowledge editing, and [**MINED (ACL26)**](https://arxiv.org/pdf/2510.19457) for ⏱️⏱️ time-sensitive knowledge probing.
   - Mentors: [**Siyuan Qi**](https://scholar.google.com/citations?user=ePclJR4AAAAJ), [**Yuntao Du**](https://yuntaodu.github.io/), [**Qing Li**](https://liqing.io/), and [**Zhi Gao**](https://zhigao2017.github.io/).
