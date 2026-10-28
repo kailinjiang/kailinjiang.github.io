@@ -269,18 +269,18 @@
 .conference .periodical { font-size: 0.96rem; }
 .conference .conference-name { color: #8B0000; font-weight: bold; }
 .conference .conference-icon { display: inline-block; font-style: normal; }
-.conference .links a { font-size: 12px !important; }
+.conference .links a { font-size: 13.5px !important; }
 .conference .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: center; }
 .conference .links { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .conference .pub-button {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 9px;
+  padding: 3px 11px;
   border: 0;
   border-radius: 4px;
   font-family: inherit;
-  font-size: 0.85em !important;
+  font-size: 0.92em !important;
   font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 1.55;
@@ -537,18 +537,18 @@ h2 {
 .preprint .title { font-size: 1.14rem; font-weight: 700; line-height: 1.35; }
 .preprint .author { font-size: 0.98rem; }
 .preprint .periodical { font-size: 0.96rem; }
-.preprint .links a { font-size: 12px !important; }
+.preprint .links a { font-size: 13.5px !important; }
 .preprint .links-row { margin-top: 10px; display: flex; gap: 12px; align-items: center; }
 .preprint .links { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .preprint .pub-button {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 2px 9px;
+  padding: 3px 11px;
   border: 0;
   border-radius: 4px;
   font-family: inherit;
-  font-size: 0.85em !important;
+  font-size: 0.92em !important;
   font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 1.55;
