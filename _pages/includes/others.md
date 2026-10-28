@@ -125,7 +125,7 @@ As these works are patented in China, all these names are directly translated fr
 </style>
 
 # 🏆 Honors and Awards
-- **2026.10**, National Scholarship, USTC.
+- **2026.10**, **National Scholarship**, USTC.
 - **2023.12**, Student Person of the Year, SICAU. <a href="https://news.sicau.edu.cn/info/1135/74600.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
 - **2022.11**, China Telecom Scholarship · Fly Young Award. <a href="https://news.sicau.edu.cn/info/1133/69730.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
 - **2022.05**, May Fourth Outstanding Youth Award, SICAU. <a href="https://news.sicau.edu.cn/info/1078/67652.htm" target="_blank" rel="noopener noreferrer" class="honors-blog"><img src="images/icons/WeChat.png" alt="">Blog</a>
