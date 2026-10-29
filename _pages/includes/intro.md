@@ -13,10 +13,58 @@ I am a **PhD student** in <strong><a class="entity-link" href="https://www.ustc.
 Currently, I am doing my internship in <strong><a class="entity-link" href="https://yuanbao.tencent.com/"><span class="entity-mention" style="--entity-color:#00a85a; --entity-bg:#ecfaf3; --entity-hover-bg:#ddf7ea; --entity-glow:rgba(0,168,90,.34); --entity-glow-soft:rgba(0,168,90,.18);"><img class="entity-logo" src="images/logos/organizations/yuanbao-color.svg" alt="">Tencent Yuanbao AI Search Team</span></a></strong> and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <strong><a class="entity-link" href="https://www.bigai.ai/"><span class="entity-mention" style="--entity-color:#9a4035; --entity-bg:#f9efed; --entity-hover-bg:#f4e2df; --entity-glow:rgba(154,64,53,.34); --entity-glow-soft:rgba(154,64,53,.18);"><img class="entity-logo" src="images/logos/organizations/bigai-mark.png" alt="">BIGAI MAS & ML Lab</span></a></strong>. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
-**Research Interests：**
-- **🧬 Continual Learning** — Enabling models to continuously acquire, update, and inject knowledge without catastrophic forgetting.
-- **⚖️ LLM for Ranking** — Leveraging large language models for next-generation information retrieval and ranking.
-- **🎯 MLLM Evaluation & Benchmarking** — Designing rigorous evaluation protocols to assess reasoning and reliability of foundation models.
+<style>
+/* Research interests tree styles (scoped) */
+.research-interests ul { margin: 4px 0 8px 22px; padding: 0; }
+.research-interests ul ul { margin: 4px 0 4px 18px; }
+.research-interests li { list-style: disc; margin: 5px 0; }
+.research-interests .ri-l1 { font-weight: 700; font-size: 1.03em; }
+.research-interests .ri-cl { color: #1e8e5a; }
+.research-interests .ri-ev { color: #8250df; }
+.research-interests .ri-l2 { font-weight: 700; color: #d9822b; }
+.research-interests .ri-note { color: #555; font-size: 0.95em; }
+.research-interests .ri-sub { font-weight: 700; color: #333; }
+.research-interests .ri-paper a { color: #1a5fb4; }
+.research-interests img.ri-stars { height: 18px; vertical-align: -3px; margin-left: 5px; box-shadow: none !important; border-radius: 3px; background: transparent; }
+</style>
+
+<div class="research-interests">
+<p>My research interests broadly lie in <strong>Large Language Models (LLMs)</strong> and <strong>Multimodal Large Language Models (MLLMs)</strong>, covering <strong>Continual Learning</strong> and <strong>Evaluation &amp; Benchmarking</strong>. Current focal areas include:</p>
+<ul>
+  <li><span class="ri-l1 ri-cl">🧬 Continual Learning</span> — <span class="ri-note">enabling models to continuously acquire and update knowledge, in both parameter space and search space.</span>
+    <ul>
+      <li><span class="ri-l2">🧠 Model-Parameter-Centric</span> — <span class="ri-note">knowledge editing &amp; knowledge injection in model parameters</span>
+        <ul>
+          <li class="ri-paper"><span class="ri-sub">Knowledge Editing:</span> <a href="https://arxiv.org/pdf/2406.11194">ICE</a> (ICLR 2025)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/bigai-ai/ICE?style=social&label=Stars"></li>
+          <li class="ri-paper"><span class="ri-sub">Knowledge Injection:</span> <a href="https://arxiv.org/pdf/2510.19316">KORE</a> (ICML 2026)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/KORE-LMM/KORE?style=social&label=Stars"></li>
+        </ul>
+      </li>
+      <li><span class="ri-l2">🔍 Search-Centric</span> — <span class="ri-note">LLM4Ranking &amp; agentic search</span>
+        <ul>
+          <li class="ri-paper"><span class="ri-sub">LLM4Ranking:</span> <a href="https://arxiv.org/abs/2609.32472">AdaTutoRank</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/AdaTutoRank/AdaTutoRank?style=social&label=Stars"></li>
+          <li class="ri-paper"><span class="ri-sub">Agentic Search:</span> <a href="https://arxiv.org/pdf/2607.24280">MAPD</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/AaronLiu0702/MAPD?style=social&label=Stars"></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><span class="ri-l1 ri-ev">🎯 Evaluation &amp; Benchmark</span> — <span class="ri-note">rigorous benchmarks for MLLM knowledge, efficiency and reliability.</span>
+    <ul>
+      <li><span class="ri-l2">📚 Knowledge-Type Benchmarks</span>
+        <ul>
+          <li class="ri-paper"><span class="ri-sub">Knowledge Editing:</span> <a href="https://arxiv.org/pdf/2502.19870">MMKE-Bench</a> (ICLR 2025)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/MMKE-Bench-ICLR/MMKE-Bench?style=social&label=Stars"></li>
+          <li class="ri-paper"><span class="ri-sub">Knowledge Injection:</span> <a href="https://arxiv.org/pdf/2505.24449">EVOKE</a> (ICLR 2026)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/EVOKE-LMM/EVOKE?style=social&label=Stars"></li>
+          <li class="ri-paper"><span class="ri-sub">Time-Sensitive Knowledge:</span> <a href="https://arxiv.org/pdf/2510.19457">MINED</a> (ACL 2026)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/MINED-LMM/MINED?style=social&label=Stars"></li>
+          <li class="ri-paper"><span class="ri-sub">Knowledge Hallucination:</span> <a href="https://arxiv.org/pdf/2608.03782v1">KnowHal</a></li>
+          <li class="ri-paper"><span class="ri-sub">Knowledge Conflict:</span> <a href="https://arxiv.org/pdf/2505.19509">MLLMKC</a> (AAAI 2026 Oral)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/MLLMKCBENCH/MLLMKC?style=social&label=Stars"></li>
+        </ul>
+      </li>
+      <li class="ri-paper"><span class="ri-l2">🗜️ Token Compression:</span> <a href="https://arxiv.org/abs/2511.02650">VLMUniPruneBench</a> (ACM MM 2026)<img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/TianfanPeng/VLMUniPruneBench?style=social&label=Stars"></li>
+      <li class="ri-paper"><span class="ri-l2">⚖️ LLM4Ranking:</span> <a href="https://arxiv.org/pdf/2607.19747">Rubric4Setwise</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/Rubric4Setwise/Rubric4Setwise?style=social&label=Stars"></li>
+      <li class="ri-paper"><span class="ri-l2">👁️ OCT:</span> <a href="https://arxiv.org/pdf/2607.16609">OCT-Bench</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/baochenfu/OCT-Bench?style=social&label=Stars"></li>
+    </ul>
+  </li>
+</ul>
+</div>
 
 <!-- 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/contact/wechat-qr.png">Wechat</a>. -->
 
