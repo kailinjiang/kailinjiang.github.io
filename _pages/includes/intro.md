@@ -47,7 +47,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
   </li>
   <li><span class="ri-l1 ri-ev">🎯 Evaluation &amp; Benchmark</span> — <span class="ri-note">rigorous benchmarks for LLM &amp; MLLM knowledge, efficiency and reliability.</span>
     <ul>
-      <li><span class="ri-l2">📚 Knowledge-Type Benchmarks</span>
+      <li><span class="ri-l2">📚 Knowledge-based Benchmarks</span>
         <ul>
           <li class="ri-paper">（i）<span class="ri-sub">Knowledge Editing:</span> <a href="https://arxiv.org/pdf/2502.19870">MMKE-Bench (ICLR 2025)</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/MMKE-Bench-ICLR/MMKE-Bench?style=social&label=Stars">；（ii）<span class="ri-sub">Knowledge Injection:</span> <a href="https://arxiv.org/pdf/2505.24449">MMEVOKE (ICLR 2026)</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/EVOKE-LMM/EVOKE?style=social&label=Stars">；（iii）<span class="ri-sub">Time-Sensitive Knowledge:</span> <a href="https://arxiv.org/pdf/2510.19457">MINED (ACL 2026)</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/MINED-LMM/MINED?style=social&label=Stars">；（iv）<span class="ri-sub">Knowledge Hallucination:</span> <a href="https://arxiv.org/pdf/2608.03782v1">KnowHal</a>；（v）<span class="ri-sub">Knowledge Conflict:</span> <a href="https://arxiv.org/pdf/2505.19509">MLLMKC (AAAI 2026 Oral)</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/MLLMKCBENCH/MLLMKC?style=social&label=Stars"></li>
         </ul>
