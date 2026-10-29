@@ -33,15 +33,14 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 <ul>
   <li><span class="ri-l1 ri-cl">🧬 Continual Learning</span> — <span class="ri-note">enabling models to continuously acquire and update knowledge, in both parameter space and search space.</span>
     <ul>
-      <li><span class="ri-l2">🧠 Model-Parameter-Centric</span> — <span class="ri-note">knowledge editing &amp; knowledge injection in model parameters</span>
+      <li><span class="ri-l2">🧠 Model-Parameter-Centric</span>
         <ul>
           <li class="ri-paper">（i）<span class="ri-sub">Knowledge Editing:</span> <a href="https://arxiv.org/pdf/2406.11194">ICE (ICLR 2025)</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/bigai-ai/ICE?style=social&label=Stars">；（ii）<span class="ri-sub">Knowledge Injection:</span> <a href="https://arxiv.org/pdf/2510.19316">KORE (ICML 2026)</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/KORE-LMM/KORE?style=social&label=Stars"></li>
         </ul>
       </li>
-      <li><span class="ri-l2">🔍 Search-Centric</span> — <span class="ri-note">LLM4Ranking &amp; Agentic Search</span>
+      <li><span class="ri-l2">🔍 Search-Centric</span>
         <ul>
-          <li class="ri-paper"><span class="ri-sub">LLM4Ranking:</span> <a href="https://arxiv.org/abs/2609.32472">AdaTutoRank</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/AdaTutoRank/AdaTutoRank?style=social&label=Stars"></li>
-          <li class="ri-paper"><span class="ri-sub">Agentic Search:</span> <a href="https://arxiv.org/pdf/2607.24280">MAPD</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/AaronLiu0702/MAPD?style=social&label=Stars"></li>
+          <li class="ri-paper">（i）<span class="ri-sub">LLM4Ranking:</span> <a href="https://arxiv.org/abs/2609.32472">AdaTutoRank</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/AdaTutoRank/AdaTutoRank?style=social&label=Stars">；（ii）<span class="ri-sub">Agentic Search:</span> <a href="https://arxiv.org/pdf/2607.24280">MAPD</a><img class="ri-stars" alt="Stars" src="https://img.shields.io/github/stars/AaronLiu0702/MAPD?style=social&label=Stars"></li>
         </ul>
       </li>
     </ul>
