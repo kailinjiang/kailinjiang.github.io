@@ -13,7 +13,7 @@ I am a **PhD student** in <strong><a class="entity-link" href="https://www.ustc.
 Currently, I am doing my internship in <strong><a class="entity-link" href="https://yuanbao.tencent.com/"><span class="entity-mention" style="--entity-color:#00a85a; --entity-bg:#ecfaf3; --entity-hover-bg:#ddf7ea; --entity-glow:rgba(0,168,90,.34); --entity-glow-soft:rgba(0,168,90,.18);"><img class="entity-logo" src="images/logos/organizations/yuanbao-color.svg" alt="">Tencent Yuanbao AI Search Team</span></a></strong> and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at <strong><a class="entity-link" href="https://www.bigai.ai/"><span class="entity-mention" style="--entity-color:#9a4035; --entity-bg:#f9efed; --entity-hover-bg:#f4e2df; --entity-glow:rgba(154,64,53,.34); --entity-glow-soft:rgba(154,64,53,.18);"><img class="entity-logo" src="images/logos/organizations/bigai-mark.png" alt="">BIGAI MAS & ML Lab</span></a></strong>. <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang)
 
 
-# 🔍 Research Interests
+<!-- # 🔍 Research Interests
 
 <style>
 /* Research interests tree styles (scoped) */
@@ -46,7 +46,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
     </ul>
   </li>
 </ul>
-</div>
+</div> -->
 
 <!-- 💬 If you are interested in collaborating with me, always feel free to contact me through e-mail or <a href="./images/contact/wechat-qr.png">Wechat</a>. -->
 
