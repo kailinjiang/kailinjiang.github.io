@@ -153,7 +153,7 @@ As these works are patented in China, all these names are directly translated fr
     <li><strong>ACL Rolling Review 2026</strong> Reviewer </li>
     <li><strong>AAAI 2027</strong> Program Committee</li>
     <li><strong>NeurIPS 2026</strong> Reviewer </li>
-		<li><strong>ICML 2026</strong> Reviewer </li>
+		<li><strong>ICML 2026,2027</strong> Reviewer </li>
 		<li><strong>ICLR 2026,2027</strong> Reviewer </li>
 	</ul>
 </div>
