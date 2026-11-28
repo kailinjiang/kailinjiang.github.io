@@ -188,6 +188,15 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
   text-decoration: none !important;
   filter: brightness(0.94);
 }
+.model-release-label--swap {
+  color: #E6F4F1 !important;
+  background: #0F766E;
+}
+.model-release-label--swap:hover,
+.model-release-label--swap:focus {
+  color: #E6F4F1 !important;
+  filter: brightness(1.12);
+}
 </style>
 
 
@@ -201,6 +210,7 @@ Currently, I am doing my internship in <strong><a class="entity-link" href="http
 - **2026.06 – Present｜ <img src="./images/logos/organizations/tencent-brand-color.svg" alt="Tencent" style="height:20px; vertical-align:middle;"> Tencent, <img src="./images/logos/organizations/yuanbao-color.svg" alt="Tencent Yuanbao" style="height:27px; vertical-align:middle;"> Yuanbao AI Search Team. <img src="./images/logos/programs/tencent-project-up.png" alt="Tencent Project UP" style="height:24px; vertical-align:middle;"> <a href="https://join.qq.com/qingyun.html" target="_blank" rel="noopener noreferrer"><span style="color:red">(Tencent Project UP)</span></a>**
   - I work on LLM4Ranking for RAG & Deep Research, developing [**AdaTutoRank**](https://arxiv.org/abs/2609.32472) for 🎯🎯 adaptive tutoring optimization in document-set reranking, and [**Rubric4Setwise**](https://arxiv.org/pdf/2607.19747) for ⚖️⚖️ rubric-oriented document set selection and ranking.
   - <a href="https://cloud.tencent.com/product/wsa" class="btn-link model-release-label">🚀 Open Resources</a> [**Tencent Yuanbao Search**](https://cloud.tencent.com/product/wsa) and [**Yuanbao Search Browser**](https://so.qq.com/).
+  - <a href="https://mp.weixin.qq.com/s/CxSG1VPziSq8aKGP-z4wiQ" class="btn-link model-release-label model-release-label--swap">💬 Official Account</a> [**WeChat Official Account**](https://mp.weixin.qq.com/s/CxSG1VPziSq8aKGP-z4wiQ). 
   - Mentor: [**Jian Xi**](https://openreview.net/profile?id=~Jian_Xi2).
 
 
